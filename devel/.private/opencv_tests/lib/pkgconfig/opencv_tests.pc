@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/devel/.private/opencv_tests
+
+Name: opencv_tests
+Description: Description of opencv_tests
+Version: 1.12.8
+Cflags: 
+Libs: -L/home/kal5-1/cargogo/devel/.private/opencv_tests/lib 
+Requires: 

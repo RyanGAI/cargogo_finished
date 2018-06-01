@@ -1,0 +1,88 @@
+[ 20%] Built target gtest
+[ 20%] Built target nodelet_generate_messages_eus
+[ 20%] Built target tf2_msgs_generate_messages_nodejs
+[ 20%] Built target bond_generate_messages_lisp
+[ 20%] Built target bond_generate_messages_eus
+[ 20%] Built target roscpp_generate_messages_eus
+[ 20%] Built target nodelet_generate_messages_nodejs
+[ 20%] Built target nodelet_generate_messages_py
+[ 20%] Built target roscpp_generate_messages_cpp
+[ 20%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 20%] Built target std_msgs_generate_messages_nodejs
+[ 20%] Built target geometry_msgs_generate_messages_cpp
+[ 20%] Built target bond_generate_messages_cpp
+[ 20%] Built target nodelet_generate_messages_lisp
+[ 20%] Built target geometry_msgs_generate_messages_py
+[ 20%] Built target geometry_msgs_generate_messages_lisp
+[ 20%] Built target motor_interface_ros_tool_generate_messages_eus
+[ 20%] Built target bond_generate_messages_py
+[ 20%] Built target std_msgs_generate_messages_lisp
+[ 20%] Built target bond_generate_messages_nodejs
+[ 20%] Built target dynamic_reconfigure_generate_messages_eus
+[ 20%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 20%] Built target rosgraph_msgs_generate_messages_lisp
+[ 20%] Built target motor_interface_ros_tool_generate_messages_nodejs
+[ 20%] Built target nodelet_generate_messages_cpp
+[ 20%] Built target tf2_msgs_generate_messages_eus
+[ 20%] Built target roscpp_generate_messages_py
+[ 20%] Built target dynamic_reconfigure_gencfg
+[ 20%] Built target rosgraph_msgs_generate_messages_cpp
+[ 20%] Built target std_msgs_generate_messages_cpp
+[ 20%] Built target actionlib_generate_messages_nodejs
+[ 20%] Built target longitudinal_control_ros_tool_genparam
+[ 20%] Built target actionlib_msgs_generate_messages_cpp
+[ 20%] Built target roscpp_generate_messages_lisp
+[ 20%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 30%] [34m[1mGenerating parameter files from LateralController[0m
+[ 30%] Built target rosgraph_msgs_generate_messages_eus
+[ 30%] Built target std_msgs_generate_messages_py
+[ 30%] Built target motor_interface_ros_tool_generate_messages_py
+[ 30%] Built target geometry_msgs_generate_messages_nodejs
+['gen.add(name = \'kos_shift\', paramtype = \'double\', level = 0, description = \'shift kos to point which stays on trajectory\', edit_method="", default=0.15, min=0, max=1)', 'gen.add(name = \'distance_far\', paramtype = \'double\', level = 0, description = \'distance of far lookahead point to closet point\', edit_method="", default=0.2, min=0, max=1)', 'gen.add(name = \'wheel_base\', paramtype = \'double\', level = 0, description = \'wheelbase of anicar\', edit_method="", default=0.52, min=0, max=1)', 'gen.add(name = \'k_ang\', paramtype = \'double\', level = 0, description = \'Angle weight\', edit_method="", default=5.0, min=0, max=10)', 'gen.add(name = \'k_dist\', paramtype = \'double\', level = 0, description = \'Dist weight\', edit_method="", default=2.5, min=0, max=10)', 'gen.add(name = \'k_pd_omega\', paramtype = \'double\', level = 0, description = \'pd controller omega weight\', edit_method="", default=0.0, min=0, max=20)', 'gen.add(name = \'k_pd_velo\', paramtype = \'double\', level = 0, description = \'pd controller velocity weight\', edit_method="", default=0.0, min=0, max=10)', 'gen.add(name = \'k_pd_dist\', paramtype = \'double\', level = 0, description = \'pd controller distance weight\', edit_method="", default=0.0, min=0, max=10)', 'gen.add(name = \'k_pd_phi\', paramtype = \'double\', level = 0, description = \'pd controller angle weight\', edit_method="", default=0.0, min=0, max=10)', 'gen.add(name = \'steering_angle_offset\', paramtype = \'double\', level = 0, description = \'steering nalge offset (rad)\', edit_method="", default=0.0, min=-0.2, max=0.2)']
+[ 30%] Built target geometry_msgs_generate_messages_eus
+[ 30%] Built target motor_interface_ros_tool_generate_messages_lisp
+[ 40%] [34m[1mGenerating dynamic reconfigure files from /home/kal5-1/cargogo/devel/.private/lateral_control_ros_tool/share/lateral_control_ros_tool/cfg/LateralController.cfg: /home/kal5-1/cargogo/devel/.private/lateral_control_ros_tool/include/lateral_control_ros_tool/LateralControllerConfig.h /home/kal5-1/cargogo/devel/.private/lateral_control_ros_tool/lib/python2.7/dist-packages/lateral_control_ros_tool/cfg/LateralControllerConfig.py[0m
+[ 40%] Built target longitudinal_control_ros_tool_generate_messages_cpp
+[ 40%] Built target actionlib_msgs_generate_messages_py
+[ 40%] Built target longitudinal_control_ros_tool_generate_messages_lisp
+[ 40%] Built target longitudinal_control_ros_tool_generate_messages_nodejs
+[ 40%] Built target rosgraph_msgs_generate_messages_py
+[ 40%] Built target actionlib_generate_messages_cpp
+[ 40%] Built target std_msgs_generate_messages_eus
+[ 40%] Built target actionlib_generate_messages_eus
+[ 40%] Built target actionlib_generate_messages_lisp
+Generating reconfiguration files for LateralController in lateral_control_ros_tool
+Wrote header file in /home/kal5-1/cargogo/devel/.private/lateral_control_ros_tool/include/lateral_control_ros_tool/LateralControllerConfig.h
+[ 40%] Built target actionlib_msgs_generate_messages_eus
+[ 40%] Built target dynamic_reconfigure_generate_messages_py
+[ 40%] Built target longitudinal_control_ros_tool_gencfg
+[ 40%] Built target actionlib_generate_messages_py
+[ 40%] Built target actionlib_msgs_generate_messages_lisp
+[ 40%] Built target motor_interface_ros_tool_generate_messages_cpp
+[ 40%] Built target lateral_control_ros_tool_gencfg
+[ 40%] Built target tf2_msgs_generate_messages_py
+[ 40%] Built target actionlib_msgs_generate_messages_nodejs
+[ 40%] Built target longitudinal_control_ros_tool_generate_messages_eus
+[ 40%] Built target tf2_msgs_generate_messages_cpp
+[ 40%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 40%] Built target tf2_msgs_generate_messages_lisp
+[ 40%] Built target longitudinal_control_ros_tool_generate_messages_py
+[ 50%] Built target lateral_control_ros_tool_genparam
+[ 50%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target lateral_control_ros_tool-lateral_controller-nodelet[0m
+make[2]: Warning: File 'CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/depend.make' has modification time 0,077 s in the future
+[ 70%] [32mBuilding CXX object CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/src/lateral_controller/lateral_controller_nodelet.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/src/lateral_controller/lateral_controller.cpp.o[0m
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:[m[K In member function ‘[01m[Kvoid lateral_control_ros_tool::LateralController::controlLoopCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:250:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmodified_delta_angle[m[K’ [-Wunused-variable]
+     const double modified_delta_angle = params_.k_pd_phi * delta_angle - params_.k_pd_omega * omega;
+[01;32m[K                  ^[m[K
+[ 80%] [32m[1mLinking CXX shared library /home/kal5-1/cargogo/devel/.private/lateral_control_ros_tool/lib/liblateral_controller_nodelet.so[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 80%] Built target lateral_control_ros_tool-lateral_controller-nodelet
+[35m[1mScanning dependencies of target lateral_control_ros_tool-lateral_controller-exec[0m
+make[2]: Warning: File 'CMakeFiles/lateral_control_ros_tool-lateral_controller-exec.dir/depend.make' has modification time 0,081 s in the future
+[ 90%] [32mBuilding CXX object CMakeFiles/lateral_control_ros_tool-lateral_controller-exec.dir/src/lateral_controller/lateral_controller_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel/.private/lateral_control_ros_tool/lib/lateral_control_ros_tool/lateral_controller[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target lateral_control_ros_tool-lateral_controller-exec

@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/install_debug
+
+Name: image_view
+Description: Description of image_view
+Version: 1.12.19
+Cflags: -I/home/kal5-1/cargogo/install_debug/include
+Libs: -L/home/kal5-1/cargogo/install_debug/lib 
+Requires: dynamic_reconfigure

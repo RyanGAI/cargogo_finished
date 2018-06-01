@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/install
+
+Name: timestamp_tools
+Description: Description of timestamp_tools
+Version: 1.6.8
+Cflags: -I/home/kal5-1/cargogo/install/include
+Libs: -L/home/kal5-1/cargogo/install/lib 
+Requires: roslib roscpp

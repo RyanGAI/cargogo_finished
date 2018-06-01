@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/install
+
+Name: tui_ros_tool
+Description: Description of tui_ros_tool
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kal5-1/cargogo/install/lib 
+Requires: 

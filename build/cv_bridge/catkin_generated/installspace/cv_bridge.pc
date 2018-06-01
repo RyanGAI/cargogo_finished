@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/install
+
+Name: cv_bridge
+Description: Description of cv_bridge
+Version: 1.12.8
+Cflags: -I/home/kal5-1/cargogo/install/include -I/opt/mrtsoftware/release/include/opencv-3.3.1 -I/opt/mrtsoftware/release/include/opencv-3.3.1/opencv
+Libs: -L/home/kal5-1/cargogo/install/lib -lcv_bridge /opt/mrtsoftware/release/lib/libopencv_core3.so.3.3.1 /opt/mrtsoftware/release/lib/libopencv_imgproc3.so.3.3.1 /opt/mrtsoftware/release/lib/libopencv_imgcodecs3.so.3.3.1
+Requires: rosconsole sensor_msgs

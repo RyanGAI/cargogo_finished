@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel/.private/catkin_tools_prebuild/setup.sh

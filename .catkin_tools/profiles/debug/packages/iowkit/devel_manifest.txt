@@ -1,0 +1,5 @@
+iowkit
+/home/kal5-1/cargogo/devel_debug/.private/iowkit/share/iowkit/cmake/iowkitConfig-version.cmake /home/kal5-1/cargogo/devel_debug/share/iowkit/cmake/iowkitConfig-version.cmake
+/home/kal5-1/cargogo/devel_debug/.private/iowkit/share/iowkit/cmake/iowkitConfig.cmake /home/kal5-1/cargogo/devel_debug/share/iowkit/cmake/iowkitConfig.cmake
+/home/kal5-1/cargogo/devel_debug/.private/iowkit/lib/libiowkit.so /home/kal5-1/cargogo/devel_debug/lib/libiowkit.so
+/home/kal5-1/cargogo/devel_debug/.private/iowkit/lib/pkgconfig/iowkit.pc /home/kal5-1/cargogo/devel_debug/lib/pkgconfig/iowkit.pc

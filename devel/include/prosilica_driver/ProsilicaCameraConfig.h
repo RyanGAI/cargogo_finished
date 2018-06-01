@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/include/prosilica_driver/ProsilicaCameraConfig.h

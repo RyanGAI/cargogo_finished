@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel_debug/.private/path_provider_ros_tool/lib/python2.7/dist-packages/path_provider_ros_tool/param/__init__.py

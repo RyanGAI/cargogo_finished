@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel/.private/opencv_tests/share/opencv_tests/cmake/opencv_testsConfig.cmake

@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel_debug/.private/motor_interface_ros_tool/share/common-lisp/ros/motor_interface_ros_tool/srv/motor_interface_ros_tool-srv.asd

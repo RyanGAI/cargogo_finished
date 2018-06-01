@@ -1,0 +1,7 @@
+\subsubsection usage Usage
+\verbatim
+<node name="stargazer_ros_tool" pkg="stargazer_ros_tool" type="stargazer_ros_tool">
+  <param name="debug_mode" type="bool" value="False" />
+</node>
+\endverbatim
+

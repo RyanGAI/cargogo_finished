@@ -1,0 +1,15 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~kos_shift" : \b [double] shift kos to point which stays on trajectory min: 0.0, default: 0.15, max: 1.0
+- \b "~distance_far" : \b [double] distance of far lookahead point to closet point min: 0.0, default: 0.2, max: 1.0
+- \b "~wheel_base" : \b [double] wheelbase of anicar min: 0.0, default: 0.52, max: 1.0
+- \b "~k_ang" : \b [double] Angle weight min: 0.0, default: 5.0, max: 10.0
+- \b "~k_dist" : \b [double] Dist weight min: 0.0, default: 2.5, max: 10.0
+- \b "~k_pd_omega" : \b [double] pd controller omega weight min: 0.0, default: 0.0, max: 20.0
+- \b "~k_pd_velo" : \b [double] pd controller velocity weight min: 0.0, default: 0.0, max: 10.0
+- \b "~k_pd_dist" : \b [double] pd controller distance weight min: 0.0, default: 0.0, max: 10.0
+- \b "~k_pd_phi" : \b [double] pd controller angle weight min: 0.0, default: 0.0, max: 10.0
+- \b "~steering_angle_offset" : \b [double] steering nalge offset (rad) min: -0.2, default: 0.0, max: 0.2
+

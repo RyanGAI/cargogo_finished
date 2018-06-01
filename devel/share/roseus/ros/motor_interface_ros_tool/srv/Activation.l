@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel/.private/motor_interface_ros_tool/share/roseus/ros/motor_interface_ros_tool/srv/Activation.l

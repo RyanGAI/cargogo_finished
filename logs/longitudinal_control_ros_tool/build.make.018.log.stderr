@@ -1,0 +1,7 @@
+make[2]: Warning: File 'CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/depend.make' has modification time 0,039 s in the future
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:9:57:[m[K [01;31m[Kfatal error: [m[Klateral_control_ros_tool/discrete_curvature.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/src/longitudinal_controller/longitudinal_controller.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/all] Error 2
+make: *** [all] Error 2

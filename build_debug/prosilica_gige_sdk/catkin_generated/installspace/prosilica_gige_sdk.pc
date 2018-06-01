@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/install_debug
+
+Name: prosilica_gige_sdk
+Description: Description of prosilica_gige_sdk
+Version: 1.26.3
+Cflags: -I/home/kal5-1/cargogo/install_debug/include
+Libs: -L/home/kal5-1/cargogo/install_debug/lib -lPvAPI
+Requires: 

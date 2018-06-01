@@ -1,0 +1,16 @@
+Symlinking /home/kal5-1/cargogo/devel_debug/share/demo_image_processing_ros_tool/docs/PylonDetectorConfig.dox
+Symlinking /home/kal5-1/cargogo/devel_debug/share/demo_image_processing_ros_tool/docs/PylonDetectorConfig.wikidoc
+Symlinking /home/kal5-1/cargogo/devel_debug/share/demo_image_processing_ros_tool/docs/PylonDetectorConfig-usage.dox
+Symlinking /home/kal5-1/cargogo/devel_debug/share/demo_image_processing_ros_tool/cmake/demo_image_processing_ros_toolConfig-version.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/share/demo_image_processing_ros_tool/cmake/demo_image_processing_ros_toolConfig.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/share/demo_image_processing_ros_tool/cfg/PylonDetector.cfg
+Symlinking /home/kal5-1/cargogo/devel_debug/include/demo_image_processing_ros_tool/PylonDetectorParameters.h
+Symlinking /home/kal5-1/cargogo/devel_debug/include/demo_image_processing_ros_tool/PylonDetectorConfig.h
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/libpylon_detector_nodelet.so
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/pkgconfig/demo_image_processing_ros_tool.pc
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/python2.7/dist-packages/demo_image_processing_ros_tool/__init__.py
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/python2.7/dist-packages/demo_image_processing_ros_tool/cfg/PylonDetectorConfig.py
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/python2.7/dist-packages/demo_image_processing_ros_tool/cfg/__init__.py
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/python2.7/dist-packages/demo_image_processing_ros_tool/param/PylonDetectorParameters.py
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/python2.7/dist-packages/demo_image_processing_ros_tool/param/__init__.py
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/demo_image_processing_ros_tool/pylon_detector

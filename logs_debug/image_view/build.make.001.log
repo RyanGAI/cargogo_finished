@@ -1,0 +1,16 @@
+[ 11%] Built target disparity_view
+[ 23%] Built target video_recorder
+[ 29%] [34m[1mGenerating dynamic reconfigure files from cfg/ImageView.cfg: /home/kal5-1/cargogo/devel_debug/.private/image_view/include/image_view/ImageViewConfig.h /home/kal5-1/cargogo/devel_debug/.private/image_view/lib/python2.7/dist-packages/image_view/cfg/ImageViewConfig.py[0m
+[ 41%] Built target stereo_view
+[ 64%] Built target image_view
+[ 76%] Built target extract_images
+[ 88%] Built target image_saver
+Generating reconfiguration files for ImageView in image_view
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/image_view/include/image_view/ImageViewConfig.h
+[ 88%] Built target image_view_gencfg
+[35m[1mScanning dependencies of target image_view_exe[0m
+make[2]: Warning: File 'CMakeFiles/image_view_exe.dir/depend.make' has modification time 0,028 s in the future
+[ 94%] [32mBuilding CXX object CMakeFiles/image_view_exe.dir/src/nodes/image_view.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel_debug/.private/image_view/lib/image_view/image_view[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target image_view_exe

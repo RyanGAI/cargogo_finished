@@ -1,0 +1,8 @@
+\subsubsection usage Usage
+\verbatim
+<node name="path_provider" pkg="path_provider_ros_tool" type="path_provider">
+  <param name="dipatcher_rate" type="double" value="10.0" />
+  <param name="timer_rate" type="double" value="2.0" />
+</node>
+\endverbatim
+

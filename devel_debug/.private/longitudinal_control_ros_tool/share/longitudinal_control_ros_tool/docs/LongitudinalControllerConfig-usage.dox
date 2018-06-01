@@ -1,0 +1,8 @@
+\subsubsection usage Usage
+\verbatim
+<node name="longitudinal_controller" pkg="longitudinal_control_ros_tool" type="longitudinal_controller">
+  <param name="k_long" type="double" value="1.0" />
+  <param name="k_w" type="double" value="0.2" />
+</node>
+\endverbatim
+

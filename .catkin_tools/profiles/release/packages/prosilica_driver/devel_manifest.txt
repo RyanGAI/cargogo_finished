@@ -1,0 +1,18 @@
+prosilica_driver
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/share/prosilica_driver/docs/ProsilicaCameraConfig.dox /home/kal5-1/cargogo/devel/share/prosilica_driver/docs/ProsilicaCameraConfig.dox
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/share/prosilica_driver/docs/ProsilicaCameraConfig.wikidoc /home/kal5-1/cargogo/devel/share/prosilica_driver/docs/ProsilicaCameraConfig.wikidoc
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/share/prosilica_driver/docs/ProsilicaCameraConfig-usage.dox /home/kal5-1/cargogo/devel/share/prosilica_driver/docs/ProsilicaCameraConfig-usage.dox
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/share/prosilica_driver/cmake/prosilica_driverConfig.cmake /home/kal5-1/cargogo/devel/share/prosilica_driver/cmake/prosilica_driverConfig.cmake
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/share/prosilica_driver/cmake/prosilica_driverConfig-version.cmake /home/kal5-1/cargogo/devel/share/prosilica_driver/cmake/prosilica_driverConfig-version.cmake
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/include/prosilica_driver/ProsilicaCameraConfig.h /home/kal5-1/cargogo/devel/include/prosilica_driver/ProsilicaCameraConfig.h
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/lib/libprosilica_nodelet.so /home/kal5-1/cargogo/devel/lib/libprosilica_nodelet.so
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/lib/libprosilica.so /home/kal5-1/cargogo/devel/lib/libprosilica.so
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/lib/pkgconfig/prosilica_driver.pc /home/kal5-1/cargogo/devel/lib/pkgconfig/prosilica_driver.pc
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/lib/python2.7/dist-packages/prosilica_driver/__init__.py /home/kal5-1/cargogo/devel/lib/python2.7/dist-packages/prosilica_driver/__init__.py
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/lib/python2.7/dist-packages/prosilica_driver/cfg/ProsilicaCameraConfig.py /home/kal5-1/cargogo/devel/lib/python2.7/dist-packages/prosilica_driver/cfg/ProsilicaCameraConfig.py
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/lib/python2.7/dist-packages/prosilica_driver/cfg/__init__.py /home/kal5-1/cargogo/devel/lib/python2.7/dist-packages/prosilica_driver/cfg/__init__.py
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/lib/prosilica_driver/write_memory /home/kal5-1/cargogo/devel/lib/prosilica_driver/write_memory
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/lib/prosilica_driver/prosilica_node /home/kal5-1/cargogo/devel/lib/prosilica_driver/prosilica_node
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/lib/prosilica_driver/set_inhibition /home/kal5-1/cargogo/devel/lib/prosilica_driver/set_inhibition
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/lib/prosilica_driver/set_ip /home/kal5-1/cargogo/devel/lib/prosilica_driver/set_ip
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/lib/prosilica_driver/read_memory /home/kal5-1/cargogo/devel/lib/prosilica_driver/read_memory

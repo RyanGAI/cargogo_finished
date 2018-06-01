@@ -1,0 +1,7 @@
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:[m[K In member function ‘[01m[Kvoid path_provider_ros_tool::PathProvider::PathReader(const string&, nav_msgs::Path_<std::allocator<void> >::Ptr)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:125:33:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ifstream fileinput[m[K’ has initializer but incomplete type
+  std::ifstream fileinput(file_in);
+[01;32m[K                                 ^[m[K
+make[2]: *** [CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/src/path_provider/path_provider.cpp.o] Error 1
+make[1]: *** [CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,94 @@
+[01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:[m[K In member function ‘[01m[Kvoid demo_image_processing_ros_tool::PylonDetector::detectandDraw(cv::Mat&, cv::Mat&, cv::Ptr<cv::CascadeClassifier>, cv::Scalar, double, int, double)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:94:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Parameters = struct demo_image_processing_ros_tool::PylonDetectorParameters {aka struct demo_image_processing_ros_tool::PylonDetectorParameters}[m[K’ has no member named ‘[01m[Khmin[m[K’
+          cv::inRange(img_hsv, cv::Scalar(params_.hmin, params_.smin, params_.vmin), cv::Scalar(params_.max, params_.smax, params_.vmax), img_result2);
+[01;32m[K                                                  ^[m[K
+[01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:94:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Parameters = struct demo_image_processing_ros_tool::PylonDetectorParameters {aka struct demo_image_processing_ros_tool::PylonDetectorParameters}[m[K’ has no member named ‘[01m[Ksmin[m[K’
+          cv::inRange(img_hsv, cv::Scalar(params_.hmin, params_.smin, params_.vmin), cv::Scalar(params_.max, params_.smax, params_.vmax), img_result2);
+[01;32m[K                                                                ^[m[K
+[01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:94:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Parameters = struct demo_image_processing_ros_tool::PylonDetectorParameters {aka struct demo_image_processing_ros_tool::PylonDetectorParameters}[m[K’ has no member named ‘[01m[Kvmin[m[K’
+          cv::inRange(img_hsv, cv::Scalar(params_.hmin, params_.smin, params_.vmin), cv::Scalar(params_.max, params_.smax, params_.vmax), img_result2);
+[01;32m[K                                                                              ^[m[K
+[01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:94:104:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Parameters = struct demo_image_processing_ros_tool::PylonDetectorParameters {aka struct demo_image_processing_ros_tool::PylonDetectorParameters}[m[K’ has no member named ‘[01m[Kmax[m[K’
+          cv::inRange(img_hsv, cv::Scalar(params_.hmin, params_.smin, params_.vmin), cv::Scalar(params_.max, params_.smax, params_.vmax), img_result2);
+[01;32m[K                                                                                                        ^[m[K
+[01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:94:117:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Parameters = struct demo_image_processing_ros_tool::PylonDetectorParameters {aka struct demo_image_processing_ros_tool::PylonDetectorParameters}[m[K’ has no member named ‘[01m[Ksmax[m[K’
+          cv::inRange(img_hsv, cv::Scalar(params_.hmin, params_.smin, params_.vmin), cv::Scalar(params_.max, params_.smax, params_.vmax), img_result2);
+[01;32m[K                                                                                                                     ^[m[K
+[01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:94:131:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Parameters = struct demo_image_processing_ros_tool::PylonDetectorParameters {aka struct demo_image_processing_ros_tool::PylonDetectorParameters}[m[K’ has no member named ‘[01m[Kvmax[m[K’
+          cv::inRange(img_hsv, cv::Scalar(params_.hmin, params_.smin, params_.vmin), cv::Scalar(params_.max, params_.smax, params_.vmax), img_result2);
+[01;32m[K                                                                                                                                   ^[m[K
+[01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:[m[K In member function ‘[01m[Kvoid demo_image_processing_ros_tool::PylonDetector::callbackSubscriber(const ConstPtr&, const ConstPtr&)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:137:41:[m[K [01;31m[Kerror: [m[Kbinding ‘[01m[Kconst cv::Mat[m[K’ to reference of type ‘[01m[Kcv::Mat&[m[K’ discards qualifiers
+     PylonDetector::detectandDraw(cv_in->image, cv_out->image, cascade_classifier_stop, cv::Scalar(0, 0, 255), 1.15, 5, 1.3);
+[01;32m[K                                         ^[m[K
+[01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:47:6:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid demo_image_processing_ros_tool::PylonDetector::detectandDraw(cv::Mat&, cv::Mat&, cv::Ptr<cv::CascadeClassifier>, cv::Scalar, double, int, double)[m[K’
+ void PylonDetector::detectandDraw(
+[01;32m[K      ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/assert.h:35:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/common.h:36[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/publisher.h:32[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:50[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:1[m[K:
+[01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:144:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ was not declared in this scope
+     ROS_DEBUG_STREAM("Number of segmented pixels: " << count);
+[01;32m[K                                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:356:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K’
+     __rosconsole_print_stream_at_location_with_filter__ss__ << args; \
+[01;32m[K                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:398:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_STREAM_AT_LOCATION(args); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:568:43:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM_COND[m[K’
+ #define ROS_LOG_STREAM(level, name, args) ROS_LOG_STREAM_COND(true, level, name, args)
+[01;32m[K                                           ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:59:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM[m[K’
+ #define ROS_DEBUG_STREAM(args) ROS_LOG_STREAM(::ros::console::levels::Debug, ROSCONSOLE_DEFAULT_NAME, args)
+[01;32m[K                                ^[m[K
+[01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:144:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_DEBUG_STREAM[m[K’
+     ROS_DEBUG_STREAM("Number of segmented pixels: " << count);
+[01;32m[K     ^[m[K
+[01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:144:56:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+     ROS_DEBUG_STREAM("Number of segmented pixels: " << count);
+[01;32m[K                                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:356:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K’
+     __rosconsole_print_stream_at_location_with_filter__ss__ << args; \
+[01;32m[K                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:398:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_STREAM_AT_LOCATION(args); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:568:43:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM_COND[m[K’
+ #define ROS_LOG_STREAM(level, name, args) ROS_LOG_STREAM_COND(true, level, name, args)
+[01;32m[K                                           ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:59:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM[m[K’
+ #define ROS_DEBUG_STREAM(args) ROS_LOG_STREAM(::ros::console::levels::Debug, ROSCONSOLE_DEFAULT_NAME, args)
+[01;32m[K                                ^[m[K
+[01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:144:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_DEBUG_STREAM[m[K’
+     ROS_DEBUG_STREAM("Number of segmented pixels: " << count);
+[01;32m[K     ^[m[K
+In file included from [01m[K/usr/include/c++/5/algorithm:62:0[m[K,
+                 from [01m[K/usr/include/boost/function/detail/prologue.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:24[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:48[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_algo.h:3959:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::count[m[K’
+     count(_InputIterator __first, _InputIterator __last, const _Tp& __value)
+[01;32m[K     ^[m[K
+[01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:146:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ was not declared in this scope
+     const bool activate = count < params_.threshold;
+[01;32m[K                           ^[m[K
+[01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:146:27:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/5/algorithm:62:0[m[K,
+                 from [01m[K/usr/include/boost/function/detail/prologue.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:24[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:48[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/demo_image_processing_ros_tool/src/pylon_detector/pylon_detector.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_algo.h:3959:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::count[m[K’
+     count(_InputIterator __first, _InputIterator __last, const _Tp& __value)
+[01;32m[K     ^[m[K
+make[2]: *** [CMakeFiles/demo_image_processing_ros_tool-pylon_detector-nodelet.dir/src/pylon_detector/pylon_detector.cpp.o] Error 1
+make[1]: *** [CMakeFiles/demo_image_processing_ros_tool-pylon_detector-nodelet.dir/all] Error 2
+make: *** [all] Error 2

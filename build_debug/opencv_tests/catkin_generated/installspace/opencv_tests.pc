@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/install_debug
+
+Name: opencv_tests
+Description: Description of opencv_tests
+Version: 1.12.8
+Cflags: 
+Libs: -L/home/kal5-1/cargogo/install_debug/lib 
+Requires: 

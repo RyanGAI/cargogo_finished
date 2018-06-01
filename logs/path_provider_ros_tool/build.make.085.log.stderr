@@ -1,0 +1,14 @@
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:[m[K In member function ‘[01m[Kvoid path_provider_ros_tool::PathProvider::PathSmoother()[m[K’:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:100:29:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::x[m[K’ in read-only object
+    pose_ros.pose.position.x = pointposition_ema(1);
+[01;32m[K                             ^[m[K
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:101:29:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::y[m[K’ in read-only object
+    pose_ros.pose.position.y = pointposition_ema(2);
+[01;32m[K                             ^[m[K
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:102:29:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::z[m[K’ in read-only object
+    pose_ros.pose.position.z = pointposition_ema(3);
+[01;32m[K                             ^[m[K
+make[2]: *** [CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/src/path_provider/path_provider.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/all] Error 2
+make: *** [all] Error 2

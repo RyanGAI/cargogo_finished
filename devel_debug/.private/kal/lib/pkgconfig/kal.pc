@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/devel_debug/.private/kal
+
+Name: kal
+Description: Description of kal
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/kal5-1/cargogo/devel_debug/.private/kal/lib 
+Requires: 

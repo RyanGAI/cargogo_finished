@@ -1,0 +1,16 @@
+\subsubsection usage Usage
+\verbatim
+<node name="lateral_controller" pkg="lateral_control_ros_tool" type="lateral_controller">
+  <param name="kos_shift" type="double" value="0.15" />
+  <param name="distance_far" type="double" value="0.2" />
+  <param name="wheel_base" type="double" value="0.52" />
+  <param name="k_ang" type="double" value="5.0" />
+  <param name="k_dist" type="double" value="2.5" />
+  <param name="k_pd_omega" type="double" value="0.0" />
+  <param name="k_pd_velo" type="double" value="0.0" />
+  <param name="k_pd_dist" type="double" value="0.0" />
+  <param name="k_pd_phi" type="double" value="0.0" />
+  <param name="steering_angle_offset" type="double" value="0.0" />
+</node>
+\endverbatim
+

@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel/.private/lateral_control_ros_tool/share/lateral_control_ros_tool/cmake/lateral_control_ros_toolConfig.cmake

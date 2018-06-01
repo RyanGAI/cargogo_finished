@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/install
+
+Name: vehicle_setup
+Description: Description of vehicle_setup
+Version: 0.0.0
+Cflags: -I/home/kal5-1/cargogo/install/include
+Libs: -L/home/kal5-1/cargogo/install/lib 
+Requires: prosilica_driver image_view robot_state_publisher hector_trajectory_server stargazer_ros_tool tf2_ros stereo_image_proc image_preproc_ros_tool

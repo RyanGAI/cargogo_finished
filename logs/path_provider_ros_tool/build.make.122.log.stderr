@@ -1,0 +1,179 @@
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:[m[K In constructor ‘[01m[Kpath_provider_ros_tool::PathProvider::PathProvider(ros::NodeHandle, ros::NodeHandle)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:134:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kboost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >*[m[K’ to ‘[01m[Knav_msgs::Path** {aka nav_msgs::Path_<std::allocator<void> >**}[m[K’ in initialization
+  for(nav_msgs::Path** one_pathptr : paths){
+[01;32m[K                                     ^[m[K
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:[m[K In member function ‘[01m[Kvoid path_provider_ros_tool::PathProvider::PathDispatcherCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:347:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::vector<nav_msgs::Path_<std::allocator<void> >**>::vector(<brace-enclosed initializer list>)[m[K’
+  std::vector<nav_msgs::Path**> paths{path_in_1_, path_out_1_, path_in_2_, path_out_2_};
+[01;32m[K                                                                                      ^[m[K
+In file included from [01m[K/usr/include/c++/5/vector:64:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/random.h:34[m[K,
+                 from [01m[K/usr/include/c++/5/random:49[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:232[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_vector.h:401:9:[m[K [01;36m[Knote: [m[Kcandidate: template<class _InputIterator, class> std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&)
+         vector(_InputIterator __first, _InputIterator __last,
+[01;32m[K         ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_vector.h:401:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:347:63:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((path_provider_ros_tool::PathProvider*)this)->path_provider_ros_tool::PathProvider::path_in_2_[m[K’ (type ‘[01m[Knav_msgs::Path_<std::allocator<void> >::Ptr* {aka boost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >*}[m[K’) to type ‘[01m[Kconst allocator_type& {aka const std::allocator<nav_msgs::Path_<std::allocator<void> >**>&}[m[K’
+  std::vector<nav_msgs::Path**> paths{path_in_1_, path_out_1_, path_in_2_, path_out_2_};
+[01;32m[K                                                               ^[m[K
+In file included from [01m[K/usr/include/c++/5/vector:64:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/random.h:34[m[K,
+                 from [01m[K/usr/include/c++/5/random:49[m[K,
+                 from [01m[K/usr/include/c++/5/bits/stl_algo.h:66[m[K,
+                 from [01m[K/usr/include/c++/5/algorithm:62[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Core:232[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/c++/5/bits/stl_vector.h:373:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::vector(std::initializer_list<_Tp>, const allocator_type&) [with _Tp = nav_msgs::Path_<std::allocator<void> >**; _Alloc = std::allocator<nav_msgs::Path_<std::allocator<void> >**>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<nav_msgs::Path_<std::allocator<void> >**>]
+       vector(initializer_list<value_type> __l,
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_vector.h:373:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[01m[K/usr/include/c++/5/bits/stl_vector.h:348:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>&&, const allocator_type&) [with _Tp = nav_msgs::Path_<std::allocator<void> >**; _Alloc = std::allocator<nav_msgs::Path_<std::allocator<void> >**>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<nav_msgs::Path_<std::allocator<void> >**>]
+       vector(vector&& __rv, const allocator_type& __m)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_vector.h:348:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[01m[K/usr/include/c++/5/bits/stl_vector.h:339:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&, const allocator_type&) [with _Tp = nav_msgs::Path_<std::allocator<void> >**; _Alloc = std::allocator<nav_msgs::Path_<std::allocator<void> >**>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<nav_msgs::Path_<std::allocator<void> >**>]
+       vector(const vector& __x, const allocator_type& __a)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_vector.h:339:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[01m[K/usr/include/c++/5/bits/stl_vector.h:335:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>&&) [with _Tp = nav_msgs::Path_<std::allocator<void> >**; _Alloc = std::allocator<nav_msgs::Path_<std::allocator<void> >**>]
+       vector(vector&& __x) noexcept
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_vector.h:335:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/usr/include/c++/5/bits/stl_vector.h:318:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = nav_msgs::Path_<std::allocator<void> >**; _Alloc = std::allocator<nav_msgs::Path_<std::allocator<void> >**>]
+       vector(const vector& __x)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_vector.h:318:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/usr/include/c++/5/bits/stl_vector.h:289:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = nav_msgs::Path_<std::allocator<void> >**; _Alloc = std::allocator<nav_msgs::Path_<std::allocator<void> >**>; std::vector<_Tp, _Alloc>::size_type = long unsigned int; std::vector<_Tp, _Alloc>::value_type = nav_msgs::Path_<std::allocator<void> >**; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<nav_msgs::Path_<std::allocator<void> >**>]
+       vector(size_type __n, const value_type& __value,
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_vector.h:289:7:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/usr/include/c++/5/bits/stl_vector.h:277:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const allocator_type&) [with _Tp = nav_msgs::Path_<std::allocator<void> >**; _Alloc = std::allocator<nav_msgs::Path_<std::allocator<void> >**>; std::vector<_Tp, _Alloc>::size_type = long unsigned int; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<nav_msgs::Path_<std::allocator<void> >**>]
+       vector(size_type __n, const allocator_type& __a = allocator_type())
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_vector.h:277:7:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[01m[K/usr/include/c++/5/bits/stl_vector.h:264:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::vector(const allocator_type&) [with _Tp = nav_msgs::Path_<std::allocator<void> >**; _Alloc = std::allocator<nav_msgs::Path_<std::allocator<void> >**>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<nav_msgs::Path_<std::allocator<void> >**>]
+       vector(const allocator_type& __a) _GLIBCXX_NOEXCEPT
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_vector.h:264:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/usr/include/c++/5/bits/stl_vector.h:253:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>::vector() [with _Tp = nav_msgs::Path_<std::allocator<void> >**; _Alloc = std::allocator<nav_msgs::Path_<std::allocator<void> >**>]
+       vector()
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/bits/stl_vector.h:253:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:350:10:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knav_msgs::Path_<std::allocator<void> >::Ptr {aka boost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >}[m[K’ and ‘[01m[Knav_msgs::Path_<std::allocator<void> >*[m[K’)
+    path_ = paths[n][state_[n] - 1];
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:500:18:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(const boost::shared_ptr<T>&) [with T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( shared_ptr const & r ) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:500:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::Path_<std::allocator<void> >*[m[K’ to ‘[01m[Kconst boost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >&[m[K’
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:509:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(const boost::shared_ptr<Y>&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=(shared_ptr<Y> const & r) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:509:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:350:10:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::shared_ptr<X>[m[K’ and ‘[01m[Knav_msgs::Path_<std::allocator<void> >*[m[K’
+    path_ = paths[n][state_[n] - 1];
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:520:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( std::auto_ptr<Y> & r )
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:520:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:350:10:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::auto_ptr<T>[m[K’ and ‘[01m[Knav_msgs::Path_<std::allocator<void> >*[m[K’
+    path_ = paths[n][state_[n] - 1];
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:529:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( std::auto_ptr<Y> && r )
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:529:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:350:10:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::auto_ptr<T>[m[K’ and ‘[01m[Knav_msgs::Path_<std::allocator<void> >*[m[K’
+    path_ = paths[n][state_[n] - 1];
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:551:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y, class D> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::unique_ptr<_Up, _Ep>&&) [with Y = Y; D = D; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( std::unique_ptr<Y, D> && r )
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:551:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:350:10:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Knav_msgs::Path_<std::allocator<void> >*[m[K’
+    path_ = paths[n][state_[n] - 1];
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:587:18:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::shared_ptr<T>&&) [with T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( shared_ptr && r ) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:587:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::Path_<std::allocator<void> >*[m[K’ to ‘[01m[Kboost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >&&[m[K’
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:594:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::shared_ptr<Y>&&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( shared_ptr<Y> && r ) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:594:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:350:10:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kboost::shared_ptr<X>[m[K’ and ‘[01m[Knav_msgs::Path_<std::allocator<void> >*[m[K’
+    path_ = paths[n][state_[n] - 1];
+[01;32m[K          ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:604:18:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::detail::sp_nullptr_t) [with T = nav_msgs::Path_<std::allocator<void> >; boost::detail::sp_nullptr_t = std::nullptr_t]
+     shared_ptr & operator=( boost::detail::sp_nullptr_t ) BOOST_NOEXCEPT // never throws
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:604:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::Path_<std::allocator<void> >*[m[K’ to ‘[01m[Kboost::detail::sp_nullptr_t {aka std::nullptr_t}[m[K’
+make[2]: *** [CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/src/path_provider/path_provider.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/all] Error 2
+make: *** [all] Error 2

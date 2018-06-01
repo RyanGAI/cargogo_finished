@@ -1,0 +1,153 @@
+[35m[1mScanning dependencies of target gtest[0m
+make[2]: Warning: File 'gtest/gtest/CMakeFiles/gtest.dir/depend.make' has modification time 0,042 s in the future
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[  8%] [32mBuilding CXX object gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  8%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[  8%] Built target bond_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  8%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[  8%] Built target bond_generate_messages_eus
+[35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[  8%] Built target nodelet_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  8%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  8%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  8%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosinterface_handler_gencfg[0m
+[  8%] Built target rosinterface_handler_gencfg
+[35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[  8%] Built target nodelet_generate_messages_lisp
+[ 16%] [32m[1mLinking CXX shared library libgtest.so[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 16%] Built target gtest
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[ 16%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[ 16%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target motor_interface_ros_tool_generate_messages_eus[0m
+[ 16%] Built target motor_interface_ros_tool_generate_messages_eus
+[35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[ 16%] Built target bond_generate_messages_py
+[35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[ 16%] Built target nodelet_generate_messages_eus
+[35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[ 16%] Built target bond_generate_messages_nodejs
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[ 16%] Built target dynamic_reconfigure_generate_messages_eus
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[ 16%] Built target dynamic_reconfigure_generate_messages_nodejs
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[ 16%] Built target dynamic_reconfigure_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[ 16%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[ 16%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target motor_interface_ros_tool_generate_messages_nodejs[0m
+[ 16%] Built target motor_interface_ros_tool_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosinterface_handler_geninterface[0m
+[ 16%] Built target rosinterface_handler_geninterface
+[35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[ 16%] Built target nodelet_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[ 16%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[ 16%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[ 16%] Built target dynamic_reconfigure_gencfg
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[ 16%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[ 16%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[ 16%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[ 16%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[ 16%] Built target dynamic_reconfigure_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[ 16%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[ 16%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target motor_interface_ros_tool_generate_messages_py[0m
+[ 16%] Built target motor_interface_ros_tool_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[ 16%] Built target geometry_msgs_generate_messages_cpp
+[ 16%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[ 16%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target motor_interface_ros_tool_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[ 16%] Built target motor_interface_ros_tool_generate_messages_lisp
+[ 16%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[ 16%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[ 16%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[ 16%] Built target actionlib_generate_messages_eus
+[ 16%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[ 16%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[ 16%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target motor_interface_ros_tool_generate_messages_cpp[0m
+[ 16%] Built target motor_interface_ros_tool_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[ 16%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[ 16%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[ 16%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[ 16%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[ 16%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[ 16%] Built target dynamic_reconfigure_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[ 16%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target longitudinal_control_ros_tool_gencfg[0m
+[ 25%] [34m[1mGenerating parameter files from LongitudinalController[0m
+['gen.add(name = \'k_long\', paramtype = \'double\', level = 0, description = \'factor of longitudinal velocity\', edit_method="", default=1, min=0, max=2)', 'gen.add(name = \'k_w\', paramtype = \'double\', level = 0, description = \'factor of self-rotation\', edit_method="", default=0.2, min=0, max=1)']
+[ 33%] [34m[1mGenerating dynamic reconfigure files from /home/kal5-1/cargogo/devel_debug/.private/longitudinal_control_ros_tool/share/longitudinal_control_ros_tool/cfg/LongitudinalController.cfg: /home/kal5-1/cargogo/devel_debug/.private/longitudinal_control_ros_tool/include/longitudinal_control_ros_tool/LongitudinalControllerConfig.h /home/kal5-1/cargogo/devel_debug/.private/longitudinal_control_ros_tool/lib/python2.7/dist-packages/longitudinal_control_ros_tool/cfg/LongitudinalControllerConfig.py[0m
+Generating reconfiguration files for LongitudinalController in longitudinal_control_ros_tool
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/longitudinal_control_ros_tool/include/longitudinal_control_ros_tool/LongitudinalControllerConfig.h
+[ 33%] Built target longitudinal_control_ros_tool_gencfg
+[35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[ 33%] Built target nodelet_generate_messages_nodejs
+[35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[ 33%] Built target bond_generate_messages_cpp
+[35m[1mScanning dependencies of target longitudinal_control_ros_tool_genparam[0m
+[ 41%] Built target longitudinal_control_ros_tool_genparam
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[ 41%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[ 41%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target longitudinal_control_ros_tool-longitudinal_controller-exec[0m
+make[2]: Warning: File 'CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-exec.dir/depend.make' has modification time 0,036 s in the future
+[ 50%] [32mBuilding CXX object CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-exec.dir/src/longitudinal_controller/longitudinal_controller.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-exec.dir/src/longitudinal_controller/longitudinal_controller_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-exec.dir/src/longitudinal_controller/longitudinal_controller_nodelet.cpp.o[0m
+[35m[1mScanning dependencies of target longitudinal_control_ros_tool-longitudinal_controller-nodelet[0m
+make[2]: Warning: File 'CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/depend.make' has modification time 0,036 s in the future
+[ 75%] [32mBuilding CXX object CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/src/longitudinal_controller/longitudinal_controller.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel_debug/.private/longitudinal_control_ros_tool/lib/longitudinal_control_ros_tool/longitudinal_controller[0m
+/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:29: error: undefined reference to 'longitudinal_control_ros_tool::LongitudinalController::pathCallback(boost::shared_ptr<nav_msgs::Path_<std::allocator<void> > const> const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/kal5-1/cargogo/devel_debug/.private/longitudinal_control_ros_tool/lib/longitudinal_control_ros_tool/longitudinal_controller] Error 1
+CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-exec.dir/build.make:200: recipe for target '/home/kal5-1/cargogo/devel_debug/.private/longitudinal_control_ros_tool/lib/longitudinal_control_ros_tool/longitudinal_controller' failed
+CMakeFiles/Makefile2:895: recipe for target 'CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-exec.dir/all' failed
+make[1]: *** [CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-exec.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 91%] [32mBuilding CXX object CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/src/longitudinal_controller/longitudinal_controller_nodelet.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/kal5-1/cargogo/devel_debug/.private/longitudinal_control_ros_tool/lib/liblongitudinal_controller_nodelet.so[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target longitudinal_control_ros_tool-longitudinal_controller-nodelet
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

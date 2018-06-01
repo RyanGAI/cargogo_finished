@@ -1,0 +1,4 @@
+kal
+/home/kal5-1/cargogo/devel_debug/.private/kal/share/kal/cmake/kalConfig.cmake /home/kal5-1/cargogo/devel_debug/share/kal/cmake/kalConfig.cmake
+/home/kal5-1/cargogo/devel_debug/.private/kal/share/kal/cmake/kalConfig-version.cmake /home/kal5-1/cargogo/devel_debug/share/kal/cmake/kalConfig-version.cmake
+/home/kal5-1/cargogo/devel_debug/.private/kal/lib/pkgconfig/kal.pc /home/kal5-1/cargogo/devel_debug/lib/pkgconfig/kal.pc

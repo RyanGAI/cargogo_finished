@@ -1,0 +1,20 @@
+make[2]: Warning: File 'CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/depend.make' has modification time 0,00021 s in the future
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:[m[K In member function ‘[01m[Kvoid longitudinal_control_ros_tool::LongitudinalController::controlLoopCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:54:24:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformStamped_tf[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+   const geometry_msgs::TransformStamped_tf:ros =
+[01;32m[K                        ^[m[K
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:57:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[Kcatch[m[K’ before ‘[01m[KMotorCommand[m[K’
+     MotorCommand motor_command;
+[01;32m[K     ^[m[K
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:57:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[KMotorCommand[m[K’
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:57:31:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+     MotorCommand motor_command;
+[01;32m[K                               ^[m[K
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:57:31:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:58:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_command[m[K’ was not declared in this scope
+     motor_command.header.stamp = timer_event.current_expected;
+[01;32m[K     ^[m[K
+make[2]: *** [CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/src/longitudinal_controller/longitudinal_controller.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/all] Error 2
+make: *** [all] Error 2

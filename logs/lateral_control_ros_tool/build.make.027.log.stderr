@@ -1,0 +1,33 @@
+make[2]: Warning: File 'CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/depend.make' has modification time 0,00015 s in the future
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:297:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.hpp:11[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:1[m[K:
+/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h: In instantiation of ‘[01m[Kconst Eigen::Product<Derived, OtherDerived> Eigen::MatrixBase<Derived>::operator*(const Eigen::MatrixBase<OtherDerived>&) const [with OtherDerived = Eigen::Block<const Eigen::CwiseNullaryOp<Eigen::internal::scalar_identity_op<double>, Eigen::Matrix<double, 3, 3> >, 3, 1, false>; Derived = Eigen::Matrix<double, 3, 1>][m[K’:
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:104:72:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:32:40:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: INVALID_VECTOR_VECTOR_PRODUCT__IF_YOU_WANTED_A_DOT_OR_COEFF_WISE_PRODUCT_YOU_MUST_USE_THE_EXPLICIT_FUNCTIONS
+     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert(X,#MSG);
+[01;32m[K                                        ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:406:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+   EIGEN_STATIC_ASSERT(ProductIsValid || !(AreVectors && SameSizes),
+[01;32m[K   ^[m[K
+/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 3, 1>; Src = Eigen::Matrix<double, 3, 3>; Func = Eigen::internal::assign_op<double>][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:700:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::Matrix<double, 3, 3>; Derived = Eigen::Matrix<double, 3, 1>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:783:7:[m[K   required from ‘[01m[Kvoid Eigen::PlainObjectBase<Derived>::_init1(const Eigen::DenseBase<ElseDerived>&) [with T = Eigen::Matrix<double, 3, 3>; OtherDerived = Eigen::Matrix<double, 3, 3>; Derived = Eigen::Matrix<double, 3, 1>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:296:31:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = Eigen::Matrix<double, 3, 3>; _Scalar = double; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1][m[K’
+[01m[K/usr/include/c++/5/ext/new_allocator.h:120:4:[m[K   required from ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = Eigen::Matrix<double, 3, 1>; _Args = {const Eigen::Matrix<double, 3, 3, 0, 3, 3>}; _Tp = Eigen::Matrix<double, 3, 1>][m[K’
+[01m[K/usr/include/c++/5/bits/alloc_traits.h:530:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = Eigen::Matrix<double, 3, 1>; _Args = {const Eigen::Matrix<double, 3, 3, 0, 3, 3>}; _Tp = Eigen::Matrix<double, 3, 1>; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<Eigen::Matrix<double, 3, 1> >][m[K’
+[01m[K/usr/include/c++/5/bits/vector.tcc:96:30:[m[K   required from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {const Eigen::Matrix<double, 3, 3, 0, 3, 3>}; _Tp = Eigen::Matrix<double, 3, 1>; _Alloc = std::allocator<Eigen::Matrix<double, 3, 1> >][m[K’
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:95:64:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:32:40:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert(X,#MSG);
+[01;32m[K                                        ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:184:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT[m[K’
+   EIGEN_STATIC_ASSERT( \
+[01;32m[K   ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:744:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K’
+   EIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE(ActualDstTypeCleaned,Src)
+[01;32m[K   ^[m[K
+make[2]: *** [CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/src/lateral_controller/lateral_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/all] Error 2
+make: *** [all] Error 2

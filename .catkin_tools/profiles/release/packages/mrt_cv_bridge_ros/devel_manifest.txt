@@ -1,0 +1,5 @@
+mrt_cv_bridge_ros
+/home/kal5-1/cargogo/devel/.private/mrt_cv_bridge_ros/share/mrt_cv_bridge_ros/cmake/mrt_cv_bridge_rosConfig-version.cmake /home/kal5-1/cargogo/devel/share/mrt_cv_bridge_ros/cmake/mrt_cv_bridge_rosConfig-version.cmake
+/home/kal5-1/cargogo/devel/.private/mrt_cv_bridge_ros/share/mrt_cv_bridge_ros/cmake/mrt_cv_bridge_rosConfig.cmake /home/kal5-1/cargogo/devel/share/mrt_cv_bridge_ros/cmake/mrt_cv_bridge_rosConfig.cmake
+/home/kal5-1/cargogo/devel/.private/mrt_cv_bridge_ros/lib/libmrt_cv_bridge_ros.so /home/kal5-1/cargogo/devel/lib/libmrt_cv_bridge_ros.so
+/home/kal5-1/cargogo/devel/.private/mrt_cv_bridge_ros/lib/pkgconfig/mrt_cv_bridge_ros.pc /home/kal5-1/cargogo/devel/lib/pkgconfig/mrt_cv_bridge_ros.pc

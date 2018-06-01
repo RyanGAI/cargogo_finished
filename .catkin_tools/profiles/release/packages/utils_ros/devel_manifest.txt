@@ -1,0 +1,5 @@
+utils_ros
+/home/kal5-1/cargogo/devel/.private/utils_ros/share/utils_ros/cmake/utils_rosConfig-version.cmake /home/kal5-1/cargogo/devel/share/utils_ros/cmake/utils_rosConfig-version.cmake
+/home/kal5-1/cargogo/devel/.private/utils_ros/share/utils_ros/cmake/utils_rosConfig.cmake /home/kal5-1/cargogo/devel/share/utils_ros/cmake/utils_rosConfig.cmake
+/home/kal5-1/cargogo/devel/.private/utils_ros/lib/pkgconfig/utils_ros.pc /home/kal5-1/cargogo/devel/lib/pkgconfig/utils_ros.pc
+/home/kal5-1/cargogo/devel/.private/utils_ros/lib/python2.7/dist-packages/utils_ros/__init__.py /home/kal5-1/cargogo/devel/lib/python2.7/dist-packages/utils_ros/__init__.py

@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel/.private/motor_interface/lib/pkgconfig/motor_interface.pc

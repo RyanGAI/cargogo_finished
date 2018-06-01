@@ -1,0 +1,5 @@
+Symlinking /home/kal5-1/cargogo/devel_debug/share/image_geometry/cmake/image_geometryConfig-version.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/share/image_geometry/cmake/image_geometryConfig.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/libimage_geometry.so
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/pkgconfig/image_geometry.pc
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/python2.7/dist-packages/image_geometry/__init__.py

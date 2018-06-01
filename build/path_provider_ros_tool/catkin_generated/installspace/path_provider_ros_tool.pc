@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/install
+
+Name: path_provider_ros_tool
+Description: Description of path_provider_ros_tool
+Version: 1.0.0
+Cflags: -I/home/kal5-1/cargogo/install/include
+Libs: -L/home/kal5-1/cargogo/install/lib 
+Requires: 

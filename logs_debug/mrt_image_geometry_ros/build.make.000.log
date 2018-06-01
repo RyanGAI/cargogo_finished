@@ -1,0 +1,48 @@
+[35m[1mScanning dependencies of target gtest[0m
+make[2]: Warning: File 'gtest/gtest/CMakeFiles/gtest.dir/depend.make' has modification time 0,047 s in the future
+[ 20%] [32mBuilding CXX object gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[ 20%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[ 20%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[ 20%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[ 20%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[ 20%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[ 20%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[ 20%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[ 20%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[ 20%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[ 20%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[ 20%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[ 20%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[ 20%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[ 20%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[ 20%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 40%] [32m[1mLinking CXX shared library libgtest.so[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 40%] Built target gtest
+[35m[1mScanning dependencies of target mrt_image_geometry_ros[0m
+make[2]: Warning: File 'CMakeFiles/mrt_image_geometry_ros.dir/depend.make' has modification time 0,043 s in the future
+[ 60%] [32mBuilding CXX object CMakeFiles/mrt_image_geometry_ros.dir/src/stereo_camera_model.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/mrt_image_geometry_ros.dir/src/pinhole_camera_model.cpp.o[0m
+/home/kal5-1/cargogo/src/mrt_image_geometry_ros/src/pinhole_camera_model.cpp: In instantiation of ‘[01m[Kbool image_geometry::updateMat(const MatT&, MatT&, cv::Mat_<double>&, int, int) [with MatT = std::vector<double>][m[K’:
+[01m[K/home/kal5-1/cargogo/src/mrt_image_geometry_ros/src/pinhole_camera_model.cpp:108:66:[m[K   required from here
+[01m[K/home/kal5-1/cargogo/src/mrt_image_geometry_ros/src/pinhole_camera_model.cpp:63:45:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+   if ((my_mat == new_mat) && (my_mat.size() == cv_mat.rows*cv_mat.cols))
+[01;32m[K                                             ^[m[K
+[100%] [32m[1mLinking CXX shared library /home/kal5-1/cargogo/devel_debug/.private/mrt_image_geometry_ros/lib/libmrt_image_geometry_ros.so[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target mrt_image_geometry_ros

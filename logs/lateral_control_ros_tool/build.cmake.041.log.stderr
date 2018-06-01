@@ -1,0 +1,39 @@
+[31m[1mCMake Error[0m at /home/kal5-1/cargogo/src/lateral_control_ros_tool/CMakeLists.txt:9 (find_package):
+  find_package called with invalid argument "queue"
+
+
+[31m[1mCMake Error[0m at /home/kal5-1/cargogo/src/lateral_control_ros_tool/CMakeLists.txt:10 (include):
+  include could not find load file:
+
+    UseMrtStdCompilerFlags
+
+
+[31m[1mCMake Error[0m at /home/kal5-1/cargogo/src/lateral_control_ros_tool/CMakeLists.txt:11 (include):
+  include could not find load file:
+
+    UseMrtAutoTarget
+
+
+[31m[1mCMake Error[0m at /home/kal5-1/cargogo/src/lateral_control_ros_tool/CMakeLists.txt:13 (include):
+  include could not find load file:
+
+    GatherDeps
+
+
+[31m[1mCMake Error[0m at /home/kal5-1/cargogo/src/lateral_control_ros_tool/CMakeLists.txt:16 (find_package):
+  By not providing "FindAutoDeps.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "AutoDeps",
+  but CMake did not find one.
+
+  Could not find a package configuration file provided by "AutoDeps" with any
+  of the following names:
+
+    AutoDepsConfig.cmake
+    autodeps-config.cmake
+
+  Add the installation prefix of "AutoDeps" to CMAKE_PREFIX_PATH or set
+  "AutoDeps_DIR" to a directory containing one of the above files.  If
+  "AutoDeps" provides a separate development package or SDK, be sure it has
+  been installed.
+
+

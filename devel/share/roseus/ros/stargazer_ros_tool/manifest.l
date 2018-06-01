@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel/.private/stargazer_ros_tool/share/roseus/ros/stargazer_ros_tool/manifest.l

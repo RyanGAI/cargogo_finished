@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="lateral_controller" pkg="lateral_control_ros_tool" type="lateral_controller">
+  <param name="kos_shift" type="double" value="0.34" />
+  <param name="index_shift" type="int" value="10" />
+  <param name="ii_off" type="int" value="12" />
+  <param name="wheel_base" type="double" value="0.52" />
+  <param name="k_ang" type="double" value="2.5" />
+  <param name="k_dist" type="double" value="5.0" />
+</node>
+\endverbatim
+

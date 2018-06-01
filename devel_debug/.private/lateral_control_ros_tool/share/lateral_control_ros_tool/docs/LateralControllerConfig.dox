@@ -1,0 +1,11 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~kos_shift" : \b [double] shift kos to point which stays on trajectory min: 0.0, default: 0.34, max: 1.0
+- \b "~index_shift" : \b [int] Index shift of lookahead point min: 0, default: 10, max: 50
+- \b "~ii_off" : \b [int] +/- index offset for curvature approx. min: 0, default: 12, max: 20
+- \b "~wheel_base" : \b [double] wheelbase of anicar min: 0.0, default: 0.52, max: 1.0
+- \b "~k_ang" : \b [double] Angle weight min: 0.0, default: 2.5, max: 10.0
+- \b "~k_dist" : \b [double] Dist weight min: 0.0, default: 5.0, max: 10.0
+

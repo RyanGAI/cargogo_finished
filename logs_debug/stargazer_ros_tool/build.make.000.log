@@ -1,0 +1,243 @@
+[35m[1mScanning dependencies of target stargazer_ros_tool_gencfg[0m
+[  1%] [34m[1mGenerating dynamic reconfigure files from cfg/LandmarkFinderInterface.cfg: /home/kal5-1/cargogo/devel_debug/.private/stargazer_ros_tool/include/stargazer_ros_tool/LandmarkFinderInterfaceConfig.h /home/kal5-1/cargogo/devel_debug/.private/stargazer_ros_tool/lib/python2.7/dist-packages/stargazer_ros_tool/cfg/LandmarkFinderInterfaceConfig.py[0m
+Generating reconfiguration files for LandmarkFinder in stargazer_ros_tool
+[  3%] [34m[1mGenerating dynamic reconfigure files from cfg/LandmarkLocalizerInterface.cfg: /home/kal5-1/cargogo/devel_debug/.private/stargazer_ros_tool/include/stargazer_ros_tool/LandmarkLocalizerInterfaceConfig.h /home/kal5-1/cargogo/devel_debug/.private/stargazer_ros_tool/lib/python2.7/dist-packages/stargazer_ros_tool/cfg/LandmarkLocalizerInterfaceConfig.py[0m
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/stargazer_ros_tool/include/stargazer_ros_tool/LandmarkFinderConfig.h
+Generating reconfiguration files for LandmarkLocalizer in stargazer_ros_tool
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/stargazer_ros_tool/include/stargazer_ros_tool/LandmarkLocalizerConfig.h
+[  3%] Built target stargazer_ros_tool_gencfg
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  3%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target _stargazer_ros_tool_generate_messages_check_deps_LandmarkArray[0m
+[  3%] Built target _stargazer_ros_tool_generate_messages_check_deps_LandmarkArray
+[35m[1mScanning dependencies of target _stargazer_ros_tool_generate_messages_check_deps_LandmarkPoint[0m
+[  3%] Built target _stargazer_ros_tool_generate_messages_check_deps_LandmarkPoint
+[35m[1mScanning dependencies of target _stargazer_ros_tool_generate_messages_check_deps_Landmark[0m
+[  3%] Built target _stargazer_ros_tool_generate_messages_check_deps_Landmark
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  3%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  3%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  3%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  3%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[  3%] Built target topic_tools_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[  3%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  3%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  3%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  3%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[  3%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  3%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[  3%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[  3%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[  3%] Built target bond_generate_messages_cpp
+[35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[  3%] Built target nodelet_generate_messages_nodejs
+[35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[  3%] Built target nodelet_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[  3%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[  3%] Built target bond_generate_messages_nodejs
+[35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[  3%] Built target nodelet_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  3%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[  3%] Built target nodelet_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  3%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  3%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[  3%] Built target dynamic_reconfigure_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  3%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  3%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  3%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  3%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[  3%] Built target std_srvs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  3%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  3%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[  3%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  3%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  3%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[  3%] Built target bond_generate_messages_py
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[  3%] Built target std_srvs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  3%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[  3%] Built target bond_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  3%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[  3%] Built target dynamic_reconfigure_generate_messages_cpp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[  3%] Built target std_srvs_generate_messages_py
+[35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[  3%] Built target nodelet_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  3%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  3%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  3%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  3%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  3%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[  3%] Built target dynamic_reconfigure_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  3%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  3%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  3%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  3%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  3%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  3%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[  3%] Built target std_srvs_generate_messages_eus
+[35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[  3%] Built target topic_tools_generate_messages_nodejs
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[  3%] Built target dynamic_reconfigure_generate_messages_eus
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[  3%] Built target dynamic_reconfigure_gencfg
+[35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[  3%] Built target std_srvs_generate_messages_nodejs
+[35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[  3%] Built target bond_generate_messages_lisp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[  3%] Built target topic_tools_generate_messages_cpp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[  3%] Built target topic_tools_generate_messages_eus
+[35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[  3%] Built target topic_tools_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  3%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[  3%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target stargazer_ros_tool_generate_messages_eus[0m
+[  5%] [34m[1mGenerating EusLisp code from stargazer_ros_tool/Landmark.msg[0m
+[  7%] [34m[1mGenerating EusLisp code from stargazer_ros_tool/LandmarkPoint.msg[0m
+[  9%] [34m[1mGenerating EusLisp code from stargazer_ros_tool/LandmarkArray.msg[0m
+[ 11%] [34m[1mGenerating EusLisp manifest code for stargazer_ros_tool[0m
+[35m[1mScanning dependencies of target stargazer_ros_tool_generate_messages_py[0m
+[ 13%] [34m[1mGenerating Python from MSG stargazer_ros_tool/Landmark[0m
+[ 15%] [34m[1mGenerating Python from MSG stargazer_ros_tool/LandmarkPoint[0m
+[ 17%] [34m[1mGenerating Python from MSG stargazer_ros_tool/LandmarkArray[0m
+[ 19%] [34m[1mGenerating Python msg __init__.py for stargazer_ros_tool[0m
+[ 19%] Built target stargazer_ros_tool_generate_messages_py
+[35m[1mScanning dependencies of target stargazer_ros_tool_generate_messages_lisp[0m
+[ 21%] [34m[1mGenerating Lisp code from stargazer_ros_tool/Landmark.msg[0m
+[ 23%] [34m[1mGenerating Lisp code from stargazer_ros_tool/LandmarkPoint.msg[0m
+[ 25%] [34m[1mGenerating Lisp code from stargazer_ros_tool/LandmarkArray.msg[0m
+[ 25%] Built target stargazer_ros_tool_generate_messages_lisp
+[35m[1mScanning dependencies of target stargazer_ros_tool_generate_messages_cpp[0m
+[ 27%] [34m[1mGenerating C++ code from stargazer_ros_tool/Landmark.msg[0m
+[ 29%] [34m[1mGenerating C++ code from stargazer_ros_tool/LandmarkPoint.msg[0m
+[ 31%] [34m[1mGenerating C++ code from stargazer_ros_tool/LandmarkArray.msg[0m
+[ 31%] Built target stargazer_ros_tool_generate_messages_eus
+[ 31%] Built target stargazer_ros_tool_generate_messages_cpp
+[35m[1mScanning dependencies of target stargazer_ros_tool_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target intrinsics_tool[0m
+[ 33%] [34m[1mGenerating Javascript code from stargazer_ros_tool/Landmark.msg[0m
+[ 35%] [34m[1mGenerating Javascript code from stargazer_ros_tool/LandmarkPoint.msg[0m
+make[2]: Warning: File 'src/intrinsics_tool/CMakeFiles/intrinsics_tool.dir/depend.make' has modification time 0,038 s in the future
+[ 37%] [32mBuilding CXX object src/intrinsics_tool/CMakeFiles/intrinsics_tool.dir/intrinsics_tool.cpp.o[0m
+[ 39%] [34m[1mGenerating Javascript code from stargazer_ros_tool/LandmarkArray.msg[0m
+[ 39%] Built target stargazer_ros_tool_generate_messages_nodejs
+[35m[1mScanning dependencies of target landmark_calibrator[0m
+[35m[1mScanning dependencies of target landmark_finder_nodelet[0m
+make[2]: Warning: File 'src/landmark_calibrator/CMakeFiles/landmark_calibrator.dir/depend.make' has modification time 0,023 s in the future
+[ 41%] [32mBuilding CXX object src/landmark_calibrator/CMakeFiles/landmark_calibrator.dir/LandmarkCalibratorInterface.cpp.o[0m
+make[2]: Warning: File 'src/landmark_finder/CMakeFiles/landmark_finder_nodelet.dir/depend.make' has modification time 0,03 s in the future
+[ 43%] [32mBuilding CXX object src/landmark_finder/CMakeFiles/landmark_finder_nodelet.dir/LandmarkFinderInterface.cpp.o[0m
+[ 45%] [32mBuilding CXX object src/landmark_finder/CMakeFiles/landmark_finder_nodelet.dir/LandmarkFinderInterfaceParameters.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/landmark_finder/CMakeFiles/landmark_finder_nodelet.dir/landmark_finder_nodelet.cpp.o[0m
+[ 49%] [32mBuilding CXX object src/landmark_calibrator/CMakeFiles/landmark_calibrator.dir/LandmarkCalibratorInterfaceParameters.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel_debug/.private/stargazer_ros_tool/lib/stargazer_ros_tool/intrinsics_tool[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 50%] Built target intrinsics_tool
+[35m[1mScanning dependencies of target landmark_finder[0m
+make[2]: Warning: File 'src/landmark_finder/CMakeFiles/landmark_finder.dir/depend.make' has modification time 0,034 s in the future
+[ 52%] [32mBuilding CXX object src/landmark_finder/CMakeFiles/landmark_finder.dir/LandmarkFinderInterface.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/landmark_calibrator/CMakeFiles/landmark_calibrator.dir/landmark_calibrator_node.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library /home/kal5-1/cargogo/devel_debug/.private/stargazer_ros_tool/lib/liblandmark_finder_nodelet.so[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 56%] Built target landmark_finder_nodelet
+[35m[1mScanning dependencies of target landmark_localizer_nodelet[0m
+[35m[1mScanning dependencies of target landmark_localizer[0m
+make[2]: Warning: File 'src/landmark_localizer/CMakeFiles/landmark_localizer_nodelet.dir/depend.make' has modification time 0,037 s in the future
+make[2]: Warning: File 'src/landmark_localizer/CMakeFiles/landmark_localizer.dir/depend.make' has modification time 0,036 s in the future
+[ 58%] [32mBuilding CXX object src/landmark_localizer/CMakeFiles/landmark_localizer_nodelet.dir/LandmarkLocalizerInterface.cpp.o[0m
+[ 60%] [32mBuilding CXX object src/landmark_localizer/CMakeFiles/landmark_localizer.dir/LandmarkLocalizerInterface.cpp.o[0m
+[ 62%] [32mBuilding CXX object src/landmark_localizer/CMakeFiles/landmark_localizer.dir/LandmarkLocalizerInterfaceParameters.cpp.o[0m
+[ 64%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel_debug/.private/stargazer_ros_tool/lib/stargazer_ros_tool/landmark_calibrator[0m
+[ 66%] [32mBuilding CXX object src/landmark_localizer/CMakeFiles/landmark_localizer.dir/landmark_localizer_node.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 66%] Built target landmark_calibrator
+[35m[1mScanning dependencies of target landmark_visualizer[0m
+make[2]: Warning: File 'src/landmark_visualizer/CMakeFiles/landmark_visualizer.dir/depend.make' has modification time 0,039 s in the future
+[ 68%] [32mBuilding CXX object src/landmark_visualizer/CMakeFiles/landmark_visualizer.dir/LandmarkVisualizerParameters.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/landmark_finder/CMakeFiles/landmark_finder.dir/LandmarkFinderInterfaceParameters.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/landmark_finder/CMakeFiles/landmark_finder.dir/landmark_finder_node.cpp.o[0m
+[ 74%] [32mBuilding CXX object src/landmark_visualizer/CMakeFiles/landmark_visualizer.dir/landmark_visualizer.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel_debug/.private/stargazer_ros_tool/lib/stargazer_ros_tool/landmark_localizer[0m
+[ 78%] [32mBuilding CXX object src/landmark_localizer/CMakeFiles/landmark_localizer_nodelet.dir/LandmarkLocalizerInterfaceParameters.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel_debug/.private/stargazer_ros_tool/lib/stargazer_ros_tool/landmark_finder[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 80%] Built target landmark_localizer
+[35m[1mScanning dependencies of target pose_visualizer[0m
+make[2]: Warning: File 'src/pose_visualizer/CMakeFiles/pose_visualizer.dir/depend.make' has modification time 0,04 s in the future
+[ 82%] [32mBuilding CXX object src/pose_visualizer/CMakeFiles/pose_visualizer.dir/PoseVisualizerParameters.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 82%] Built target landmark_finder
+[ 84%] [32mBuilding CXX object src/pose_visualizer/CMakeFiles/pose_visualizer.dir/pose_visualizer.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel_debug/.private/stargazer_ros_tool/lib/stargazer_ros_tool/landmark_visualizer[0m
+[ 88%] [32mBuilding CXX object src/landmark_localizer/CMakeFiles/landmark_localizer_nodelet.dir/landmark_localizer_nodelet.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 88%] Built target landmark_visualizer
+[35m[1mScanning dependencies of target reprojection_visualizer[0m
+make[2]: Warning: File 'src/reprojection_visualizer/CMakeFiles/reprojection_visualizer.dir/depend.make' has modification time 0,036 s in the future
+[ 90%] [32mBuilding CXX object src/reprojection_visualizer/CMakeFiles/reprojection_visualizer.dir/ReprojectionVisualizer.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/reprojection_visualizer/CMakeFiles/reprojection_visualizer.dir/ReprojectionVisualizerParameters.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/reprojection_visualizer/CMakeFiles/reprojection_visualizer.dir/reprojection_visualizer_node.cpp.o[0m
+[ 96%] [32m[1mLinking CXX shared library /home/kal5-1/cargogo/devel_debug/.private/stargazer_ros_tool/lib/liblandmark_localizer_nodelet.so[0m
+[ 98%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel_debug/.private/stargazer_ros_tool/lib/stargazer_ros_tool/pose_visualizer[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 98%] Built target landmark_localizer_nodelet
+[35m[1mScanning dependencies of target stargazer_ros_tool_generate_messages[0m
+[ 98%] Built target stargazer_ros_tool_generate_messages
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 98%] Built target pose_visualizer
+[100%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel_debug/.private/stargazer_ros_tool/lib/stargazer_ros_tool/reprojection_visualizer[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target reprojection_visualizer

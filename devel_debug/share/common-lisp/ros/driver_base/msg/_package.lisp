@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel_debug/.private/driver_base/share/common-lisp/ros/driver_base/msg/_package.lisp

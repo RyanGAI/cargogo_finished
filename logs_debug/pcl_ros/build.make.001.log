@@ -1,0 +1,173 @@
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target nodelet_topic_tools_gencfg
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_eus
+[  0%] Built target bond_generate_messages_lisp
+[  0%] Built target topic_tools_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_eus
+[  0%] Built target bond_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target nodelet_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target bond_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target nodelet_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target bond_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target bond_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target nodelet_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target topic_tools_generate_messages_nodejs
+[  0%] Built target topic_tools_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target nodelet_generate_messages_py
+[  1%] [34m[1mGenerating dynamic reconfigure files from cfg/EuclideanClusterExtraction.cfg: /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/EuclideanClusterExtractionConfig.h /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/lib/python2.7/dist-packages/pcl_ros/cfg/EuclideanClusterExtractionConfig.py[0m
+[  4%] Built target convert_pointcloud_to_image
+[  7%] Built target convert_pcd_to_image
+[ 12%] Built target pcd_to_pointcloud
+[ 12%] [34m[1mGenerating dynamic reconfigure files from cfg/ExtractIndices.cfg: /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/ExtractIndicesConfig.h /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/lib/python2.7/dist-packages/pcl_ros/cfg/ExtractIndicesConfig.py[0m
+[ 15%] Built target pointcloud_to_pcd
+[ 17%] [34m[1mGenerating dynamic reconfigure files from cfg/ExtractPolygonalPrismData.cfg: /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/ExtractPolygonalPrismDataConfig.h /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/lib/python2.7/dist-packages/pcl_ros/cfg/ExtractPolygonalPrismDataConfig.py[0m
+Generating reconfiguration files for EuclideanClusterExtraction in pcl_ros
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/EuclideanClusterExtractionConfig.h
+Checking md5sum on /home/kal5-1/cargogo/src/perception_pcl/pcl_ros/samples/data/table_scene_lms400.pcd
+[ 17%] Built target table_scene_lms400.pcd
+Generating reconfiguration files for ExtractIndices in pcl_ros
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/ExtractIndicesConfig.h
+[ 19%] [34m[1mGenerating dynamic reconfigure files from cfg/Feature.cfg: /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/FeatureConfig.h /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/lib/python2.7/dist-packages/pcl_ros/cfg/FeatureConfig.py[0m
+[ 20%] Built target download_extra_data
+[ 22%] Built target pcl_ros_tf
+[ 25%] [34m[1mGenerating dynamic reconfigure files from cfg/MLS.cfg: /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/MLSConfig.h /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/lib/python2.7/dist-packages/pcl_ros/cfg/MLSConfig.py[0m
+[ 25%] [34m[1mGenerating dynamic reconfigure files from cfg/Filter.cfg: /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/FilterConfig.h /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/lib/python2.7/dist-packages/pcl_ros/cfg/FilterConfig.py[0m
+Generating reconfiguration files for ExtractPolygonalPrismData in pcl_ros
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/ExtractPolygonalPrismDataConfig.h
+[ 25%] Built target download
+[ 26%] [34m[1mGenerating dynamic reconfigure files from cfg/SACSegmentation.cfg: /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/SACSegmentationConfig.h /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/lib/python2.7/dist-packages/pcl_ros/cfg/SACSegmentationConfig.py[0m
+Generating reconfiguration files for Feature in pcl_ros
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/FeatureConfig.h
+Generating reconfiguration files for MLS in pcl_ros
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/MLSConfig.h
+[ 28%] [34m[1mGenerating dynamic reconfigure files from cfg/SACSegmentationFromNormals.cfg: /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/SACSegmentationFromNormalsConfig.h /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/lib/python2.7/dist-packages/pcl_ros/cfg/SACSegmentationFromNormalsConfig.py[0m
+Generating reconfiguration files for Filter in pcl_ros
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/FilterConfig.h
+[ 31%] Built target bag_to_pcd
+Generating reconfiguration files for SACSegmentation in pcl_ros
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/SACSegmentationConfig.h
+[ 33%] [34m[1mGenerating dynamic reconfigure files from cfg/SegmentDifferences.cfg: /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/SegmentDifferencesConfig.h /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/lib/python2.7/dist-packages/pcl_ros/cfg/SegmentDifferencesConfig.py[0m
+[ 42%] Built target pcl_ros_io
+[ 44%] [34m[1mGenerating dynamic reconfigure files from cfg/StatisticalOutlierRemoval.cfg: /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/StatisticalOutlierRemovalConfig.h /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/lib/python2.7/dist-packages/pcl_ros/cfg/StatisticalOutlierRemovalConfig.py[0m
+[ 46%] [34m[1mGenerating dynamic reconfigure files from cfg/RadiusOutlierRemoval.cfg: /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/RadiusOutlierRemovalConfig.h /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/lib/python2.7/dist-packages/pcl_ros/cfg/RadiusOutlierRemovalConfig.py[0m
+Generating reconfiguration files for SACSegmentationFromNormals in pcl_ros
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/SACSegmentationFromNormalsConfig.h
+[ 47%] [34m[1mGenerating dynamic reconfigure files from cfg/VoxelGrid.cfg: /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/VoxelGridConfig.h /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/lib/python2.7/dist-packages/pcl_ros/cfg/VoxelGridConfig.py[0m
+Generating reconfiguration files for SegmentDifferences in pcl_ros
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/SegmentDifferencesConfig.h
+Generating reconfiguration files for StatisticalOutlierRemoval in pcl_ros
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/StatisticalOutlierRemovalConfig.h
+Generating reconfiguration files for RadiusOutlierRemoval in pcl_ros
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/RadiusOutlierRemovalConfig.h
+make[2]: Warning: File '/home/kal5-1/cargogo/devel_debug/.private/pcl_ros/share/pcl_ros/docs/StatisticalOutlierRemovalConfig.dox' has modification time 0,0015 s in the future
+Generating reconfiguration files for VoxelGrid in pcl_ros
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/VoxelGridConfig.h
+[ 49%] [34m[1mGenerating dynamic reconfigure files from cfg/CropBox.cfg: /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/CropBoxConfig.h /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/lib/python2.7/dist-packages/pcl_ros/cfg/CropBoxConfig.py[0m
+Generating reconfiguration files for CropBox in pcl_ros
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/include/pcl_ros/CropBoxConfig.h
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 49%] Built target pcl_ros_gencfg
+[35m[1mScanning dependencies of target pcl_ros_surface[0m
+[35m[1mScanning dependencies of target pcl_ros_segmentation[0m
+[35m[1mScanning dependencies of target pcl_ros_filters[0m
+make[2]: Warning: File 'CMakeFiles/pcl_ros_surface.dir/depend.make' has modification time 0,019 s in the future
+[ 50%] [32mBuilding CXX object CMakeFiles/pcl_ros_surface.dir/src/pcl_ros/surface/moving_least_squares.cpp.o[0m
+[35m[1mScanning dependencies of target pcl_ros_features[0m
+make[2]: Warning: File 'CMakeFiles/pcl_ros_segmentation.dir/depend.make' has modification time 0,0096 s in the future
+[ 52%] [32mBuilding CXX object CMakeFiles/pcl_ros_segmentation.dir/src/pcl_ros/segmentation/extract_clusters.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/pcl_ros_segmentation.dir/src/pcl_ros/segmentation/extract_polygonal_prism_data.cpp.o[0m
+make[2]: Warning: File 'CMakeFiles/pcl_ros_filters.dir/depend.make' has modification time 0,007 s in the future
+[ 55%] [32mBuilding CXX object CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/extract_indices.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/feature.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/pcl_ros_segmentation.dir/src/pcl_ros/segmentation/sac_segmentation.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/boundary.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/filter.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/pcl_ros_segmentation.dir/src/pcl_ros/segmentation/segment_differences.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/fpfh.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/lib/libpcl_ros_surface.so[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/fpfh_omp.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/shot.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/shot_omp.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/passthrough.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 76%] Built target pcl_ros_surface
+[ 77%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/moment_invariants.cpp.o[0m
+[ 79%] [32m[1mLinking CXX shared library /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/lib/libpcl_ros_segmentation.so[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/normal_3d.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/normal_3d_omp.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/project_inliers.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/pfh.cpp.o[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 87%] Built target pcl_ros_segmentation
+[ 88%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/principal_curvatures.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/vfh.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/radius_outlier_removal.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/statistical_outlier_removal.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/voxel_grid.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/crop_box.cpp.o[0m
+[ 98%] [32m[1mLinking CXX shared library /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/lib/libpcl_ros_features.so[0m
+[100%] [32m[1mLinking CXX shared library /home/kal5-1/cargogo/devel_debug/.private/pcl_ros/lib/libpcl_ros_filters.so[0m
+[100%] Built target pcl_ros_features
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target pcl_ros_filters

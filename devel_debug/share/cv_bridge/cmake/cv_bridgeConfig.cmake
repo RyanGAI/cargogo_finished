@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel_debug/.private/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake

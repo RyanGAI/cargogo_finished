@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>pcl_ros-RelWithDebInfo@pcl_ros</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value>-j8</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/kal5-1/cargogo/build/pcl_ros</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/kal5-1/cargogo/build/pcl_ros</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Source directory]</name>
+			<type>2</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros</location>
+		</link>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Subprojects]/gmock</name>
+			<type>2</type>
+			<location>/usr/src/gmock</location>
+		</link>
+		<link>
+			<name>[Subprojects]/gtest</name>
+			<type>2</type>
+			<location>/usr/src/gtest</location>
+		</link>
+		<link>
+			<name>[Subprojects]/pcl_ros</name>
+			<type>2</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros</location>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_tf_message_filter_pcl</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_tf_message_filter_pcl/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_tf_message_filter_pcl/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_tf_message_filter_pcl/Source Files/test_tf_message_filter_pcl.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/test/test_tf_message_filter_pcl.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_tf_message_filter_pcl/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_tf_message_filter_pcl/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_tf_message_filter_pcl/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] test_tf_message_filter_pcl/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_tf</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_tf/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_tf/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_tf/Source Files/transforms.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/transforms.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_tf/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_tf/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_tf/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_tf/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] bag_to_pcd</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] bag_to_pcd/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] bag_to_pcd/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] bag_to_pcd/Source Files/bag_to_pcd.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/tools/bag_to_pcd.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] bag_to_pcd/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] bag_to_pcd/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] bag_to_pcd/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] bag_to_pcd/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_pcd_to_image</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_pcd_to_image/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_pcd_to_image/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_pcd_to_image/Source Files/convert_pcd_to_image.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/tools/convert_pcd_to_image.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_pcd_to_image/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_pcd_to_image/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_pcd_to_image/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_pcd_to_image/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_segmentation</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_segmentation/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_segmentation/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_segmentation/Source Files/extract_clusters.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/segmentation/extract_clusters.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_segmentation/Source Files/extract_polygonal_prism_data.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/segmentation/extract_polygonal_prism_data.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_segmentation/Source Files/sac_segmentation.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/segmentation/sac_segmentation.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_segmentation/Source Files/segment_differences.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/segmentation/segment_differences.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_segmentation/Source Files/segmentation.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/segmentation/segmentation.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_segmentation/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_segmentation/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_segmentation/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_segmentation/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_io</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_io/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_io/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_io/Source Files/bag_io.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/io/bag_io.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_io/Source Files/concatenate_data.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/io/concatenate_data.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_io/Source Files/concatenate_fields.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/io/concatenate_fields.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_io/Source Files/io.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/io/io.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_io/Source Files/pcd_io.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/io/pcd_io.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_io/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_io/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_io/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_io/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features/Source Files/feature.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/features/feature.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features/Source Files/boundary.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/features/boundary.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features/Source Files/fpfh.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/features/fpfh.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features/Source Files/fpfh_omp.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/features/fpfh_omp.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features/Source Files/shot.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/features/shot.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features/Source Files/shot_omp.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/features/shot_omp.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features/Source Files/moment_invariants.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/features/moment_invariants.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features/Source Files/normal_3d.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/features/normal_3d.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features/Source Files/normal_3d_omp.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/features/normal_3d_omp.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features/Source Files/pfh.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/features/pfh.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features/Source Files/principal_curvatures.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/features/principal_curvatures.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features/Source Files/vfh.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/features/vfh.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_features/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_filters</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_filters/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_filters/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_filters/Source Files/extract_indices.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/filters/extract_indices.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_filters/Source Files/filter.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/filters/filter.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_filters/Source Files/passthrough.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/filters/passthrough.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_filters/Source Files/project_inliers.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/filters/project_inliers.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_filters/Source Files/radius_outlier_removal.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/filters/radius_outlier_removal.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_filters/Source Files/statistical_outlier_removal.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/filters/statistical_outlier_removal.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_filters/Source Files/voxel_grid.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/filters/voxel_grid.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_filters/Source Files/crop_box.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/filters/crop_box.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_filters/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_filters/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_filters/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_filters/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_pointcloud_to_image</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_pointcloud_to_image/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_pointcloud_to_image/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_pointcloud_to_image/Source Files/convert_pointcloud_to_image.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/tools/convert_pointcloud_to_image.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_pointcloud_to_image/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_pointcloud_to_image/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_pointcloud_to_image/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] convert_pointcloud_to_image/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_surface</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_surface/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_surface/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_surface/Source Files/surface.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/surface/surface.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_surface/Source Files/convex_hull.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/surface/convex_hull.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_surface/Source Files/moving_least_squares.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/src/pcl_ros/surface/moving_least_squares.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_surface/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_surface/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_surface/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] pcl_ros_surface/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pcd_to_pointcloud</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pcd_to_pointcloud/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pcd_to_pointcloud/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pcd_to_pointcloud/Source Files/pcd_to_pointcloud.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pcd_to_pointcloud/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pcd_to_pointcloud/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pcd_to_pointcloud/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pcd_to_pointcloud/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pointcloud_to_pcd</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pointcloud_to_pcd/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pointcloud_to_pcd/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pointcloud_to_pcd/Source Files/pointcloud_to_pcd.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/perception_pcl/pcl_ros/tools/pointcloud_to_pcd.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pointcloud_to_pcd/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pointcloud_to_pcd/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pointcloud_to_pcd/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pointcloud_to_pcd/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/Source Files/gtest-all.cc</name>
+			<type>1</type>
+			<location>/usr/src/gtest/src/gtest-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/Source Files/gmock-all.cc</name>
+			<type>1</type>
+			<location>/usr/src/gmock/src/gmock-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Source Files/gtest-all.cc</name>
+			<type>1</type>
+			<location>/usr/src/gtest/src/gtest-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Source Files/gmock-all.cc</name>
+			<type>1</type>
+			<location>/usr/src/gmock/src/gmock-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Source Files/gmock_main.cc</name>
+			<type>1</type>
+			<location>/usr/src/gmock/src/gmock_main.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Source Files/gtest-all.cc</name>
+			<type>1</type>
+			<location>/usr/src/gtest/src/gtest-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Source Files/gtest_main.cc</name>
+			<type>1</type>
+			<location>/usr/src/gtest/src/gtest_main.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

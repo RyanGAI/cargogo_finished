@@ -1,0 +1,4 @@
+Symlinking /home/kal5-1/cargogo/devel_debug/share/utils_ros/cmake/utils_rosConfig-version.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/share/utils_ros/cmake/utils_rosConfig.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/pkgconfig/utils_ros.pc
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/python2.7/dist-packages/utils_ros/__init__.py

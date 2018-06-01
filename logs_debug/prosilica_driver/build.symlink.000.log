@@ -1,0 +1,17 @@
+Symlinking /home/kal5-1/cargogo/devel_debug/share/prosilica_driver/docs/ProsilicaCameraConfig.dox
+Symlinking /home/kal5-1/cargogo/devel_debug/share/prosilica_driver/docs/ProsilicaCameraConfig.wikidoc
+Symlinking /home/kal5-1/cargogo/devel_debug/share/prosilica_driver/docs/ProsilicaCameraConfig-usage.dox
+Symlinking /home/kal5-1/cargogo/devel_debug/share/prosilica_driver/cmake/prosilica_driverConfig.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/share/prosilica_driver/cmake/prosilica_driverConfig-version.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/include/prosilica_driver/ProsilicaCameraConfig.h
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/libprosilica_nodelet.so
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/libprosilica.so
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/pkgconfig/prosilica_driver.pc
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/python2.7/dist-packages/prosilica_driver/__init__.py
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/python2.7/dist-packages/prosilica_driver/cfg/ProsilicaCameraConfig.py
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/python2.7/dist-packages/prosilica_driver/cfg/__init__.py
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/prosilica_driver/write_memory
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/prosilica_driver/prosilica_node
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/prosilica_driver/set_inhibition
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/prosilica_driver/set_ip
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/prosilica_driver/read_memory

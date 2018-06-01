@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel/.private/driver_base/share/roseus/ros/driver_base/manifest.l

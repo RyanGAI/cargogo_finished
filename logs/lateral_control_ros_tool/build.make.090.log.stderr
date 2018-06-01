@@ -1,0 +1,13 @@
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:[m[K In member function ‘[01m[Kvoid lateral_control_ros_tool::LateralController::controlLoopCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:230:53:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Kdouble[m[K’ and ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<lateral_control_ros_tool::OmegaStruc> >::value_type {aka lateral_control_ros_tool::OmegaStruc}[m[K’)
+      double time_interval = omega_.back().timestamp - omega_.at(array_size / 2);
+[01;32m[K                                                     ^[m[K
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:235:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Komega[m[K’ [-Wunused-variable]
+         const double omega = delta_angle_new - delta_angle_old / time_interval;
+[01;32m[K                      ^[m[K
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:245:12:[m[K [01;31m[Kerror: [m[K‘[01m[Komega[m[K’ was not declared in this scope
+           (omega * params_.wheel_base / 2.0) * vehicle_frame_unit_y;
+[01;32m[K            ^[m[K
+make[2]: *** [CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/src/lateral_controller/lateral_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/all] Error 2
+make: *** [all] Error 2

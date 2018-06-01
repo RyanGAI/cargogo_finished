@@ -1,0 +1,110 @@
+Not searching for unused variables given on the command line.
+[36m--[0m Eclipse version is set to 4.7 (). Adjust CMAKE_ECLIPSE_VERSION if this is wrong.
+[36m--[0m Boost version: 1.58.0
+[36m--[0m Found the following Boost libraries:
+[36m--[0m   system
+[36m--[0m   filesystem
+[36m--[0m   thread
+[36m--[0m   chrono
+[36m--[0m   date_time
+[36m--[0m   atomic
+[33m[1mCMake Warning[0m at /opt/ros/kinetic/share/cmake_modules/cmake/Modules/FindEigen.cmake:62 (message):
+  The FindEigen.cmake Module in the cmake_modules package is deprecated.
+
+  Please use the FindEigen3.cmake Module provided with Eigen.  Change
+  instances of find_package(Eigen) to find_package(Eigen3).  Check the
+  FindEigen3.cmake Module for the resulting CMake variable names.
+
+[36mCall Stack (most recent call first):[0m
+  /opt/mrtsoftware/release/share/pcl-1.8/PCLConfig.cmake:153 (find_package)
+  /opt/mrtsoftware/release/share/pcl-1.8/PCLConfig.cmake:307 (find_eigen)
+  /opt/mrtsoftware/release/share/pcl-1.8/PCLConfig.cmake:526 (find_external_library)
+  CMakeLists.txt:8 (find_package)
+
+
+[36m--[0m Eigen found (include: /usr/include/eigen3)
+[36m--[0m Boost version: 1.58.0
+[36m--[0m Found the following Boost libraries:
+[36m--[0m   system
+[36m--[0m   filesystem
+[36m--[0m   thread
+[36m--[0m   date_time
+[36m--[0m   iostreams
+[36m--[0m   serialization
+[36m--[0m   chrono
+[36m--[0m   atomic
+[36m--[0m   regex
+[36m--[0m FLANN found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp.so;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[36m--[0m FLANN found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp.so;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[36m--[0m OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[36m--[0m Could NOT find OpenNI2 (missing:  OPENNI2_LIBRARIES OPENNI2_INCLUDE_DIRS)
+** WARNING ** io features related to openni2 will be disabled
+[36m--[0m Could NOT find ENSENSO (missing:  ENSENSO_LIBRARIES ENSENSO_INCLUDE_DIRS)
+** WARNING ** io features related to ensenso will be disabled
+[36m--[0m Could NOT find davidSDK (missing:  DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR)
+** WARNING ** io features related to davidSDK will be disabled
+[36m--[0m Could NOT find DSSDK (missing:  DSSDK_LIBRARIES DSSDK_INCLUDE_DIRS)
+** WARNING ** io features related to dssdk will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+[36m--[0m QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[36m--[0m OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[36m--[0m Could NOT find OpenNI2 (missing:  OPENNI2_LIBRARIES OPENNI2_INCLUDE_DIRS)
+** WARNING ** visualization features related to openni2 will be disabled
+[36m--[0m Could NOT find ENSENSO (missing:  ENSENSO_LIBRARIES ENSENSO_INCLUDE_DIRS)
+** WARNING ** visualization features related to ensenso will be disabled
+[36m--[0m Could NOT find davidSDK (missing:  DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR)
+** WARNING ** visualization features related to davidSDK will be disabled
+[36m--[0m Could NOT find DSSDK (missing:  DSSDK_LIBRARIES DSSDK_INCLUDE_DIRS)
+** WARNING ** visualization features related to dssdk will be disabled
+[36m--[0m Could NOT find RSSDK (missing:  RSSDK_LIBRARIES RSSDK_INCLUDE_DIRS)
+** WARNING ** visualization features related to rssdk will be disabled
+[36m--[0m looking for PCL_COMMON
+[36m--[0m looking for PCL_OCTREE
+[36m--[0m looking for PCL_KDTREE
+[36m--[0m looking for PCL_SEARCH
+[36m--[0m looking for PCL_SAMPLE_CONSENSUS
+[36m--[0m looking for PCL_FILTERS
+[36m--[0m looking for PCL_2D
+[36m--[0m looking for PCL_FEATURES
+[36m--[0m looking for PCL_REGISTRATION
+[36m--[0m looking for PCL_IO
+[36m--[0m looking for PCL_STEREO
+[36m--[0m looking for PCL_SURFACE
+[36m--[0m looking for PCL_GEOMETRY
+[36m--[0m looking for PCL_VISUALIZATION
+[36m--[0m looking for PCL_TRACKING
+[36m--[0m looking for PCL_GPU_CONTAINERS
+[36m--[0m looking for PCL_GPU_UTILS
+[36m--[0m looking for PCL_GPU_OCTREE
+[36m--[0m looking for PCL_GPU_KINFU
+[36m--[0m looking for PCL_GPU_FEATURES
+[36m--[0m looking for PCL_GPU_SEGMENTATION
+[36m--[0m looking for PCL_KEYPOINTS
+[36m--[0m looking for PCL_ML
+[36m--[0m looking for PCL_SEGMENTATION
+[36m--[0m looking for PCL_OUTOFCORE
+[36m--[0m looking for PCL_CUDA_COMMON
+[36m--[0m looking for PCL_CUDA_SAMPLE_CONSENSUS
+[36m--[0m looking for PCL_CUDA_FEATURES
+[36m--[0m looking for PCL_CUDA_SEGMENTATION
+[36m--[0m looking for PCL_PEOPLE
+[36m--[0m looking for PCL_RECOGNITION
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/kal5-1/cargogo/devel_debug/.private/pcl_ros
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/kal5-1/cargogo/devel_debug;/home/kal5-1/cargogo/devel;/opt/mrtsoftware/local;/opt/mrtsoftware/release;/opt/ros/kinetic
+[36m--[0m This workspace overlays: /home/kal5-1/cargogo/devel_debug;/home/kal5-1/cargogo/devel;/opt/mrtsoftware/local;/opt/mrtsoftware/release;/opt/ros/kinetic
+[36m--[0m Using PYTHON_EXECUTABLE: /opt/mrtsoftware/release/lib/mrt-build-tools/bin/python
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/kal5-1/cargogo/build_debug/pcl_ros/test_results
+[36m--[0m Found gmock sources under '/usr/src/gmock': gmock will be built
+[36m--[0m Found gtest sources under '/usr/src/gmock': gtests will be built
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.11
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/kal5-1/cargogo/build_debug/pcl_ros

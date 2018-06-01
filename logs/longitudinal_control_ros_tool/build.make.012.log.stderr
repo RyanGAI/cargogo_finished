@@ -1,0 +1,135 @@
+make[2]: Warning: File 'CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/depend.make' has modification time 0,0056 s in the future
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:[m[K In constructor ‘[01m[Klongitudinal_control_ros_tool::LongitudinalController::LongitudinalController(ros::NodeHandle, ros::NodeHandle)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:35:101:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::subscribe(std::__cxx11::string&, int, longitudinal_control_ros_tool::ServoCommand*)[m[K’
+     servo_command_subscriber_ = nh_private.subscribe(params_.servo_command_topic, 1, &servo_command_);
+[01;32m[K                                                                                                     ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:50:0[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, void(T::*fp)(M), T* obj, 
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:35:101:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(M)[m[K’ and ‘[01m[Klongitudinal_control_ros_tool::ServoCommand* {aka motor_interface_ros_tool::ServoCommand_<std::allocator<void> >*}[m[K’
+     servo_command_subscriber_ = nh_private.subscribe(params_.servo_command_topic, 1, &servo_command_);
+[01;32m[K                                                                                                     ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:50:0[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, T*, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const, T* obj, 
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:35:101:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(M) const[m[K’ and ‘[01m[Klongitudinal_control_ros_tool::ServoCommand* {aka motor_interface_ros_tool::ServoCommand_<std::allocator<void> >*}[m[K’
+     servo_command_subscriber_ = nh_private.subscribe(params_.servo_command_topic, 1, &servo_command_);
+[01;32m[K                                                                                                     ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:50:0[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), T*, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, 
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:35:101:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const boost::shared_ptr<const M>&)[m[K’ and ‘[01m[Klongitudinal_control_ros_tool::ServoCommand* {aka motor_interface_ros_tool::ServoCommand_<std::allocator<void> >*}[m[K’
+     servo_command_subscriber_ = nh_private.subscribe(params_.servo_command_topic, 1, &servo_command_);
+[01;32m[K                                                                                                     ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:50:0[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, T*, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, 
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:35:101:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const boost::shared_ptr<const M>&) const[m[K’ and ‘[01m[Klongitudinal_control_ros_tool::ServoCommand* {aka motor_interface_ros_tool::ServoCommand_<std::allocator<void> >*}[m[K’
+     servo_command_subscriber_ = nh_private.subscribe(params_.servo_command_topic, 1, &servo_command_);
+[01;32m[K                                                                                                     ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:50:0[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), const boost::shared_ptr<U>&, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, void(T::*fp)(M), 
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:35:101:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(M)[m[K’ and ‘[01m[Klongitudinal_control_ros_tool::ServoCommand* {aka motor_interface_ros_tool::ServoCommand_<std::allocator<void> >*}[m[K’
+     servo_command_subscriber_ = nh_private.subscribe(params_.servo_command_topic, 1, &servo_command_);
+[01;32m[K                                                                                                     ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:50:0[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, const boost::shared_ptr<U>&, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const, 
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:35:101:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(M) const[m[K’ and ‘[01m[Klongitudinal_control_ros_tool::ServoCommand* {aka motor_interface_ros_tool::ServoCommand_<std::allocator<void> >*}[m[K’
+     servo_command_subscriber_ = nh_private.subscribe(params_.servo_command_topic, 1, &servo_command_);
+[01;32m[K                                                                                                     ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:50:0[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), const boost::shared_ptr<U>&, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, 
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:35:101:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const boost::shared_ptr<const M>&)[m[K’ and ‘[01m[Klongitudinal_control_ros_tool::ServoCommand* {aka motor_interface_ros_tool::ServoCommand_<std::allocator<void> >*}[m[K’
+     servo_command_subscriber_ = nh_private.subscribe(params_.servo_command_topic, 1, &servo_command_);
+[01;32m[K                                                                                                     ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:50:0[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, const boost::shared_ptr<U>&, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, 
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:35:101:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const boost::shared_ptr<const M>&) const[m[K’ and ‘[01m[Klongitudinal_control_ros_tool::ServoCommand* {aka motor_interface_ros_tool::ServoCommand_<std::allocator<void> >*}[m[K’
+     servo_command_subscriber_ = nh_private.subscribe(params_.servo_command_topic, 1, &servo_command_);
+[01;32m[K                                                                                                     ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:50:0[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, void(*fp)(M), const TransportHints& transport_hints = TransportHints())
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:35:101:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid(M)[m[K’ and ‘[01m[Klongitudinal_control_ros_tool::ServoCommand {aka motor_interface_ros_tool::ServoCommand_<std::allocator<void> >}[m[K’
+     servo_command_subscriber_ = nh_private.subscribe(params_.servo_command_topic, 1, &servo_command_);
+[01;32m[K                                                                                                     ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:50:0[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(const boost::shared_ptr<const M>&), const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, void(*fp)(const boost::shared_ptr<M const>&), const TransportHints& transport_hints = TransportHints())
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:35:101:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid(const boost::shared_ptr<const M>&)[m[K’ and ‘[01m[Klongitudinal_control_ros_tool::ServoCommand {aka motor_interface_ros_tool::ServoCommand_<std::allocator<void> >}[m[K’
+     servo_command_subscriber_ = nh_private.subscribe(params_.servo_command_topic, 1, &servo_command_);
+[01;32m[K                                                                                                     ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:50:0[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(const boost::shared_ptr<const M>&)>&, const VoidConstPtr&, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, const boost::function<void (const boost::shared_ptr<M const>&)>& callback,
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:35:101:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::function<void(const boost::shared_ptr<const M>&)>[m[K’ and ‘[01m[Klongitudinal_control_ros_tool::ServoCommand* {aka motor_interface_ros_tool::ServoCommand_<std::allocator<void> >*}[m[K’
+     servo_command_subscriber_ = nh_private.subscribe(params_.servo_command_topic, 1, &servo_command_);
+[01;32m[K                                                                                                     ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:50:0[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class C> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(C)>&, const VoidConstPtr&, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, const boost::function<void (C)>& callback,
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:35:101:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::function<void(C)>[m[K’ and ‘[01m[Klongitudinal_control_ros_tool::ServoCommand* {aka motor_interface_ros_tool::ServoCommand_<std::allocator<void> >*}[m[K’
+     servo_command_subscriber_ = nh_private.subscribe(params_.servo_command_topic, 1, &servo_command_);
+[01;32m[K                                                                                                     ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:50:0[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:836:14:[m[K [01;36m[Knote: [m[Kcandidate: ros::Subscriber ros::NodeHandle::subscribe(ros::SubscribeOptions&)
+   Subscriber subscribe(SubscribeOptions& ops);
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:836:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+make[2]: *** [CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/src/longitudinal_controller/longitudinal_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/all] Error 2
+make: *** [all] Error 2

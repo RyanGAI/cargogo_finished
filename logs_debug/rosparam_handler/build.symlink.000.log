@@ -1,0 +1,5 @@
+Symlinking /home/kal5-1/cargogo/devel_debug/share/rosparam_handler/cmake/rosparam_handler-extras.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/share/rosparam_handler/cmake/rosparam_handlerConfig.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/share/rosparam_handler/cmake/rosparam_handlerConfig-version.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/pkgconfig/rosparam_handler.pc
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/python2.7/dist-packages/rosparam_handler/__init__.py

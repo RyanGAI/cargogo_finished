@@ -1,0 +1,109 @@
+[  1%] Built target std_msgs_generate_messages_eus
+[  1%] Built target std_msgs_generate_messages_py
+[  1%] [34m[1mGenerating dynamic reconfigure files from cfg/LandmarkFinderInterface.cfg: /home/kal5-1/cargogo/devel/.private/stargazer_ros_tool/include/stargazer_ros_tool/LandmarkFinderInterfaceConfig.h /home/kal5-1/cargogo/devel/.private/stargazer_ros_tool/lib/python2.7/dist-packages/stargazer_ros_tool/cfg/LandmarkFinderInterfaceConfig.py[0m
+[  3%] [34m[1mGenerating dynamic reconfigure files from cfg/LandmarkLocalizerInterface.cfg: /home/kal5-1/cargogo/devel/.private/stargazer_ros_tool/include/stargazer_ros_tool/LandmarkLocalizerInterfaceConfig.h /home/kal5-1/cargogo/devel/.private/stargazer_ros_tool/lib/python2.7/dist-packages/stargazer_ros_tool/cfg/LandmarkLocalizerInterfaceConfig.py[0m
+[  3%] Built target std_msgs_generate_messages_lisp
+[  3%] Built target _stargazer_ros_tool_generate_messages_check_deps_LandmarkPoint
+[  3%] Built target _stargazer_ros_tool_generate_messages_check_deps_LandmarkArray
+[  3%] Built target _stargazer_ros_tool_generate_messages_check_deps_Landmark
+[  3%] Built target std_msgs_generate_messages_nodejs
+[  3%] Built target std_msgs_generate_messages_cpp
+[  3%] Built target topic_tools_generate_messages_py
+[  3%] Built target actionlib_generate_messages_py
+[  3%] Built target actionlib_generate_messages_eus
+[  3%] Built target actionlib_msgs_generate_messages_lisp
+[  3%] Built target actionlib_msgs_generate_messages_py
+Generating reconfiguration files for LandmarkFinder in stargazer_ros_tool
+[  3%] Built target actionlib_generate_messages_lisp
+[  3%] Built target tf2_msgs_generate_messages_lisp
+[  3%] Built target actionlib_msgs_generate_messages_eus
+Wrote header file in /home/kal5-1/cargogo/devel/.private/stargazer_ros_tool/include/stargazer_ros_tool/LandmarkFinderConfig.h
+[  3%] Built target tf2_msgs_generate_messages_cpp
+Generating reconfiguration files for LandmarkLocalizer in stargazer_ros_tool
+Wrote header file in /home/kal5-1/cargogo/devel/.private/stargazer_ros_tool/include/stargazer_ros_tool/LandmarkLocalizerConfig.h
+[  3%] Built target bond_generate_messages_cpp
+[  3%] Built target nodelet_generate_messages_nodejs
+[  3%] Built target nodelet_generate_messages_lisp
+[  3%] Built target tf2_msgs_generate_messages_nodejs
+[  3%] Built target bond_generate_messages_nodejs
+[  3%] Built target tf2_msgs_generate_messages_eus
+[  3%] Built target nodelet_generate_messages_eus
+[  3%] Built target nodelet_generate_messages_cpp
+[  3%] Built target roscpp_generate_messages_lisp
+[  3%] Built target sensor_msgs_generate_messages_cpp
+[  3%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  3%] Built target stargazer_ros_tool_gencfg
+[  3%] Built target dynamic_reconfigure_generate_messages_lisp
+[  3%] Built target rosgraph_msgs_generate_messages_py
+[  3%] Built target roscpp_generate_messages_nodejs
+[  3%] Built target std_srvs_generate_messages_cpp
+[  3%] Built target rosgraph_msgs_generate_messages_lisp
+[  3%] Built target rosgraph_msgs_generate_messages_cpp
+[  3%] Built target actionlib_msgs_generate_messages_cpp
+[  3%] Built target actionlib_generate_messages_nodejs
+[  3%] Built target rosgraph_msgs_generate_messages_nodejs
+[  3%] Built target bond_generate_messages_py
+[  3%] Built target sensor_msgs_generate_messages_eus
+[  3%] Built target bond_generate_messages_eus
+[  3%] Built target std_srvs_generate_messages_lisp
+[  3%] Built target roscpp_generate_messages_eus
+[  3%] Built target geometry_msgs_generate_messages_lisp
+[  3%] Built target dynamic_reconfigure_generate_messages_cpp
+[  3%] Built target roscpp_generate_messages_cpp
+[  3%] Built target nodelet_generate_messages_py
+[  3%] Built target geometry_msgs_generate_messages_eus
+[  3%] Built target geometry_msgs_generate_messages_nodejs
+[  3%] Built target std_srvs_generate_messages_py
+[  3%] Built target rosgraph_msgs_generate_messages_eus
+[  3%] Built target roscpp_generate_messages_py
+[  3%] Built target sensor_msgs_generate_messages_lisp
+[  3%] Built target dynamic_reconfigure_generate_messages_py
+[  3%] Built target sensor_msgs_generate_messages_nodejs
+[  3%] Built target geometry_msgs_generate_messages_cpp
+[  3%] Built target actionlib_generate_messages_cpp
+[  3%] Built target sensor_msgs_generate_messages_py
+[  3%] Built target geometry_msgs_generate_messages_py
+[  3%] Built target std_srvs_generate_messages_eus
+[  3%] Built target topic_tools_generate_messages_nodejs
+[  3%] Built target dynamic_reconfigure_gencfg
+[  3%] Built target dynamic_reconfigure_generate_messages_eus
+[  3%] Built target topic_tools_generate_messages_cpp
+[  3%] Built target std_srvs_generate_messages_nodejs
+[  3%] Built target bond_generate_messages_lisp
+[  3%] Built target topic_tools_generate_messages_eus
+[  3%] Built target topic_tools_generate_messages_lisp
+[  3%] Built target actionlib_msgs_generate_messages_nodejs
+[  7%] Built target tf2_msgs_generate_messages_py
+[ 11%] Built target stargazer_ros_tool_generate_messages_py
+[ 19%] Built target stargazer_ros_tool_generate_messages_eus
+[ 27%] Built target stargazer_ros_tool_generate_messages_lisp
+[ 31%] Built target stargazer_ros_tool_generate_messages_nodejs
+[ 37%] Built target stargazer_ros_tool_generate_messages_cpp
+[35m[1mScanning dependencies of target landmark_finder_nodelet[0m
+[ 41%] Built target intrinsics_tool
+[35m[1mScanning dependencies of target landmark_finder[0m
+[35m[1mScanning dependencies of target landmark_localizer_nodelet[0m
+[35m[1mScanning dependencies of target landmark_localizer[0m
+[ 49%] Built target landmark_calibrator
+[ 54%] Built target landmark_visualizer
+[ 56%] [32mBuilding CXX object src/landmark_finder/CMakeFiles/landmark_finder_nodelet.dir/LandmarkFinderInterface.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/landmark_finder/CMakeFiles/landmark_finder.dir/LandmarkFinderInterface.cpp.o[0m
+[ 64%] Built target pose_visualizer
+[ 66%] [32mBuilding CXX object src/landmark_finder/CMakeFiles/landmark_finder.dir/LandmarkFinderInterfaceParameters.cpp.o[0m
+[ 68%] [32mBuilding CXX object src/landmark_localizer/CMakeFiles/landmark_localizer_nodelet.dir/LandmarkLocalizerInterface.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/landmark_localizer/CMakeFiles/landmark_localizer.dir/LandmarkLocalizerInterface.cpp.o[0m
+[ 78%] Built target reprojection_visualizer
+[ 80%] [32mBuilding CXX object src/landmark_localizer/CMakeFiles/landmark_localizer.dir/landmark_localizer_node.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/landmark_localizer/CMakeFiles/landmark_localizer_nodelet.dir/landmark_localizer_nodelet.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/landmark_finder/CMakeFiles/landmark_finder.dir/landmark_finder_node.cpp.o[0m
+[ 84%] Built target stargazer_ros_tool_generate_messages
+[ 86%] [32mBuilding CXX object src/landmark_finder/CMakeFiles/landmark_finder_nodelet.dir/LandmarkFinderInterfaceParameters.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/landmark_finder/CMakeFiles/landmark_finder_nodelet.dir/landmark_finder_nodelet.cpp.o[0m
+[ 90%] [32m[1mLinking CXX shared library /home/kal5-1/cargogo/devel/.private/stargazer_ros_tool/lib/liblandmark_localizer_nodelet.so[0m
+[ 92%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel/.private/stargazer_ros_tool/lib/stargazer_ros_tool/landmark_localizer[0m
+[ 94%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel/.private/stargazer_ros_tool/lib/stargazer_ros_tool/landmark_finder[0m
+[ 96%] Built target landmark_localizer_nodelet
+[ 98%] Built target landmark_localizer
+[ 98%] Built target landmark_finder
+[100%] [32m[1mLinking CXX shared library /home/kal5-1/cargogo/devel/.private/stargazer_ros_tool/lib/liblandmark_finder_nodelet.so[0m
+[100%] Built target landmark_finder_nodelet

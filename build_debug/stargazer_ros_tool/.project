@@ -1,0 +1,890 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<projectDescription>
+	<name>stargazer_ros_tool-Debug@stargazer_ros_tool</name>
+	<comment />
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value>-j8</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/kal5-1/cargogo/build_debug/stargazer_ros_tool</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|ROS_ROOT=/opt/ros/kinetic/share/ros|ROS_PACKAGE_PATH=/home/kal5-1/cargogo/src/vision_opencv/cv_bridge:/home/kal5-1/cargogo/src/driver_base/driver_base:/home/kal5-1/cargogo/src/driver_base/driver_common:/home/kal5-1/cargogo/src/vision_opencv/image_geometry:/home/kal5-1/cargogo/src/image_view:/home/kal5-1/cargogo/src/mrt_cmake_modules:/home/kal5-1/cargogo/src/image_preproc:/home/kal5-1/cargogo/src/iowkit:/home/kal5-1/cargogo/src/motor_interface:/home/kal5-1/cargogo/src/mrt_cv_bridge_ros:/home/kal5-1/cargogo/src/mrt_image_geometry_ros:/home/kal5-1/cargogo/src/vision_opencv/opencv_tests:/home/kal5-1/cargogo/src/perception_pcl/pcl_ros:/home/kal5-1/cargogo/src/perception_pcl/perception_pcl:/home/kal5-1/cargogo/src/prosilica_gige_sdk:/home/kal5-1/cargogo/src/prosilica_driver:/home/kal5-1/cargogo/src/rosinterface_handler:/home/kal5-1/cargogo/src/rosparam_handler:/home/kal5-1/cargogo/src/stargazer:/home/kal5-1/cargogo/src/stargazer_ros_tool:/home/kal5-1/cargogo/src/driver_base/timestamp_tools:/home/kal5-1/cargogo/src/utils_ros:/home/kal5-1/cargogo/src/image_preproc_ros_tool:/home/kal5-1/cargogo/src/motor_interface_ros_tool:/home/kal5-1/cargogo/src/demo_image_processing_ros_tool:/home/kal5-1/cargogo/src/joy_converter_ros_tool:/home/kal5-1/cargogo/src/lateral_control_ros_tool:/home/kal5-1/cargogo/src/longitudinal_control_ros_tool:/home/kal5-1/cargogo/src/path_provider_ros_tool:/home/kal5-1/cargogo/src/simulation_ros_tool:/home/kal5-1/cargogo/src/tui_ros_tool:/home/kal5-1/cargogo/src/vehicle_setup:/home/kal5-1/cargogo/src/kal:/home/kal5-1/cargogo/src/vision_opencv/vision_opencv:  
+:  
+:/opt/ros/kinetic/share|PYTHONPATH=/home/kal5-1/cargogo/devel/lib/python2.7/dist-packages:/opt/mrtsoftware/release/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages|PATH=/opt/mrtsoftware/release/lib/mrt-build-tools/bin:/opt/mrtsoftware/local/bin:/opt/mrtsoftware/release/bin:/opt/ros/kinetic/bin:/home/kal5-1/bin:/home/kal5-1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/cuda/bin/|LD_LIBRARY_PATH=/home/kal5-1/cargogo/devel/lib:/opt/mrtsoftware/local/lib:/opt/mrtsoftware/release/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu|PKG_CONFIG_PATH=/home/kal5-1/cargogo/devel/lib/pkgconfig:/opt/mrtsoftware/release/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig|CMAKE_PREFIX_PATH=/home/kal5-1/cargogo/devel:/opt/mrtsoftware/local:/opt/mrtsoftware/release:/opt/ros/kinetic|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value />
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/kal5-1/cargogo/build_debug/stargazer_ros_tool</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Source directory]</name>
+			<type>2</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool</location>
+		</link>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Subprojects]/gmock</name>
+			<type>2</type>
+			<location>/usr/src/gmock</location>
+		</link>
+		<link>
+			<name>[Subprojects]/gtest</name>
+			<type>2</type>
+			<location>/usr/src/gtest</location>
+		</link>
+		<link>
+			<name>[Subprojects]/stargazer_ros_tool</name>
+			<type>2</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool</location>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/Source Files/gtest-all.cc</name>
+			<type>1</type>
+			<location>/usr/src/gtest/src/gtest-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/Source Files/gmock-all.cc</name>
+			<type>1</type>
+			<location>/usr/src/gmock/src/gmock-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Source Files/gtest-all.cc</name>
+			<type>1</type>
+			<location>/usr/src/gtest/src/gtest-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Source Files/gmock-all.cc</name>
+			<type>1</type>
+			<location>/usr/src/gmock/src/gmock-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Source Files/gmock_main.cc</name>
+			<type>1</type>
+			<location>/usr/src/gmock/src/gmock_main.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gmock_main/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Source Files/gtest-all.cc</name>
+			<type>1</type>
+			<location>/usr/src/gtest/src/gtest-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Source Files/gtest_main.cc</name>
+			<type>1</type>
+			<location>/usr/src/gtest/src/gtest_main.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] intrinsics_tool</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] intrinsics_tool/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] intrinsics_tool/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] intrinsics_tool/Source Files/intrinsics_tool.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/intrinsics_tool/intrinsics_tool.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] intrinsics_tool/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] intrinsics_tool/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] intrinsics_tool/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] intrinsics_tool/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_calibrator</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_calibrator/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_calibrator/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_calibrator/Source Files/LandmarkCalibratorInterface.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_calibrator/LandmarkCalibratorInterface.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_calibrator/Source Files/LandmarkCalibratorInterfaceParameters.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_calibrator/LandmarkCalibratorInterfaceParameters.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_calibrator/Source Files/landmark_calibrator_node.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_calibrator/landmark_calibrator_node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_calibrator/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_calibrator/Header Files/LandmarkCalibratorInterface.h</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_calibrator/LandmarkCalibratorInterface.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_calibrator/Header Files/LandmarkCalibratorInterfaceParameters.h</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_calibrator/LandmarkCalibratorInterfaceParameters.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_calibrator/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_calibrator/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_calibrator/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_finder_nodelet</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_finder_nodelet/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_finder_nodelet/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_finder_nodelet/Source Files/LandmarkFinderInterface.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_finder/LandmarkFinderInterface.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_finder_nodelet/Source Files/LandmarkFinderInterfaceParameters.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_finder/LandmarkFinderInterfaceParameters.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_finder_nodelet/Source Files/landmark_finder_nodelet.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_finder/landmark_finder_nodelet.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_finder_nodelet/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_finder_nodelet/Header Files/LandmarkFinderInterface.h</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_finder/LandmarkFinderInterface.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_finder_nodelet/Header Files/LandmarkFinderInterfaceParameters.h</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_finder/LandmarkFinderInterfaceParameters.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_finder_nodelet/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_finder_nodelet/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_finder_nodelet/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_finder</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_finder/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_finder/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_finder/Source Files/LandmarkFinderInterface.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_finder/LandmarkFinderInterface.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_finder/Source Files/LandmarkFinderInterfaceParameters.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_finder/LandmarkFinderInterfaceParameters.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_finder/Source Files/landmark_finder_node.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_finder/landmark_finder_node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_finder/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_finder/Header Files/LandmarkFinderInterface.h</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_finder/LandmarkFinderInterface.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_finder/Header Files/LandmarkFinderInterfaceParameters.h</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_finder/LandmarkFinderInterfaceParameters.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_finder/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_finder/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_finder/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_localizer</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_localizer/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_localizer/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_localizer/Source Files/LandmarkLocalizerInterface.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_localizer/LandmarkLocalizerInterface.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_localizer/Source Files/LandmarkLocalizerInterfaceParameters.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_localizer/LandmarkLocalizerInterfaceParameters.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_localizer/Source Files/landmark_localizer_node.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_localizer/landmark_localizer_node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_localizer/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_localizer/Header Files/LandmarkLocalizerInterface.h</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_localizer/LandmarkLocalizerInterface.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_localizer/Header Files/LandmarkLocalizerInterfaceParameters.h</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_localizer/LandmarkLocalizerInterfaceParameters.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_localizer/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_localizer/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_localizer/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_localizer_nodelet</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_localizer_nodelet/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_localizer_nodelet/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_localizer_nodelet/Source Files/LandmarkLocalizerInterface.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_localizer/LandmarkLocalizerInterface.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_localizer_nodelet/Source Files/LandmarkLocalizerInterfaceParameters.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_localizer/LandmarkLocalizerInterfaceParameters.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_localizer_nodelet/Source Files/landmark_localizer_nodelet.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_localizer/landmark_localizer_nodelet.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_localizer_nodelet/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_localizer_nodelet/Header Files/LandmarkLocalizerInterface.h</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_localizer/LandmarkLocalizerInterface.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_localizer_nodelet/Header Files/LandmarkLocalizerInterfaceParameters.h</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_localizer/LandmarkLocalizerInterfaceParameters.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_localizer_nodelet/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_localizer_nodelet/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] landmark_localizer_nodelet/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_visualizer</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_visualizer/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_visualizer/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_visualizer/Source Files/LandmarkVisualizerParameters.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_visualizer/LandmarkVisualizerParameters.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_visualizer/Source Files/landmark_visualizer.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_visualizer/landmark_visualizer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_visualizer/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_visualizer/Header Files/LandmarkVisualizerParameters.h</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/landmark_visualizer/LandmarkVisualizerParameters.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_visualizer/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_visualizer/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] landmark_visualizer/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_visualizer</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_visualizer/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_visualizer/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_visualizer/Source Files/PoseVisualizerParameters.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/pose_visualizer/PoseVisualizerParameters.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_visualizer/Source Files/pose_visualizer.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/pose_visualizer/pose_visualizer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_visualizer/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_visualizer/Header Files/PoseVisualizerParameters.h</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/pose_visualizer/PoseVisualizerParameters.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_visualizer/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_visualizer/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] pose_visualizer/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] reprojection_visualizer</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] reprojection_visualizer/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] reprojection_visualizer/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] reprojection_visualizer/Source Files/ReprojectionVisualizer.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/reprojection_visualizer/ReprojectionVisualizer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] reprojection_visualizer/Source Files/ReprojectionVisualizerParameters.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/reprojection_visualizer/ReprojectionVisualizerParameters.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] reprojection_visualizer/Source Files/reprojection_visualizer_node.cpp</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/reprojection_visualizer/reprojection_visualizer_node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] reprojection_visualizer/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] reprojection_visualizer/Header Files/ReprojectionVisualizer.h</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/reprojection_visualizer/ReprojectionVisualizer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] reprojection_visualizer/Header Files/ReprojectionVisualizerParameters.h</name>
+			<type>1</type>
+			<location>/home/kal5-1/cargogo/src/stargazer_ros_tool/src/reprojection_visualizer/ReprojectionVisualizerParameters.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] reprojection_visualizer/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] reprojection_visualizer/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] reprojection_visualizer/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+<filteredResources>
+		<filter>
+			<name />
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.orFilterMatcher</id>
+				<arguments>
+					<matcher>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+						<arguments>1.0-name-matches-true-false-catkin</arguments>
+					</matcher>
+					<matcher>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+						<arguments>1.0-name-matches-true-false-catkin_generated</arguments>
+					</matcher>
+					<matcher>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+						<arguments>1.0-name-matches-true-false-gtest</arguments>
+					</matcher>
+					<matcher>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+						<arguments>1.0-name-matches-true-false-test_results</arguments>
+					</matcher>
+					<matcher>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+						<arguments>1.0-name-matches-true-false-CMakeFiles</arguments>
+					</matcher>
+					<matcher>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+						<arguments>1.0-name-matches-true-false-cmake</arguments>
+					</matcher>
+					<matcher>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+						<arguments>1.0-name-matches-true-false-docs</arguments>
+					</matcher>
+				</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<name />
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.orFilterMatcher</id>
+				<arguments>
+					<matcher>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+						<arguments>1.0-name-matches-true-false-build_env.sh</arguments>
+					</matcher>
+					<matcher>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+						<arguments>1.0-name-matches-true-false-CATKIN_IGNORE</arguments>
+					</matcher>
+					<matcher>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+						<arguments>1.0-name-matches-true-false-cmake_install.cmake</arguments>
+					</matcher>
+					<matcher>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+						<arguments>1.0-name-matches-true-false-CMakeCache.txt</arguments>
+					</matcher>
+					<matcher>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+						<arguments>1.0-name-matches-true-false-CTestTestfile.cmake</arguments>
+					</matcher>
+					<matcher>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+						<arguments>1.0-name-matches-true-false-Makefile</arguments>
+					</matcher>
+				</arguments>
+			</matcher>
+		</filter>
+	</filteredResources></projectDescription>

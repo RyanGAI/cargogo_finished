@@ -1,0 +1,44 @@
+In file included from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:50:0[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:1[m[K:
+/opt/ros/kinetic/include/ros/node_handle.h: In instantiation of ‘[01m[Kros::Timer ros::NodeHandle::createTimer(ros::Rate, Handler, Obj, bool, bool) const [with Handler = void (lateral_control_ros_tool::LateralController::*)(const geometry_msgs::TransformStamped_<std::allocator<void> >&); Obj = lateral_control_ros_tool::LateralController*][m[K’:
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:37:111:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1296:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::createTimer(ros::Duration, void (lateral_control_ros_tool::LateralController::*&)(const geometry_msgs::TransformStamped_<std::allocator<void> >&), lateral_control_ros_tool::LateralController*&, bool&, bool&) const[m[K’
+     return createTimer(r.expectedCycleTime(), h, o, oneshot, autostart);
+[01;32m[K                                                                       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1294:9:[m[K [01;36m[Knote: [m[Kcandidate: ros::Timer ros::NodeHandle::createTimer(ros::Rate, Handler, Obj, bool, bool) const [with Handler = void (lateral_control_ros_tool::LateralController::*)(const geometry_msgs::TransformStamped_<std::allocator<void> >&); Obj = lateral_control_ros_tool::LateralController*]
+   Timer createTimer(Rate r, Handler h, Obj o, bool oneshot = false, bool autostart = true) const
+[01;32m[K         ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1294:9:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kros::Duration[m[K’ to ‘[01m[Kros::Rate[m[K’
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1313:9:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> ros::Timer ros::NodeHandle::createTimer(ros::Duration, void (T::*)(const ros::TimerEvent&) const, T*, bool, bool) const
+   Timer createTimer(Duration period, void(T::*callback)(const TimerEvent&) const, T* obj, 
+[01;32m[K         ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1313:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1296:71:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(const ros::TimerEvent&) const[m[K’ and ‘[01m[Kvoid (lateral_control_ros_tool::LateralController::)(const geometry_msgs::TransformStamped_<std::allocator<void> >&)[m[K’ have incompatible cv-qualifiers
+     return createTimer(r.expectedCycleTime(), h, o, oneshot, autostart);
+[01;32m[K                                                                       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1333:9:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> ros::Timer ros::NodeHandle::createTimer(ros::Duration, void (T::*)(const ros::TimerEvent&), T*, bool, bool) const
+   Timer createTimer(Duration period, void(T::*callback)(const TimerEvent&), T* obj, 
+[01;32m[K         ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1333:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1296:71:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst ros::TimerEvent&[m[K’ and ‘[01m[Kconst geometry_msgs::TransformStamped_<std::allocator<void> >&[m[K’
+     return createTimer(r.expectedCycleTime(), h, o, oneshot, autostart);
+[01;32m[K                                                                       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1355:9:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> ros::Timer ros::NodeHandle::createTimer(ros::Duration, void (T::*)(const ros::TimerEvent&), const boost::shared_ptr<X>&, bool, bool) const
+   Timer createTimer(Duration period, void(T::*callback)(const TimerEvent&), const boost::shared_ptr<T>& obj, 
+[01;32m[K         ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1355:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1296:71:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst ros::TimerEvent&[m[K’ and ‘[01m[Kconst geometry_msgs::TransformStamped_<std::allocator<void> >&[m[K’
+     return createTimer(r.expectedCycleTime(), h, o, oneshot, autostart);
+[01;32m[K                                                                       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1377:9:[m[K [01;36m[Knote: [m[Kcandidate: ros::Timer ros::NodeHandle::createTimer(ros::Duration, const TimerCallback&, bool, bool) const
+   Timer createTimer(Duration period, const TimerCallback& callback, bool oneshot = false,
+[01;32m[K         ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1377:9:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 5 provided
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1389:9:[m[K [01;36m[Knote: [m[Kcandidate: ros::Timer ros::NodeHandle::createTimer(ros::TimerOptions&) const
+   Timer createTimer(TimerOptions& ops) const;
+[01;32m[K         ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:1389:9:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 5 provided
+make[2]: *** [CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/src/lateral_controller/lateral_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/all] Error 2
+make: *** [all] Error 2

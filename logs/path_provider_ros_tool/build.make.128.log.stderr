@@ -1,0 +1,4 @@
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:[m[K In constructor ‘[01m[Kpath_provider_ros_tool::PathProvider::PathProvider(ros::NodeHandle, ros::NodeHandle)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:136:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kposestamped[m[K’ [-Wunused-variable]
+   for(const auto& posestamped : one_pathptr[0]->poses){
+[01;32m[K                   ^[m[K

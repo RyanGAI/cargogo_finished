@@ -1,0 +1,25 @@
+In file included from [01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:1:0[m[K:
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.hpp:17:25:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K0.0[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[KEigen::Affine3d {aka Eigen::Transform<double, 3, 2>}[m[K’
+  Eigen::Affine3d pose = 0.;
+[01;32m[K                         ^[m[K
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.hpp:22:29:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K0.0[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[KEigen::Vector3d {aka Eigen::Matrix<double, 3, 1>}[m[K’
+  Eigen::Vector3d position = 0.;
+[01;32m[K                             ^[m[K
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.hpp:23:38:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K0.0[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[KEigen::Vector3d {aka Eigen::Matrix<double, 3, 1>}[m[K’
+  Eigen::Vector3d vehicle_direction = 0.;
+[01;32m[K                                      ^[m[K
+In file included from [01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller_nodelet.cpp:5:0[m[K:
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.hpp:17:25:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K0.0[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[KEigen::Affine3d {aka Eigen::Transform<double, 3, 2>}[m[K’
+  Eigen::Affine3d pose = 0.;
+[01;32m[K                         ^[m[K
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.hpp:22:29:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K0.0[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[KEigen::Vector3d {aka Eigen::Matrix<double, 3, 1>}[m[K’
+  Eigen::Vector3d position = 0.;
+[01;32m[K                             ^[m[K
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.hpp:23:38:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K0.0[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[KEigen::Vector3d {aka Eigen::Matrix<double, 3, 1>}[m[K’
+  Eigen::Vector3d vehicle_direction = 0.;
+[01;32m[K                                      ^[m[K
+make[2]: *** [CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/src/lateral_controller/lateral_controller_nodelet.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/src/lateral_controller/lateral_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/all] Error 2
+make: *** [all] Error 2

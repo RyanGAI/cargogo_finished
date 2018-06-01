@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kal5-1/cargogo/src/iowkit/include/iowkit.h
+
+/home/kal5-1/cargogo/src/iowkit/src/iowarrior.h
+
+/home/kal5-1/cargogo/src/iowkit/src/iowkit.c
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+errno.h
+-
+sys/ioctl.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+unistd.h
+-
+time.h
+-
+pthread.h
+-
+iowkit.h
+/home/kal5-1/cargogo/src/iowkit/src/iowkit.h
+iowarrior.h
+/home/kal5-1/cargogo/src/iowkit/src/iowarrior.h
+

@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/kal5-1/cargogo/src/path_provider_ros_tool/cfg/PathProvider.mrtcfg", line 45, in <module>
+    gen-add("dipatcher_rate", paramtype='double', description="dipatcher rate in Hz", default=5, min=1, max=20, configurable=True, global_scope=False)
+NameError: name 'add' is not defined
+make[2]: *** [/home/kal5-1/cargogo/devel/.private/path_provider_ros_tool/include/path_provider_ros_tool/PathProviderParameters.h] Error 1
+make[1]: *** [CMakeFiles/path_provider_ros_tool_gencfg.dir/all] Error 2
+make: *** [all] Error 2

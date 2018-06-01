@@ -1,0 +1,96 @@
+[  0%] Built target bond_generate_messages_lisp
+[  0%] Built target traffic_sign_detection_ros_tool_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target topic_tools_generate_messages_cpp
+[  0%] Built target nodelet_generate_messages_eus
+[ 40%] Built target path_provider_ros_tool_genparam
+[ 50%] Built target gtest
+[ 50%] Built target path_provider_ros_tool_gencfg
+[ 50%] Built target topic_tools_generate_messages_eus
+[ 50%] Built target std_msgs_generate_messages_nodejs
+[ 50%] Built target nodelet_generate_messages_py
+[ 50%] Built target roscpp_generate_messages_cpp
+[ 50%] Built target roscpp_generate_messages_eus
+[ 50%] Built target bond_generate_messages_eus
+[ 50%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 50%] Built target geometry_msgs_generate_messages_cpp
+[ 50%] Built target geometry_msgs_generate_messages_lisp
+[ 50%] Built target nodelet_generate_messages_lisp
+[ 50%] Built target bond_generate_messages_cpp
+[ 50%] Built target geometry_msgs_generate_messages_py
+[ 50%] Built target motor_interface_ros_tool_generate_messages_eus
+[ 50%] Built target bond_generate_messages_py
+[ 50%] Built target std_msgs_generate_messages_lisp
+[ 50%] Built target bond_generate_messages_nodejs
+[ 50%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 50%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 50%] Built target dynamic_reconfigure_generate_messages_eus
+[ 50%] Built target rosgraph_msgs_generate_messages_lisp
+[ 50%] Built target roscpp_generate_messages_nodejs
+[ 50%] Built target std_srvs_generate_messages_nodejs
+[ 50%] Built target motor_interface_ros_tool_generate_messages_nodejs
+[ 50%] Built target std_srvs_generate_messages_eus
+[ 50%] Built target tf2_msgs_generate_messages_eus
+[ 50%] Built target roscpp_generate_messages_py
+[ 50%] Built target rosgraph_msgs_generate_messages_cpp
+[ 50%] Built target nodelet_generate_messages_cpp
+[ 50%] Built target dynamic_reconfigure_gencfg
+[ 50%] Built target actionlib_generate_messages_nodejs
+[ 50%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 50%] Built target std_msgs_generate_messages_cpp
+[ 50%] Built target rosgraph_msgs_generate_messages_eus
+[ 50%] Built target std_msgs_generate_messages_py
+[ 50%] Built target traffic_sign_detection_ros_tool_generate_messages_py
+[ 50%] Built target motor_interface_ros_tool_generate_messages_py
+[ 50%] Built target std_srvs_generate_messages_py
+[ 50%] Built target geometry_msgs_generate_messages_nodejs
+[ 50%] Built target std_srvs_generate_messages_lisp
+[ 50%] Built target geometry_msgs_generate_messages_eus
+[ 50%] Built target topic_tools_generate_messages_lisp
+[ 50%] Built target std_srvs_generate_messages_cpp
+[ 50%] Built target motor_interface_ros_tool_generate_messages_lisp
+[ 50%] Built target topic_tools_generate_messages_py
+[ 50%] Built target topic_tools_generate_messages_nodejs
+[ 50%] Built target motor_interface_ros_tool_generate_messages_cpp
+[ 50%] Built target actionlib_msgs_generate_messages_nodejs
+[ 50%] Built target tf2_msgs_generate_messages_py
+[ 50%] Built target traffic_sign_detection_ros_tool_generate_messages_cpp
+[ 50%] Built target traffic_sign_detection_ros_tool_generate_messages_lisp
+[ 50%] Built target traffic_sign_detection_ros_tool_generate_messages_nodejs
+[ 50%] Built target nodelet_generate_messages_nodejs
+[ 50%] Built target traffic_sign_detection_ros_tool_geninterface
+[ 50%] Built target actionlib_generate_messages_cpp
+[ 50%] Built target rosgraph_msgs_generate_messages_py
+[ 50%] Built target std_msgs_generate_messages_eus
+[ 50%] Built target actionlib_generate_messages_eus
+[ 50%] Built target actionlib_generate_messages_lisp
+[ 50%] Built target roscpp_generate_messages_lisp
+[ 50%] Built target actionlib_msgs_generate_messages_eus
+[ 50%] Built target dynamic_reconfigure_generate_messages_py
+[ 50%] Built target actionlib_generate_messages_py
+[ 50%] Built target actionlib_msgs_generate_messages_lisp
+[ 50%] Built target actionlib_msgs_generate_messages_py
+[ 50%] Built target tf2_msgs_generate_messages_cpp
+[ 50%] Built target actionlib_msgs_generate_messages_cpp
+[ 50%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target path_provider_ros_tool-path_provider-nodelet[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/src/path_provider/path_provider.cpp.o[0m
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:[m[K In member function ‘[01m[Kvoid path_provider_ros_tool::PathProvider::PathDispatcherCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:216:38:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kpath_provider_ros_tool::PathProvider::ServerFaker(srv)[m[K’ from ‘[01m[Kvoid[m[K’ to ‘[01m[Kbool[m[K’
+          if(PathProvider::ServerFaker(srv)){
+[01;32m[K                                      ^[m[K
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:262:38:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kpath_provider_ros_tool::PathProvider::ServerFaker(srv)[m[K’ from ‘[01m[Kvoid[m[K’ to ‘[01m[Kbool[m[K’
+          if(PathProvider::ServerFaker(srv)){
+[01;32m[K                                      ^[m[K
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:308:38:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kpath_provider_ros_tool::PathProvider::ServerFaker(srv)[m[K’ from ‘[01m[Kvoid[m[K’ to ‘[01m[Kbool[m[K’
+          if(PathProvider::ServerFaker(srv)){
+[01;32m[K                                      ^[m[K
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:354:38:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kpath_provider_ros_tool::PathProvider::ServerFaker(srv)[m[K’ from ‘[01m[Kvoid[m[K’ to ‘[01m[Kbool[m[K’
+          if(PathProvider::ServerFaker(srv)){
+[01;32m[K                                      ^[m[K
+CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/build.make:62: recipe for target 'CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/src/path_provider/path_provider.cpp.o' failed
+make[2]: *** [CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/src/path_provider/path_provider.cpp.o] Error 1
+CMakeFiles/Makefile2:2895: recipe for target 'CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/all' failed
+make[1]: *** [CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

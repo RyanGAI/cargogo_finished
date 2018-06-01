@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel_debug/.private/mrt_image_geometry_ros/share/mrt_image_geometry_ros/cmake/mrt_image_geometry_rosConfig-version.cmake

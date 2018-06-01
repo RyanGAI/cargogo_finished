@@ -1,0 +1,4 @@
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:[m[K In member function ‘[01m[Kvoid lateral_control_ros_tool::LateralController::controlLoopCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:119:28:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kp_rightnow[m[K’ [-Wunused-variable]
+     const Eigen::Vector3d& p_rightnow = it->translation();
+[01;32m[K                            ^[m[K

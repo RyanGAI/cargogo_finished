@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel_debug/.private/rosinterface_handler/lib/pkgconfig/rosinterface_handler.pc

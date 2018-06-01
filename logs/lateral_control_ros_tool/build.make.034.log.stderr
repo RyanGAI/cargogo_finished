@@ -1,0 +1,19 @@
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:[m[K In function ‘[01m[Klateral_control_ros_tool::ReglerParams lateral_control_ros_tool::movingAverage(std::queue<lateral_control_ros_tool::VehicleTf>)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:94:2:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kstd[m[K’
+  std::vector<Eigen::Matrix3d> elements_rotat;
+[01;32m[K  ^[m[K
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:97:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kelements_trans[m[K’ was not declared in this scope
+   elements_trans.emplace_back(posequeue.front().pose.translation());
+[01;32m[K   ^[m[K
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:98:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kelements_rotat[m[K’ was not declared in this scope
+   elements_rotat.emplace_back(posequeue.front().pose.rotation());
+[01;32m[K   ^[m[K
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:103:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kelements_trans[m[K’ was not declared in this scope
+  vehicle_params.position = 0.2 * elements_trans[0] + 0.3 * elements_trans[1] + 0.5 * elements_trans[2];
+[01;32m[K                                  ^[m[K
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:105:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kelements_rotat[m[K’ was not declared in this scope
+  Eigen::Matrix3d average_rotation = 0.2 * elements_rotat[0] + 0.3 * elements_rotat[1] + 0.5 * elements_rotat[2];
+[01;32m[K                                           ^[m[K
+make[2]: *** [CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/src/lateral_controller/lateral_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/all] Error 2
+make: *** [all] Error 2

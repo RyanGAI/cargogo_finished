@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -g  -shared -Wl,-soname,libPvAPI.so -o /home/kal5-1/cargogo/devel_debug/.private/prosilica_gige_sdk/lib/libPvAPI.so  

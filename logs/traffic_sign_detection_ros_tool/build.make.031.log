@@ -1,0 +1,13 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[ 12%] Built target std_msgs_generate_messages_nodejs
+[ 12%] Built target traffic_sign_detection_ros_tool_geninterface
+[ 12%] Built target _traffic_sign_detection_ros_tool_generate_messages_check_deps_jihuo
+[ 37%] Built target traffic_sign_detection_ros_tool_generate_messages_py
+[ 50%] Built target traffic_sign_detection_ros_tool_generate_messages_nodejs
+[ 87%] Built target traffic_sign_detection_ros_tool_generate_messages_eus
+[ 87%] Built target traffic_sign_detection_ros_tool_generate_messages_lisp
+[100%] Built target traffic_sign_detection_ros_tool_generate_messages_cpp
+[100%] Built target traffic_sign_detection_ros_tool_generate_messages

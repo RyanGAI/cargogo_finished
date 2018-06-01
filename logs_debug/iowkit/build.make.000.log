@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target gtest[0m
+make[2]: Warning: File 'gtest/gtest/CMakeFiles/gtest.dir/depend.make' has modification time 0,047 s in the future
+[ 25%] [32mBuilding CXX object gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 50%] [32m[1mLinking CXX shared library libgtest.so[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 50%] Built target gtest
+[35m[1mScanning dependencies of target iowkit[0m
+make[2]: Warning: File 'CMakeFiles/iowkit.dir/depend.make' has modification time 0,049 s in the future
+[ 75%] [32mBuilding C object CMakeFiles/iowkit.dir/src/iowkit.c.o[0m
+[100%] [32m[1mLinking C shared library /home/kal5-1/cargogo/devel_debug/.private/iowkit/lib/libiowkit.so[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target iowkit

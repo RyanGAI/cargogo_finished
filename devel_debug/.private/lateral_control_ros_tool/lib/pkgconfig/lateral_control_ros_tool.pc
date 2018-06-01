@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/devel_debug/.private/lateral_control_ros_tool
+
+Name: lateral_control_ros_tool
+Description: Description of lateral_control_ros_tool
+Version: 0.0.0
+Cflags: -I/home/kal5-1/cargogo/devel_debug/.private/lateral_control_ros_tool/include
+Libs: -L/home/kal5-1/cargogo/devel_debug/.private/lateral_control_ros_tool/lib 
+Requires: 

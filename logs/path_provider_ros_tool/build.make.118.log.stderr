@@ -1,0 +1,16 @@
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:[m[K In constructor ‘[01m[Kpath_provider_ros_tool::PathProvider::PathProvider(ros::NodeHandle, ros::NodeHandle)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:35:39:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(nav_msgs::PathPtr {aka boost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >}) (nav_msgs::Path*)[m[K’
+       path_in_1_[i](new nav_msgs::Path);
+[01;32m[K                                       ^[m[K
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:36:39:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(nav_msgs::PathPtr {aka boost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >}) (nav_msgs::Path*)[m[K’
+       path_in_2_[i](new nav_msgs::Path);
+[01;32m[K                                       ^[m[K
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:37:40:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(nav_msgs::PathPtr {aka boost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >}) (nav_msgs::Path*)[m[K’
+       path_out_1_[i](new nav_msgs::Path);
+[01;32m[K                                        ^[m[K
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:38:40:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(nav_msgs::PathPtr {aka boost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >}) (nav_msgs::Path*)[m[K’
+       path_out_2_[i](new nav_msgs::Path);
+[01;32m[K                                        ^[m[K
+make[2]: *** [CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/src/path_provider/path_provider.cpp.o] Error 1
+make[1]: *** [CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/all] Error 2
+make: *** [all] Error 2

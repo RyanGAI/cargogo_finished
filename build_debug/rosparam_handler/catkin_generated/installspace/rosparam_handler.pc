@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/install_debug
+
+Name: rosparam_handler
+Description: Description of rosparam_handler
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/kal5-1/cargogo/install_debug/lib 
+Requires: catkin

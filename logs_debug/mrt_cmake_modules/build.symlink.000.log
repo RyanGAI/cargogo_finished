@@ -1,0 +1,5 @@
+Symlinking /home/kal5-1/cargogo/devel_debug/share/mrt_cmake_modules/cmake/mrt_cmake_modules-extras.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/share/mrt_cmake_modules/cmake/mrt_cmake_modulesConfig-version.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/share/mrt_cmake_modules/cmake/mrt_cmake_modulesConfig.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/pkgconfig/mrt_cmake_modules.pc
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/python2.7/dist-packages/mrt_cmake_modules/__init__.py

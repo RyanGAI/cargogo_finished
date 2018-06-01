@@ -1,0 +1,8 @@
+\subsubsection usage Usage
+\verbatim
+<node name="vehicle_simulator" pkg="simulation_ros_tool" type="vehicle_simulator">
+  <param name="wheel_base" type="double" value="0.5" />
+  <param name="tf_refresh_rate" type="double" value="60.0" />
+</node>
+\endverbatim
+

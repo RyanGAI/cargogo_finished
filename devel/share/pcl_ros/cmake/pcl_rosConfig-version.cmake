@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel/.private/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig-version.cmake

@@ -1,0 +1,10 @@
+\subsubsection usage Usage
+\verbatim
+<node name="longitudinal_controller" pkg="longitudinal_control_ros_tool" type="longitudinal_controller">
+  <param name="k_long" type="double" value="0.5" />
+  <param name="max_velo" type="double" value="0.5" />
+  <param name="min_velo" type="double" value="2.0" />
+  <param name="kos_shift" type="double" value="0.15" />
+</node>
+\endverbatim
+

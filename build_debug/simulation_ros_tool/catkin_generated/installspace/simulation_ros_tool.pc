@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/install_debug
+
+Name: simulation_ros_tool
+Description: Description of simulation_ros_tool
+Version: 0.0.0
+Cflags: -I/home/kal5-1/cargogo/install_debug/include
+Libs: -L/home/kal5-1/cargogo/install_debug/lib 
+Requires: 

@@ -1,0 +1,4 @@
+Symlinking /home/kal5-1/cargogo/devel_debug/share/prosilica_gige_sdk/cmake/prosilica_gige_sdkConfig.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/share/prosilica_gige_sdk/cmake/prosilica_gige_sdkConfig-version.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/libPvAPI.so
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/pkgconfig/prosilica_gige_sdk.pc

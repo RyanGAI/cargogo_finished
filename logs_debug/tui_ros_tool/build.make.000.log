@@ -1,0 +1,62 @@
+[35m[1mScanning dependencies of target gtest[0m
+make[2]: Warning: File 'gtest/gtest/CMakeFiles/gtest.dir/depend.make' has modification time 0,039 s in the future
+[ 25%] [32mBuilding CXX object gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 50%] [32m[1mLinking CXX shared library libgtest.so[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 50%] Built target gtest
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[ 50%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[ 50%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[ 50%] Built target rosgraph_msgs_generate_messages_lisp
+[ 50%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[ 50%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[ 50%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[ 50%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[ 50%] Built target std_msgs_generate_messages_cpp
+[ 50%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target motor_interface_ros_tool_generate_messages_lisp[0m
+[ 50%] Built target roscpp_generate_messages_cpp
+[ 50%] Built target motor_interface_ros_tool_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[ 50%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[ 50%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[ 50%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target motor_interface_ros_tool_generate_messages_py[0m
+[ 50%] Built target motor_interface_ros_tool_generate_messages_py
+[35m[1mScanning dependencies of target motor_interface_ros_tool_generate_messages_cpp[0m
+[ 50%] Built target motor_interface_ros_tool_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[ 50%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target motor_interface_ros_tool_generate_messages_eus[0m
+[ 50%] Built target motor_interface_ros_tool_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[ 50%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[ 50%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target motor_interface_ros_tool_generate_messages_nodejs[0m
+[ 50%] Built target motor_interface_ros_tool_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[ 50%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[ 50%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[ 50%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[ 50%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tui_ros_tool-tui-exec[0m
+make[2]: Warning: File 'CMakeFiles/tui_ros_tool-tui-exec.dir/depend.make' has modification time 0,039 s in the future
+[ 75%] [32mBuilding CXX object CMakeFiles/tui_ros_tool-tui-exec.dir/src/tui/text_based_user_interface_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel_debug/.private/tui_ros_tool/lib/tui_ros_tool/tui[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target tui_ros_tool-tui-exec

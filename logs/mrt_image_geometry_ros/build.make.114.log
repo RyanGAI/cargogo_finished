@@ -1,0 +1,17 @@
+[ 40%] Built target gtest
+[ 40%] Built target roscpp_generate_messages_cpp
+[ 40%] Built target std_msgs_generate_messages_nodejs
+[ 40%] Built target roscpp_generate_messages_eus
+[ 40%] Built target std_msgs_generate_messages_lisp
+[ 40%] Built target std_msgs_generate_messages_cpp
+[ 40%] Built target rosgraph_msgs_generate_messages_cpp
+[ 40%] Built target roscpp_generate_messages_py
+[ 40%] Built target rosgraph_msgs_generate_messages_eus
+[ 40%] Built target rosgraph_msgs_generate_messages_lisp
+[ 40%] Built target roscpp_generate_messages_nodejs
+[ 40%] Built target rosgraph_msgs_generate_messages_py
+[ 40%] Built target std_msgs_generate_messages_py
+[ 40%] Built target roscpp_generate_messages_lisp
+[ 40%] Built target std_msgs_generate_messages_eus
+[ 40%] Built target rosgraph_msgs_generate_messages_nodejs
+[100%] Built target mrt_image_geometry_ros

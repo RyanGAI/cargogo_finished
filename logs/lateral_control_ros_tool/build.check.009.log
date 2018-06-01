@@ -1,0 +1,37 @@
+[36m--[0m Eclipse version is set to 4.7 (). Adjust CMAKE_ECLIPSE_VERSION if this is wrong.
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/kal5-1/cargogo/devel/.private/lateral_control_ros_tool
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/kal5-1/cargogo/devel;/opt/mrtsoftware/local;/opt/mrtsoftware/release;/opt/ros/kinetic
+[36m--[0m This workspace overlays: /home/kal5-1/cargogo/devel;/opt/mrtsoftware/local;/opt/mrtsoftware/release;/opt/ros/kinetic
+[33m[1mCMake Warning[0m at /home/kal5-1/cargogo/devel/share/mrt_cmake_modules/cmake/mrt_cmake_modules-extras.cmake:10 (message):
+  Current CMakeLists.txt version is less than the recommended version 2.1.
+  If you are the maintainer, please update it with
+
+  'mrt maintenance update_cmakelists lateral_control_ros_tool'.
+[36mCall Stack (most recent call first):[0m
+  /home/kal5-1/cargogo/devel/share/mrt_cmake_modules/cmake/mrt_cmake_modulesConfig.cmake:197 (include)
+  CMakeLists.txt:9 (find_package)
+
+
+[36m--[0m Using PYTHON_EXECUTABLE: /opt/mrtsoftware/release/lib/mrt-build-tools/bin/python
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/kal5-1/cargogo/build/lateral_control_ros_tool/test_results
+[36m--[0m Found gmock sources under '/usr/src/gmock': gmock will be built
+[36m--[0m Found gtest sources under '/usr/src/gmock': gtests will be built
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.11
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m Adding nodelet "lateral_controller_nodelet"
+[36m--[0m Adding executable "lateral_controller"
+[36m--[0m Marking targets "lateral_control_ros_tool-lateral_controller-nodelet;lateral_control_ros_tool-lateral_controller-exec" of package "lateral_control_ros_tool" for installation
+[36m--[0m Marking HEADER FILES in "include" folder of package "lateral_control_ros_tool" for installation
+[36m--[0m Marking SHARED CONTENT FOLDER "launch" of package "lateral_control_ros_tool" for installation
+[36m--[0m Marking FILE "nodelet_plugins.xml" of package "lateral_control_ros_tool" for installation
+[36m--[0m Adding gtest-rostest "lateral_controller_nodelet-test" with test file test/lateral_controller_nodelet.test
+[36m--[0m Adding gtest-rostest "lateral_controller_node-test" with test file test/lateral_controller_node.test
+[36m--[0m Adding nosetests in folder test
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/kal5-1/cargogo/build/lateral_control_ros_tool

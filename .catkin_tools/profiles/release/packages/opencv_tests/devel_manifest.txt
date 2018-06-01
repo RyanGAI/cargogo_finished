@@ -1,0 +1,4 @@
+vision_opencv/opencv_tests
+/home/kal5-1/cargogo/devel/.private/opencv_tests/share/opencv_tests/cmake/opencv_testsConfig.cmake /home/kal5-1/cargogo/devel/share/opencv_tests/cmake/opencv_testsConfig.cmake
+/home/kal5-1/cargogo/devel/.private/opencv_tests/share/opencv_tests/cmake/opencv_testsConfig-version.cmake /home/kal5-1/cargogo/devel/share/opencv_tests/cmake/opencv_testsConfig-version.cmake
+/home/kal5-1/cargogo/devel/.private/opencv_tests/lib/pkgconfig/opencv_tests.pc /home/kal5-1/cargogo/devel/lib/pkgconfig/opencv_tests.pc

@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel_debug/.private/vehicle_setup/lib/pkgconfig/vehicle_setup.pc

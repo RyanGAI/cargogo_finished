@@ -1,0 +1,161 @@
+[35m[1mScanning dependencies of target prosilica[0m
+make[2]: Warning: File 'CMakeFiles/prosilica.dir/depend.make' has modification time 0,043 s in the future
+[  6%] [32mBuilding CXX object CMakeFiles/prosilica.dir/src/libprosilica/prosilica.cpp.o[0m
+[ 13%] [32m[1mLinking CXX shared library /home/kal5-1/cargogo/devel_debug/.private/prosilica_driver/lib/libprosilica.so[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 13%] Built target prosilica
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[ 13%] Built target dynamic_reconfigure_gencfg
+[35m[1mScanning dependencies of target nodelet_topic_tools_gencfg[0m
+[ 13%] Built target nodelet_topic_tools_gencfg
+[35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[ 13%] Built target bond_generate_messages_lisp
+[35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[ 13%] Built target bond_generate_messages_cpp
+[35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[ 13%] Built target nodelet_generate_messages_nodejs
+[35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[ 13%] Built target nodelet_generate_messages_lisp
+[35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[ 13%] Built target bond_generate_messages_nodejs
+[35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[ 13%] Built target nodelet_generate_messages_eus
+[35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[ 13%] Built target nodelet_generate_messages_cpp
+[35m[1mScanning dependencies of target polled_camera_generate_messages_py[0m
+[ 13%] Built target polled_camera_generate_messages_py
+[35m[1mScanning dependencies of target polled_camera_generate_messages_nodejs[0m
+[ 13%] Built target polled_camera_generate_messages_nodejs
+[35m[1mScanning dependencies of target polled_camera_generate_messages_lisp[0m
+[ 13%] Built target polled_camera_generate_messages_lisp
+[35m[1mScanning dependencies of target polled_camera_generate_messages_eus[0m
+[ 13%] Built target polled_camera_generate_messages_eus
+[35m[1mScanning dependencies of target polled_camera_generate_messages_cpp[0m
+[ 13%] Built target polled_camera_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[ 13%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[ 13%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[ 13%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[ 13%] Built target dynamic_reconfigure_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[ 13%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[ 13%] Built target dynamic_reconfigure_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[ 13%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[ 13%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[ 13%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[ 13%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[ 13%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[ 13%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_eus[0m
+[ 13%] Built target diagnostic_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[ 13%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[ 13%] Built target bond_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[ 13%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[ 13%] Built target bond_generate_messages_eus
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_lisp[0m
+[ 13%] Built target diagnostic_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[ 13%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[ 13%] Built target dynamic_reconfigure_generate_messages_cpp
+[35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[ 13%] Built target nodelet_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[ 13%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[ 13%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[ 13%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[ 13%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[ 13%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[ 13%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[ 13%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target driver_base_generate_messages_lisp[0m
+[ 13%] Built target driver_base_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[ 13%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[ 13%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[ 13%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_cpp[0m
+[ 13%] Built target diagnostic_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target driver_base_generate_messages_cpp[0m
+[ 13%] Built target driver_base_generate_messages_cpp
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_nodejs[0m
+[ 13%] Built target diagnostic_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target driver_base_generate_messages_nodejs[0m
+[ 13%] Built target driver_base_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[ 13%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_py[0m
+[ 13%] Built target diagnostic_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[ 13%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target driver_base_generate_messages_py[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[ 13%] Built target driver_base_generate_messages_py
+[35m[1mScanning dependencies of target driver_base_generate_messages_eus[0m
+[ 13%] Built target dynamic_reconfigure_generate_messages_py
+[ 13%] Built target driver_base_generate_messages_eus
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[ 13%] Built target dynamic_reconfigure_generate_messages_eus
+[35m[1mScanning dependencies of target set_inhibition[0m
+[35m[1mScanning dependencies of target set_ip[0m
+make[2]: Warning: File 'CMakeFiles/set_inhibition.dir/depend.make' has modification time 0,038 s in the future
+make[2]: Warning: File 'CMakeFiles/set_ip.dir/depend.make' has modification time 0,045 s in the future
+[ 20%] [32mBuilding CXX object CMakeFiles/set_inhibition.dir/src/utilities/set_inhibition.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/set_ip.dir/src/utilities/set_ip.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel_debug/.private/prosilica_driver/lib/prosilica_driver/set_inhibition[0m
+[ 40%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel_debug/.private/prosilica_driver/lib/prosilica_driver/set_ip[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 40%] Built target set_inhibition
+[ 40%] Built target set_ip
+[35m[1mScanning dependencies of target read_memory[0m
+make[2]: Warning: File 'CMakeFiles/read_memory.dir/depend.make' has modification time 0,039 s in the future
+[ 46%] [32mBuilding CXX object CMakeFiles/read_memory.dir/src/utilities/read_memory.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel_debug/.private/prosilica_driver/lib/prosilica_driver/read_memory[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 53%] Built target read_memory
+[35m[1mScanning dependencies of target write_memory[0m
+make[2]: Warning: File 'CMakeFiles/write_memory.dir/depend.make' has modification time 0,044 s in the future
+[ 60%] [32mBuilding CXX object CMakeFiles/write_memory.dir/src/utilities/write_memory.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel_debug/.private/prosilica_driver/lib/prosilica_driver/write_memory[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 66%] Built target write_memory
+[35m[1mScanning dependencies of target prosilica_driver_gencfg[0m
+[ 73%] [34m[1mGenerating dynamic reconfigure files from cfg/ProsilicaCamera.cfg: /home/kal5-1/cargogo/devel_debug/.private/prosilica_driver/include/prosilica_driver/ProsilicaCameraConfig.h /home/kal5-1/cargogo/devel_debug/.private/prosilica_driver/lib/python2.7/dist-packages/prosilica_driver/cfg/ProsilicaCameraConfig.py[0m
+Generating reconfiguration files for ProsilicaCamera in prosilica_driver
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/prosilica_driver/include/prosilica_driver/ProsilicaCameraConfig.h
+[ 73%] Built target prosilica_driver_gencfg
+[35m[1mScanning dependencies of target prosilica_nodelet[0m
+make[2]: Warning: File 'CMakeFiles/prosilica_nodelet.dir/depend.make' has modification time 0,034 s in the future
+[ 80%] [32mBuilding CXX object CMakeFiles/prosilica_nodelet.dir/src/nodes/prosilica_nodelet.cpp.o[0m
+[ 86%] [32m[1mLinking CXX shared library /home/kal5-1/cargogo/devel_debug/.private/prosilica_driver/lib/libprosilica_nodelet.so[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 86%] Built target prosilica_nodelet
+[35m[1mScanning dependencies of target prosilica_node[0m
+make[2]: Warning: File 'CMakeFiles/prosilica_node.dir/depend.make' has modification time 0,036 s in the future
+[ 93%] [32mBuilding CXX object CMakeFiles/prosilica_node.dir/src/nodes/prosilica_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel_debug/.private/prosilica_driver/lib/prosilica_driver/prosilica_node[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target prosilica_node

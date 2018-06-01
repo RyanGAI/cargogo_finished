@@ -1,0 +1,6 @@
+make[2]: Warning: File 'CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/depend.make' has modification time 0,0064 s in the future
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:[m[K In member function ‘[01m[Kvoid lateral_control_ros_tool::LateralController::movingAverage(const std::deque<lateral_control_ros_tool::VehicleTf>&)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:97:20:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < posequeue.size(); i++){
+[01;32m[K                    ^[m[K
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.

@@ -1,0 +1,6 @@
+devel_space: /home/kal5-1/cargogo/devel_debug
+install: false
+install_space: /home/kal5-1/cargogo/install_debug
+profile: debug
+source_space: /home/kal5-1/cargogo/src
+workspace: /home/kal5-1/cargogo

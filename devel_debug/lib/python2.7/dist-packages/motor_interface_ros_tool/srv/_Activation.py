@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel_debug/.private/motor_interface_ros_tool/lib/python2.7/dist-packages/motor_interface_ros_tool/srv/_Activation.py

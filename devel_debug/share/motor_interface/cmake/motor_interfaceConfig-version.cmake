@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel_debug/.private/motor_interface/share/motor_interface/cmake/motor_interfaceConfig-version.cmake

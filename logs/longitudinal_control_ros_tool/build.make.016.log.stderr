@@ -1,0 +1,12 @@
+make[2]: Warning: File 'CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/depend.make' has modification time 0,036 s in the future
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:[m[K In member function ‘[01m[Kvoid longitudinal_control_ros_tool::LongitudinalController::controlLoopCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:107:77:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (std::vector<Eigen::Affine3d>::size_type i = closet_point_index; i <= pointahead_index; i++){
+[01;32m[K                                                                             ^[m[K
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:114:77:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+      for (std::vector<Eigen::Affine3d>::size_type i = closet_point_index; i <= pointahead_index; i++){
+[01;32m[K                                                                             ^[m[K
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:90:27:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcloset_trajectory_point[m[K’ set but not used [-Wunused-but-set-variable]
+     const Eigen::Vector3d closet_trajectory_point = it->translation();
+[01;32m[K                           ^[m[K
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.

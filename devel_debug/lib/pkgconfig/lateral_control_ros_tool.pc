@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel_debug/.private/lateral_control_ros_tool/lib/pkgconfig/lateral_control_ros_tool.pc

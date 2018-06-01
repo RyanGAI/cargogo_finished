@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/devel_debug/.private/prosilica_driver
+
+Name: prosilica_driver
+Description: Description of prosilica_driver
+Version: 1.9.4
+Cflags: -I/home/kal5-1/cargogo/devel_debug/.private/prosilica_driver/include
+Libs: -L/home/kal5-1/cargogo/devel_debug/.private/prosilica_driver/lib 
+Requires: 

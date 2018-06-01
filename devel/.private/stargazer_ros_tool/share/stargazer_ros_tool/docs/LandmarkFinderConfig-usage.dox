@@ -1,0 +1,16 @@
+\subsubsection usage Usage
+\verbatim
+<node name="stargazer_ros_tool" pkg="stargazer_ros_tool" type="stargazer_ros_tool">
+  <param name="tight_filter_size" type="int" value="0" />
+  <param name="wide_filter_size" type="int" value="0" />
+  <param name="threshold" type="int" value="0" />
+  <param name="maxRadiusForPixelCluster" type="double" value="0.0" />
+  <param name="maxRadiusForCluster" type="double" value="0.0" />
+  <param name="minPixelForCluster" type="int" value="0" />
+  <param name="maxPixelForCluster" type="int" value="0" />
+  <param name="minPointsPerLandmark" type="int" value="0" />
+  <param name="maxPointsPerLandmark" type="int" value="0" />
+  <param name="debug_mode" type="bool" value="False" />
+</node>
+\endverbatim
+

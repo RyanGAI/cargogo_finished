@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/devel/.private/rosinterface_handler
+
+Name: rosinterface_handler
+Description: Description of rosinterface_handler
+Version: 0.2.1
+Cflags: -I/home/kal5-1/cargogo/devel/.private/rosinterface_handler/include -I/home/kal5-1/cargogo/src/rosinterface_handler/include
+Libs: -L/home/kal5-1/cargogo/devel/.private/rosinterface_handler/lib 
+Requires: catkin

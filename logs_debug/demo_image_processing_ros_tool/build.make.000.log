@@ -1,0 +1,162 @@
+[35m[1mScanning dependencies of target gtest[0m
+make[2]: Warning: File 'gtest/gtest/CMakeFiles/gtest.dir/depend.make' has modification time 0,038 s in the future
+[  8%] [32mBuilding CXX object gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[  8%] Built target nodelet_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[  8%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[  8%] Built target bond_generate_messages_lisp
+[35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[  8%] Built target bond_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  8%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_lisp[0m
+[  8%] Built target diagnostic_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  8%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  8%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  8%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[  8%] Built target bond_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  8%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[  8%] Built target nodelet_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  8%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  8%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target motor_interface_ros_tool_generate_messages_eus[0m
+[  8%] Built target motor_interface_ros_tool_generate_messages_eus
+[35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[  8%] Built target bond_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  8%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[  8%] Built target bond_generate_messages_nodejs
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[  8%] Built target dynamic_reconfigure_generate_messages_eus
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[  8%] Built target dynamic_reconfigure_generate_messages_nodejs
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[  8%] Built target dynamic_reconfigure_generate_messages_cpp
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_py[0m
+[  8%] Built target diagnostic_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  8%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target motor_interface_ros_tool_generate_messages_nodejs[0m
+[  8%] Built target motor_interface_ros_tool_generate_messages_nodejs
+[35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[  8%] Built target nodelet_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  8%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  8%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[  8%] Built target dynamic_reconfigure_gencfg
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  8%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[  8%] Built target nodelet_generate_messages_py
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_eus[0m
+[  8%] Built target diagnostic_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  8%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  8%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  8%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[  8%] Built target dynamic_reconfigure_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  8%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  8%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  8%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  8%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target motor_interface_ros_tool_generate_messages_lisp[0m
+[  8%] Built target motor_interface_ros_tool_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  8%] Built target std_msgs_generate_messages_cpp
+[ 16%] [32m[1mLinking CXX shared library libgtest.so[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[ 16%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[ 16%] Built target roscpp_generate_messages_nodejs
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[ 16%] Built target gtest
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[ 16%] Built target sensor_msgs_generate_messages_py
+[ 16%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[ 16%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_nodejs[0m
+[ 16%] Built target diagnostic_msgs_generate_messages_cpp
+[ 16%] Built target diagnostic_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[ 16%] Built target std_msgs_generate_messages_eus
+[ 16%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[ 16%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[ 16%] Built target dynamic_reconfigure_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[ 16%] Built target actionlib_generate_messages_py
+[ 16%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target motor_interface_ros_tool_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[ 16%] Built target actionlib_msgs_generate_messages_nodejs
+[ 16%] Built target motor_interface_ros_tool_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[ 16%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[ 16%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[ 16%] Built target nodelet_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[ 16%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[ 16%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target motor_interface_ros_tool_generate_messages_py[0m
+[ 16%] Built target motor_interface_ros_tool_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[ 16%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target demo_image_processing_ros_tool_genparam[0m
+[ 25%] [34m[1mGenerating parameter files from PylonDetector[0m
+['gen.add(name = \'threshold\', paramtype = \'int\', level = 0, description = \'Number of pixels to assume detected pylon\', edit_method="", default=350, min=0, max=5000)', 'gen.add(name = \'h_min\', paramtype = \'int\', level = 0, description = \'Minimum hue value\', edit_method="", default=0, min=0, max=255)', 'gen.add(name = \'h_max\', paramtype = \'int\', level = 0, description = \'Maximum hue value\', edit_method="", default=5, min=0, max=255)', 'gen.add(name = \'s_min\', paramtype = \'int\', level = 0, description = \'Minimum saturation value\', edit_method="", default=150, min=0, max=255)', 'gen.add(name = \'s_max\', paramtype = \'int\', level = 0, description = \'Maximum saturation value\', edit_method="", default=255, min=0, max=255)', 'gen.add(name = \'v_min\', paramtype = \'int\', level = 0, description = \'Minimum value value\', edit_method="", default=50, min=0, max=255)', 'gen.add(name = \'v_max\', paramtype = \'int\', level = 0, description = \'Maximum value value\', edit_method="", default=255, min=0, max=255)', 'gen.add(name = \'median_blur_kernel_size\', paramtype = \'int\', level = 0, description = \'Maximum value value\', edit_method="", default=3, min=1, max=50)']
+[ 25%] Built target demo_image_processing_ros_tool_genparam
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[ 25%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target demo_image_processing_ros_tool_gencfg[0m
+[ 25%] Built target sensor_msgs_generate_messages_cpp
+[ 33%] [34m[1mGenerating dynamic reconfigure files from /home/kal5-1/cargogo/devel_debug/.private/demo_image_processing_ros_tool/share/demo_image_processing_ros_tool/cfg/PylonDetector.cfg: /home/kal5-1/cargogo/devel_debug/.private/demo_image_processing_ros_tool/include/demo_image_processing_ros_tool/PylonDetectorConfig.h /home/kal5-1/cargogo/devel_debug/.private/demo_image_processing_ros_tool/lib/python2.7/dist-packages/demo_image_processing_ros_tool/cfg/PylonDetectorConfig.py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[ 33%] Built target std_msgs_generate_messages_nodejs
+Generating reconfiguration files for PylonDetector in demo_image_processing_ros_tool
+Wrote header file in /home/kal5-1/cargogo/devel_debug/.private/demo_image_processing_ros_tool/include/demo_image_processing_ros_tool/PylonDetectorConfig.h
+[ 41%] Built target demo_image_processing_ros_tool_gencfg
+[35m[1mScanning dependencies of target demo_image_processing_ros_tool-pylon_detector-exec[0m
+make[2]: Warning: File 'CMakeFiles/demo_image_processing_ros_tool-pylon_detector-exec.dir/depend.make' has modification time 0,037 s in the future
+[ 50%] [32mBuilding CXX object CMakeFiles/demo_image_processing_ros_tool-pylon_detector-exec.dir/src/pylon_detector/pylon_detector_node.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/demo_image_processing_ros_tool-pylon_detector-exec.dir/src/pylon_detector/pylon_detector_nodelet.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/demo_image_processing_ros_tool-pylon_detector-exec.dir/src/pylon_detector/pylon_detector.cpp.o[0m
+[35m[1mScanning dependencies of target demo_image_processing_ros_tool-pylon_detector-nodelet[0m
+make[2]: Warning: File 'CMakeFiles/demo_image_processing_ros_tool-pylon_detector-nodelet.dir/depend.make' has modification time 0,04 s in the future
+[ 75%] [32mBuilding CXX object CMakeFiles/demo_image_processing_ros_tool-pylon_detector-nodelet.dir/src/pylon_detector/pylon_detector_nodelet.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/demo_image_processing_ros_tool-pylon_detector-nodelet.dir/src/pylon_detector/pylon_detector.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable /home/kal5-1/cargogo/devel_debug/.private/demo_image_processing_ros_tool/lib/demo_image_processing_ros_tool/pylon_detector[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 91%] Built target demo_image_processing_ros_tool-pylon_detector-exec
+[100%] [32m[1mLinking CXX shared library /home/kal5-1/cargogo/devel_debug/.private/demo_image_processing_ros_tool/lib/libpylon_detector_nodelet.so[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target demo_image_processing_ros_tool-pylon_detector-nodelet

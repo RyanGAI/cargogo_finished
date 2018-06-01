@@ -1,0 +1,11 @@
+In file included from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller_nodelet.cpp:5:0[m[K:
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.hpp:10:23:[m[K [01;31m[Kfatal error: [m[KEigen/Dense: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/src/longitudinal_controller/longitudinal_controller_nodelet.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:1:0[m[K:
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.hpp:10:23:[m[K [01;31m[Kfatal error: [m[KEigen/Dense: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/src/longitudinal_controller/longitudinal_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/all] Error 2
+make: *** [all] Error 2

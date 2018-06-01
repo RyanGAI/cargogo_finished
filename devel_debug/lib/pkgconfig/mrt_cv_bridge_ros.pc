@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel_debug/.private/mrt_cv_bridge_ros/lib/pkgconfig/mrt_cv_bridge_ros.pc

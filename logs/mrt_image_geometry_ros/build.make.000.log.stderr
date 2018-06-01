@@ -1,0 +1,5 @@
+/home/kal5-1/cargogo/src/mrt_image_geometry_ros/src/pinhole_camera_model.cpp: In instantiation of ‘[01m[Kbool image_geometry::updateMat(const MatT&, MatT&, cv::Mat_<double>&, int, int) [with MatT = std::vector<double>][m[K’:
+[01m[K/home/kal5-1/cargogo/src/mrt_image_geometry_ros/src/pinhole_camera_model.cpp:108:66:[m[K   required from here
+[01m[K/home/kal5-1/cargogo/src/mrt_image_geometry_ros/src/pinhole_camera_model.cpp:63:45:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [-Wsign-compare]
+   if ((my_mat == new_mat) && (my_mat.size() == cv_mat.rows*cv_mat.cols))
+[01;32m[K                                             ^[m[K

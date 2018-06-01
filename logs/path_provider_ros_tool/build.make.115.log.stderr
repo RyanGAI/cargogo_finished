@@ -1,0 +1,8 @@
+make[2]: Warning: File 'CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/depend.make' has modification time 0,026 s in the future
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File 'CMakeFiles/path_provider_ros_tool-path_provider-exec.dir/depend.make' has modification time 0,024 s in the future
+/home/kal5-1/cargogo/devel/.private/path_provider_ros_tool/lib/libpath_provider_nodelet.so: error: undefined reference to 'void tf2::fromMsg<geometry_msgs::PoseStamped_<std::allocator<void> >, Eigen::Transform<double, 3, 2, 0> >(geometry_msgs::PoseStamped_<std::allocator<void> > const&, Eigen::Transform<double, 3, 2, 0>&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/kal5-1/cargogo/devel/.private/path_provider_ros_tool/lib/path_provider_ros_tool/path_provider] Error 1
+make[1]: *** [CMakeFiles/path_provider_ros_tool-path_provider-exec.dir/all] Error 2
+make: *** [all] Error 2

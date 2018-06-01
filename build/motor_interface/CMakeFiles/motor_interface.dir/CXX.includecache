@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kal5-1/cargogo/src/iowkit/include/iowkit.h
+
+/home/kal5-1/cargogo/src/motor_interface/include/motor_interface/EPOS.h
+string
+-
+
+/home/kal5-1/cargogo/src/motor_interface/include/motor_interface/IOWarriorIIC.h
+iowkit.h
+-
+stdexcept
+-
+
+/home/kal5-1/cargogo/src/motor_interface/src/EPOS.cpp
+EPOS.h
+/home/kal5-1/cargogo/src/motor_interface/src/EPOS.h
+cstring
+-
+fcntl.h
+-
+iostream
+-
+sstream
+-
+stdexcept
+-
+termios.h
+-
+unistd.h
+-
+Timestamp.h
+/home/kal5-1/cargogo/src/motor_interface/src/Timestamp.h
+
+/home/kal5-1/cargogo/src/motor_interface/src/IOWarriorIIC.cpp
+IOWarriorIIC.h
+/home/kal5-1/cargogo/src/motor_interface/src/IOWarriorIIC.h
+cstring
+-
+

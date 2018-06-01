@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/devel_debug/.private/longitudinal_control_ros_tool
+
+Name: longitudinal_control_ros_tool
+Description: Description of longitudinal_control_ros_tool
+Version: 0.0.0
+Cflags: -I/home/kal5-1/cargogo/devel_debug/.private/longitudinal_control_ros_tool/include
+Libs: -L/home/kal5-1/cargogo/devel_debug/.private/longitudinal_control_ros_tool/lib 
+Requires: 

@@ -1,0 +1,9 @@
+make[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 0,0028 s in the future
+make[2]: Warning: File 'CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/depend.make' has modification time 0,059 s in the future
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:[m[K In member function ‘[01m[Kvoid lateral_control_ros_tool::LateralController::controlLoopCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:215:29:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_DEBUG_STREEAM[m[K’ was not declared in this scope
+  ROS_DEBUG_STREEAM("stage 2");
+[01;32m[K                             ^[m[K
+make[2]: *** [CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/src/lateral_controller/lateral_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/all] Error 2
+make: *** [all] Error 2

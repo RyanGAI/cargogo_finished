@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel/.private/traffic_sign_detection_ros_tool/share/gennodejs/ros/traffic_sign_detection_ros_tool/_index.js

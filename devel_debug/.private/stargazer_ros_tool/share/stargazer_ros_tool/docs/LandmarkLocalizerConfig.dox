@@ -1,0 +1,6 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~debug_mode" : \b [bool] Activate debug mode for landmark localizer to show results min: False, default: False, max: True
+

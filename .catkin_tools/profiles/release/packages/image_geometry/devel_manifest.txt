@@ -1,0 +1,6 @@
+vision_opencv/image_geometry
+/home/kal5-1/cargogo/devel/.private/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake /home/kal5-1/cargogo/devel/share/image_geometry/cmake/image_geometryConfig-version.cmake
+/home/kal5-1/cargogo/devel/.private/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake /home/kal5-1/cargogo/devel/share/image_geometry/cmake/image_geometryConfig.cmake
+/home/kal5-1/cargogo/devel/.private/image_geometry/lib/libimage_geometry.so /home/kal5-1/cargogo/devel/lib/libimage_geometry.so
+/home/kal5-1/cargogo/devel/.private/image_geometry/lib/pkgconfig/image_geometry.pc /home/kal5-1/cargogo/devel/lib/pkgconfig/image_geometry.pc
+/home/kal5-1/cargogo/devel/.private/image_geometry/lib/python2.7/dist-packages/image_geometry/__init__.py /home/kal5-1/cargogo/devel/lib/python2.7/dist-packages/image_geometry/__init__.py

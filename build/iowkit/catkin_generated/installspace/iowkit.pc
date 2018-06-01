@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/install
+
+Name: iowkit
+Description: Description of iowkit
+Version: 0.0.0
+Cflags: -I/home/kal5-1/cargogo/install/include
+Libs: -L/home/kal5-1/cargogo/install/lib -liowkit
+Requires: mrt_cmake_modules

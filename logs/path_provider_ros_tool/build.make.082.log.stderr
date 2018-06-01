@@ -1,0 +1,103 @@
+make[2]: Warning: File 'CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/depend.make' has modification time 0,036 s in the future
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:[m[K In constructor ‘[01m[Kpath_provider_ros_tool::PathProvider::PathProvider(ros::NodeHandle, ros::NodeHandle)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:70:28:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KEigen::Vector3d {aka Eigen::Matrix<double, 3, 1>}[m[K’ and ‘[01m[Kgeometry_msgs::Pose_<std::allocator<void> >::_position_type {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’)
+              pointposition = pose_ros.pose.position;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = double; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const Matrix& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:206:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::Pose_<std::allocator<void> >::_position_type {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ to ‘[01m[Kconst Eigen::Matrix<double, 3, 1>&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const DenseBase<OtherDerived>& other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:223:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:70:28:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::Pose_<std::allocator<void> >::_position_type {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ is not derived from ‘[01m[Kconst Eigen::DenseBase<Derived>[m[K’
+              pointposition = pose_ros.pose.position;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const EigenBase<OtherDerived> &other)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:236:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:70:28:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::Pose_<std::allocator<void> >::_position_type {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ is not derived from ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’
+              pointposition = pose_ros.pose.position;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::ReturnByValue<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1]
+     EIGEN_STRONG_INLINE Matrix& operator=(const ReturnByValue<OtherDerived>& func)
+[01;32m[K                                 ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:243:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:70:28:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::Pose_<std::allocator<void> >::_position_type {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ is not derived from ‘[01m[Kconst Eigen::ReturnByValue<Derived>[m[K’
+              pointposition = pose_ros.pose.position;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:367:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:281:13:[m[K [01;36m[Knote: [m[Kcandidate: Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = double; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1]
+     Matrix& operator=(Matrix&& other)
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:281:13:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::Pose_<std::allocator<void> >::_position_type {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ to ‘[01m[KEigen::Matrix<double, 3, 1>&&[m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::RotationBase<OtherDerived, ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = double; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1]
+     Matrix& operator=(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[01;32m[K             ^[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:392:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:70:28:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::Pose_<std::allocator<void> >::_position_type {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ is not derived from ‘[01m[Kconst Eigen::RotationBase<OtherDerived, 1>[m[K’
+              pointposition = pose_ros.pose.position;
+[01;32m[K                            ^[m[K
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:72:65:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand types are ‘[01m[Kdouble[m[K’ and ‘[01m[Kgeometry_msgs::Pose_<std::allocator<void> >::_position_type {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’)
+              pose_ros.pose.position = 0.7 * pointposition + 0.3 * pose_ros.pose.position;
+[01;32m[K                                                                 ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:70:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/c++/5/complex:404:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> std::complex<_Tp> std::operator*(const _Tp&, const std::complex<_Tp>&)
+     operator*(const _Tp& __x, const complex<_Tp>& __y)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/complex:404:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:72:81:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::Pose_<std::allocator<void> >::_position_type {aka geometry_msgs::Point_<std::allocator<void> >}[m[K’ is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+              pose_ros.pose.position = 0.7 * pointposition + 0.3 * pose_ros.pose.position;
+[01;32m[K                                                                                 ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:70:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/c++/5/complex:395:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const _Tp&)
+     operator*(const complex<_Tp>& __x, const _Tp& __y)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/complex:395:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:72:81:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+              pose_ros.pose.position = 0.7 * pointposition + 0.3 * pose_ros.pose.position;
+[01;32m[K                                                                                 ^[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:70:0[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:3[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/c++/5/complex:386:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const std::complex<_Tp>&)
+     operator*(const complex<_Tp>& __x, const complex<_Tp>& __y)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/complex:386:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:72:81:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kdouble[m[K’
+              pose_ros.pose.position = 0.7 * pointposition + 0.3 * pose_ros.pose.position;
+[01;32m[K                                                                                 ^[m[K
+make[2]: *** [CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/src/path_provider/path_provider.cpp.o] Error 1
+make[1]: *** [CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/all] Error 2
+make: *** [all] Error 2

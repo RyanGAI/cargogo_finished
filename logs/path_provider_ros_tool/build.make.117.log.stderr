@@ -1,0 +1,421 @@
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:[m[K In constructor ‘[01m[Kpath_provider_ros_tool::PathProvider::PathProvider(ros::NodeHandle, ros::NodeHandle)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:35:21:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knav_msgs::PathPtr {aka boost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >}[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’)
+       path_in_1_[i] = new nav_msgs::Path;
+[01;32m[K                     ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:500:18:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(const boost::shared_ptr<T>&) [with T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( shared_ptr const & r ) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:500:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’ to ‘[01m[Kconst boost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >&[m[K’
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:509:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(const boost::shared_ptr<Y>&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=(shared_ptr<Y> const & r) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:509:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:35:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::shared_ptr<X>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_in_1_[i] = new nav_msgs::Path;
+[01;32m[K                     ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:520:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( std::auto_ptr<Y> & r )
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:520:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:35:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::auto_ptr<T>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_in_1_[i] = new nav_msgs::Path;
+[01;32m[K                     ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:529:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( std::auto_ptr<Y> && r )
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:529:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:35:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::auto_ptr<T>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_in_1_[i] = new nav_msgs::Path;
+[01;32m[K                     ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:551:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y, class D> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::unique_ptr<_Up, _Ep>&&) [with Y = Y; D = D; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( std::unique_ptr<Y, D> && r )
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:551:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:35:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_in_1_[i] = new nav_msgs::Path;
+[01;32m[K                     ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:587:18:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::shared_ptr<T>&&) [with T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( shared_ptr && r ) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:587:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’ to ‘[01m[Kboost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >&&[m[K’
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:594:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::shared_ptr<Y>&&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( shared_ptr<Y> && r ) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:594:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:35:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kboost::shared_ptr<X>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_in_1_[i] = new nav_msgs::Path;
+[01;32m[K                     ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:604:18:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::detail::sp_nullptr_t) [with T = nav_msgs::Path_<std::allocator<void> >; boost::detail::sp_nullptr_t = std::nullptr_t]
+     shared_ptr & operator=( boost::detail::sp_nullptr_t ) BOOST_NOEXCEPT // never throws
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:604:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’ to ‘[01m[Kboost::detail::sp_nullptr_t {aka std::nullptr_t}[m[K’
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:36:21:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knav_msgs::PathPtr {aka boost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >}[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’)
+       path_in_2_[i] = new nav_msgs::Path;
+[01;32m[K                     ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:500:18:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(const boost::shared_ptr<T>&) [with T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( shared_ptr const & r ) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:500:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’ to ‘[01m[Kconst boost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >&[m[K’
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:509:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(const boost::shared_ptr<Y>&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=(shared_ptr<Y> const & r) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:509:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:36:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::shared_ptr<X>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_in_2_[i] = new nav_msgs::Path;
+[01;32m[K                     ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:520:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( std::auto_ptr<Y> & r )
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:520:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:36:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::auto_ptr<T>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_in_2_[i] = new nav_msgs::Path;
+[01;32m[K                     ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:529:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( std::auto_ptr<Y> && r )
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:529:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:36:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::auto_ptr<T>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_in_2_[i] = new nav_msgs::Path;
+[01;32m[K                     ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:551:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y, class D> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::unique_ptr<_Up, _Ep>&&) [with Y = Y; D = D; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( std::unique_ptr<Y, D> && r )
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:551:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:36:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_in_2_[i] = new nav_msgs::Path;
+[01;32m[K                     ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:587:18:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::shared_ptr<T>&&) [with T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( shared_ptr && r ) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:587:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’ to ‘[01m[Kboost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >&&[m[K’
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:594:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::shared_ptr<Y>&&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( shared_ptr<Y> && r ) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:594:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:36:21:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kboost::shared_ptr<X>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_in_2_[i] = new nav_msgs::Path;
+[01;32m[K                     ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:604:18:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::detail::sp_nullptr_t) [with T = nav_msgs::Path_<std::allocator<void> >; boost::detail::sp_nullptr_t = std::nullptr_t]
+     shared_ptr & operator=( boost::detail::sp_nullptr_t ) BOOST_NOEXCEPT // never throws
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:604:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’ to ‘[01m[Kboost::detail::sp_nullptr_t {aka std::nullptr_t}[m[K’
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:37:22:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knav_msgs::PathPtr {aka boost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >}[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’)
+       path_out_1_[i] = new nav_msgs::Path;
+[01;32m[K                      ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:500:18:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(const boost::shared_ptr<T>&) [with T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( shared_ptr const & r ) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:500:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’ to ‘[01m[Kconst boost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >&[m[K’
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:509:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(const boost::shared_ptr<Y>&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=(shared_ptr<Y> const & r) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:509:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:37:22:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::shared_ptr<X>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_out_1_[i] = new nav_msgs::Path;
+[01;32m[K                      ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:520:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( std::auto_ptr<Y> & r )
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:520:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:37:22:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::auto_ptr<T>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_out_1_[i] = new nav_msgs::Path;
+[01;32m[K                      ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:529:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( std::auto_ptr<Y> && r )
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:529:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:37:22:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::auto_ptr<T>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_out_1_[i] = new nav_msgs::Path;
+[01;32m[K                      ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:551:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y, class D> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::unique_ptr<_Up, _Ep>&&) [with Y = Y; D = D; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( std::unique_ptr<Y, D> && r )
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:551:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:37:22:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_out_1_[i] = new nav_msgs::Path;
+[01;32m[K                      ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:587:18:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::shared_ptr<T>&&) [with T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( shared_ptr && r ) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:587:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’ to ‘[01m[Kboost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >&&[m[K’
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:594:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::shared_ptr<Y>&&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( shared_ptr<Y> && r ) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:594:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:37:22:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kboost::shared_ptr<X>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_out_1_[i] = new nav_msgs::Path;
+[01;32m[K                      ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:604:18:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::detail::sp_nullptr_t) [with T = nav_msgs::Path_<std::allocator<void> >; boost::detail::sp_nullptr_t = std::nullptr_t]
+     shared_ptr & operator=( boost::detail::sp_nullptr_t ) BOOST_NOEXCEPT // never throws
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:604:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’ to ‘[01m[Kboost::detail::sp_nullptr_t {aka std::nullptr_t}[m[K’
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:38:22:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Knav_msgs::PathPtr {aka boost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >}[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’)
+       path_out_2_[i] = new nav_msgs::Path;
+[01;32m[K                      ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:500:18:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(const boost::shared_ptr<T>&) [with T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( shared_ptr const & r ) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:500:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’ to ‘[01m[Kconst boost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >&[m[K’
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:509:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(const boost::shared_ptr<Y>&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=(shared_ptr<Y> const & r) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:509:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:38:22:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::shared_ptr<X>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_out_2_[i] = new nav_msgs::Path;
+[01;32m[K                      ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:520:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( std::auto_ptr<Y> & r )
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:520:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:38:22:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::auto_ptr<T>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_out_2_[i] = new nav_msgs::Path;
+[01;32m[K                      ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:529:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( std::auto_ptr<Y> && r )
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:529:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:38:22:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::auto_ptr<T>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_out_2_[i] = new nav_msgs::Path;
+[01;32m[K                      ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:551:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y, class D> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::unique_ptr<_Up, _Ep>&&) [with Y = Y; D = D; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( std::unique_ptr<Y, D> && r )
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:551:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:38:22:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_out_2_[i] = new nav_msgs::Path;
+[01;32m[K                      ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:587:18:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::shared_ptr<T>&&) [with T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( shared_ptr && r ) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:587:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’ to ‘[01m[Kboost::shared_ptr<nav_msgs::Path_<std::allocator<void> > >&&[m[K’
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:594:18:[m[K [01;36m[Knote: [m[Kcandidate: template<class Y> boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::shared_ptr<Y>&&) [with Y = Y; T = nav_msgs::Path_<std::allocator<void> >]
+     shared_ptr & operator=( shared_ptr<Y> && r ) BOOST_NOEXCEPT
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:594:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:38:22:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kboost::shared_ptr<X>[m[K’ and ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’
+       path_out_2_[i] = new nav_msgs::Path;
+[01;32m[K                      ^[m[K
+In file included from [01m[K/usr/include/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/kinetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.hpp:4[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/path_provider_ros_tool/src/path_provider/path_provider.cpp:1[m[K:
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:604:18:[m[K [01;36m[Knote: [m[Kcandidate: boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(boost::detail::sp_nullptr_t) [with T = nav_msgs::Path_<std::allocator<void> >; boost::detail::sp_nullptr_t = std::nullptr_t]
+     shared_ptr & operator=( boost::detail::sp_nullptr_t ) BOOST_NOEXCEPT // never throws
+[01;32m[K                  ^[m[K
+[01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:604:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::Path* {aka nav_msgs::Path_<std::allocator<void> >*}[m[K’ to ‘[01m[Kboost::detail::sp_nullptr_t {aka std::nullptr_t}[m[K’
+make[2]: *** [CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/src/path_provider/path_provider.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/path_provider_ros_tool-path_provider-nodelet.dir/all] Error 2
+make: *** [all] Error 2

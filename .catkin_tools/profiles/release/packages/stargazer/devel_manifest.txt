@@ -1,0 +1,5 @@
+stargazer
+/home/kal5-1/cargogo/devel/.private/stargazer/share/stargazer/cmake/stargazerConfig-version.cmake /home/kal5-1/cargogo/devel/share/stargazer/cmake/stargazerConfig-version.cmake
+/home/kal5-1/cargogo/devel/.private/stargazer/share/stargazer/cmake/stargazerConfig.cmake /home/kal5-1/cargogo/devel/share/stargazer/cmake/stargazerConfig.cmake
+/home/kal5-1/cargogo/devel/.private/stargazer/lib/libstargazer.so /home/kal5-1/cargogo/devel/lib/libstargazer.so
+/home/kal5-1/cargogo/devel/.private/stargazer/lib/pkgconfig/stargazer.pc /home/kal5-1/cargogo/devel/lib/pkgconfig/stargazer.pc

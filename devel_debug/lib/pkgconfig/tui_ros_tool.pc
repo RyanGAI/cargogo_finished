@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel_debug/.private/tui_ros_tool/lib/pkgconfig/tui_ros_tool.pc

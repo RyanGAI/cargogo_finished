@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/devel_debug/.private/image_preproc_ros_tool
+
+Name: image_preproc_ros_tool
+Description: Description of image_preproc_ros_tool
+Version: 0.0.0
+Cflags: -I/home/kal5-1/cargogo/devel_debug/.private/image_preproc_ros_tool/include
+Libs: -L/home/kal5-1/cargogo/devel_debug/.private/image_preproc_ros_tool/lib 
+Requires: 

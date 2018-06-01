@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kal5-1/cargogo/src/prosilica_driver/include/prosilica/prosilica.h
+stdexcept
+-
+string
+-
+sstream
+-
+boost/function.hpp
+-
+boost/thread.hpp
+-
+prosilica_gige_sdk/PvApi.h
+-
+
+/home/kal5-1/cargogo/src/prosilica_driver/src/utilities/write_memory.cpp
+prosilica/prosilica.h
+/home/kal5-1/cargogo/src/prosilica_driver/src/utilities/prosilica/prosilica.h
+cstdio
+-
+cassert
+-
+
+/home/kal5-1/cargogo/src/prosilica_gige_sdk/include/prosilica_gige_sdk/PvApi.h
+

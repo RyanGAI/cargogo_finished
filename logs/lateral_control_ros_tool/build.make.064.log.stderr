@@ -1,0 +1,11 @@
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:96:14:[m[K [01;31m[Kerror: [m[Kprototype for ‘[01m[Klateral_control_ros_tool::ReglerParams lateral_control_ros_tool::LateralController::movingAverage(std::deque<lateral_control_ros_tool::VehicleTf>&)[m[K’ does not match any in class ‘[01m[Klateral_control_ros_tool::LateralController[m[K’
+ ReglerParams LateralController::movingAverage(const std::deque<VehicleTf>& posequeue){
+[01;32m[K              ^[m[K
+In file included from [01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:1:0[m[K:
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.hpp:41:18:[m[K [01;31m[Kerror: [m[Kcandidate is: lateral_control_ros_tool::ReglerParams lateral_control_ros_tool::LateralController::movingAverage(const std::deque<lateral_control_ros_tool::VehicleTf>&)
+     ReglerParams movingAverage(const std::deque<VehicleTf>&);
+[01;32m[K                  ^[m[K
+make[2]: *** [CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/src/lateral_controller/lateral_controller.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/all] Error 2
+make: *** [all] Error 2

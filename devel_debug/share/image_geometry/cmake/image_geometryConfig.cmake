@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel_debug/.private/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake

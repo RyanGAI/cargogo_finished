@@ -1,0 +1,4 @@
+vehicle_setup
+/home/kal5-1/cargogo/devel/.private/vehicle_setup/share/vehicle_setup/cmake/vehicle_setupConfig.cmake /home/kal5-1/cargogo/devel/share/vehicle_setup/cmake/vehicle_setupConfig.cmake
+/home/kal5-1/cargogo/devel/.private/vehicle_setup/share/vehicle_setup/cmake/vehicle_setupConfig-version.cmake /home/kal5-1/cargogo/devel/share/vehicle_setup/cmake/vehicle_setupConfig-version.cmake
+/home/kal5-1/cargogo/devel/.private/vehicle_setup/lib/pkgconfig/vehicle_setup.pc /home/kal5-1/cargogo/devel/lib/pkgconfig/vehicle_setup.pc

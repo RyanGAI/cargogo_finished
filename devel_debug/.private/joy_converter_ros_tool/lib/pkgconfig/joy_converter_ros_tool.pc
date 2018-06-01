@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/devel_debug/.private/joy_converter_ros_tool
+
+Name: joy_converter_ros_tool
+Description: Description of joy_converter_ros_tool
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kal5-1/cargogo/devel_debug/.private/joy_converter_ros_tool/lib 
+Requires: 

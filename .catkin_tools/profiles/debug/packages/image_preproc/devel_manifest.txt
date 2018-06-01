@@ -1,0 +1,5 @@
+image_preproc
+/home/kal5-1/cargogo/devel_debug/.private/image_preproc/share/image_preproc/cmake/image_preprocConfig.cmake /home/kal5-1/cargogo/devel_debug/share/image_preproc/cmake/image_preprocConfig.cmake
+/home/kal5-1/cargogo/devel_debug/.private/image_preproc/share/image_preproc/cmake/image_preprocConfig-version.cmake /home/kal5-1/cargogo/devel_debug/share/image_preproc/cmake/image_preprocConfig-version.cmake
+/home/kal5-1/cargogo/devel_debug/.private/image_preproc/lib/libimage_preproc.so /home/kal5-1/cargogo/devel_debug/lib/libimage_preproc.so
+/home/kal5-1/cargogo/devel_debug/.private/image_preproc/lib/pkgconfig/image_preproc.pc /home/kal5-1/cargogo/devel_debug/lib/pkgconfig/image_preproc.pc

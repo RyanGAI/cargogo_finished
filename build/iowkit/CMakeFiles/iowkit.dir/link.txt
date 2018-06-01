@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC  -march=sandybridge -fopenmp -O2 -g -DNDEBUG  -fuse-ld=gold -shared -Wl,-soname,libiowkit.so -o /home/kal5-1/cargogo/devel/.private/iowkit/lib/libiowkit.so CMakeFiles/iowkit.dir/src/iowkit.c.o gtest/gtest/libgtest.so -Wl,-rpath,/home/kal5-1/cargogo/build/iowkit/gtest/gtest: 

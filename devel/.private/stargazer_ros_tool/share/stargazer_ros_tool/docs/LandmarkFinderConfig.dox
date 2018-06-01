@@ -1,0 +1,15 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~tight_filter_size" : \b [int] Size of the tighter box filter of DOB min: 0, default: 0, max: 255
+- \b "~wide_filter_size" : \b [int] Size of the wider box filter of DOB min: 0, default: 0, max: 255
+- \b "~threshold" : \b [int] Grayvalue threshold for landmark detection min: 0, default: 0, max: 255
+- \b "~maxRadiusForPixelCluster" : \b [double] Maximum radius for clustering of pixels to points min: 0.0, default: 0.0, max: 2000.0
+- \b "~maxRadiusForCluster" : \b [double] Maximum radius for clustering of points to landmarks min: 0.0, default: 0.0, max: 2000.0
+- \b "~minPixelForCluster" : \b [int] Minimum count of pixels per point min: 0, default: 0, max: 2000
+- \b "~maxPixelForCluster" : \b [int] Maximum count of pixels per point min: 0, default: 0, max: 2000
+- \b "~minPointsPerLandmark" : \b [int] Minimum count of points per landmark min: 0, default: 0, max: 2000
+- \b "~maxPointsPerLandmark" : \b [int] Maximum count of points per landmark min: 0, default: 0, max: 2000
+- \b "~debug_mode" : \b [bool] Activate debug mode for landmark finder to show results min: False, default: False, max: True
+

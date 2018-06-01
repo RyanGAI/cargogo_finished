@@ -1,0 +1,7 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~k_long" : \b [double] factor of longitudinal velocity min: 0.0, default: 1.0, max: 2.0
+- \b "~k_w" : \b [double] factor of self-rotation min: 0.0, default: 0.2, max: 1.0
+

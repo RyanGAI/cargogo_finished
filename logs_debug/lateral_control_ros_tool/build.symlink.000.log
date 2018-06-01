@@ -1,0 +1,16 @@
+Symlinking /home/kal5-1/cargogo/devel_debug/share/lateral_control_ros_tool/docs/LateralControllerConfig.dox
+Symlinking /home/kal5-1/cargogo/devel_debug/share/lateral_control_ros_tool/docs/LateralControllerConfig-usage.dox
+Symlinking /home/kal5-1/cargogo/devel_debug/share/lateral_control_ros_tool/docs/LateralControllerConfig.wikidoc
+Symlinking /home/kal5-1/cargogo/devel_debug/share/lateral_control_ros_tool/cmake/lateral_control_ros_toolConfig.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/share/lateral_control_ros_tool/cmake/lateral_control_ros_toolConfig-version.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/share/lateral_control_ros_tool/cfg/LateralController.cfg
+Symlinking /home/kal5-1/cargogo/devel_debug/include/lateral_control_ros_tool/LateralControllerParameters.h
+Symlinking /home/kal5-1/cargogo/devel_debug/include/lateral_control_ros_tool/LateralControllerConfig.h
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/liblateral_controller_nodelet.so
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/pkgconfig/lateral_control_ros_tool.pc
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/python2.7/dist-packages/lateral_control_ros_tool/__init__.py
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/python2.7/dist-packages/lateral_control_ros_tool/cfg/LateralControllerConfig.py
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/python2.7/dist-packages/lateral_control_ros_tool/cfg/__init__.py
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/python2.7/dist-packages/lateral_control_ros_tool/param/__init__.py
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/python2.7/dist-packages/lateral_control_ros_tool/param/LateralControllerParameters.py
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/lateral_control_ros_tool/lateral_controller

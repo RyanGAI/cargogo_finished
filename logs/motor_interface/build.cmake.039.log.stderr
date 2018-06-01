@@ -1,0 +1,10 @@
+[33m[1mCMake Warning[0m at /home/kal5-1/cargogo/devel/share/mrt_cmake_modules/cmake/mrt_cmake_modules-extras.cmake:10 (message):
+  Current CMakeLists.txt version is less than the recommended version 2.1.
+  If you are the maintainer, please update it with
+
+  'mrt maintenance update_cmakelists motor_interface'.
+[36mCall Stack (most recent call first):[0m
+  /home/kal5-1/cargogo/devel/share/mrt_cmake_modules/cmake/mrt_cmake_modulesConfig.cmake:197 (include)
+  CMakeLists.txt:9 (find_package)
+
+

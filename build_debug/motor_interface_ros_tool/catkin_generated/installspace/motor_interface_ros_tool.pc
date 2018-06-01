@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/install_debug
+
+Name: motor_interface_ros_tool
+Description: Description of motor_interface_ros_tool
+Version: 1.0.0
+Cflags: -I/home/kal5-1/cargogo/install_debug/include
+Libs: -L/home/kal5-1/cargogo/install_debug/lib 
+Requires: 

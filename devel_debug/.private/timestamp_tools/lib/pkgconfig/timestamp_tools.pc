@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/devel_debug/.private/timestamp_tools
+
+Name: timestamp_tools
+Description: Description of timestamp_tools
+Version: 1.6.8
+Cflags: -I/home/kal5-1/cargogo/src/driver_base/timestamp_tools/include
+Libs: -L/home/kal5-1/cargogo/devel_debug/.private/timestamp_tools/lib 
+Requires: roslib roscpp

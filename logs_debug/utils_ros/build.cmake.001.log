@@ -1,0 +1,53 @@
+Not searching for unused variables given on the command line.
+[36m--[0m Eclipse version is set to 4.7 (). Adjust CMAKE_ECLIPSE_VERSION if this is wrong.
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/kal5-1/cargogo/devel_debug/.private/utils_ros
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/kal5-1/cargogo/devel_debug;/home/kal5-1/cargogo/devel;/opt/mrtsoftware/local;/opt/mrtsoftware/release;/opt/ros/kinetic
+[36m--[0m This workspace overlays: /home/kal5-1/cargogo/devel_debug;/home/kal5-1/cargogo/devel;/opt/mrtsoftware/local;/opt/mrtsoftware/release;/opt/ros/kinetic
+[36m--[0m Using PYTHON_EXECUTABLE: /opt/mrtsoftware/release/lib/mrt-build-tools/bin/python
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/kal5-1/cargogo/build_debug/utils_ros/test_results
+[36m--[0m Found gmock sources under '/usr/src/gmock': gmock will be built
+[36m--[0m Found gtest sources under '/usr/src/gmock': gtests will be built
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.11
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m Boost version: 1.58.0
+[36m--[0m Found the following Boost libraries:
+[36m--[0m   math_c99l
+[36m--[0m   wserialization
+[36m--[0m   math_tr1l
+[36m--[0m   thread
+[36m--[0m   random
+[36m--[0m   serialization
+[36m--[0m   log_setup
+[36m--[0m   prg_exec_monitor
+[36m--[0m   wave
+[36m--[0m   system
+[36m--[0m   signals
+[36m--[0m   chrono
+[36m--[0m   math_c99
+[36m--[0m   filesystem
+[36m--[0m   context
+[36m--[0m   locale
+[36m--[0m   timer
+[36m--[0m   math_tr1
+[36m--[0m   date_time
+[36m--[0m   regex
+[36m--[0m   graph
+[36m--[0m   program_options
+[36m--[0m   unit_test_framework
+[36m--[0m   math_tr1f
+[36m--[0m   math_c99f
+[36m--[0m   log
+[36m--[0m   atomic
+[36m--[0m Adding header-only library with files include/utils_ros/message_interpolation.h;include/utils_ros/time_conversions.hpp;include/utils_ros/ros_console.hpp;include/utils_ros/node_handle.hpp;include/utils_ros/smart_subscriber.hpp;include/utils_ros/multi_topic_subscriber.hpp;include/utils_ros/multi_topic_subscriber_synchronized.hpp;include/utils_ros/boost_geometry_msg.hpp
+[36m--[0m Marking HEADER FILES in "include" folder of package "utils_ros" for installation
+[36m--[0m Adding gtest-rostest "smart_subscriber-test" with test file test/smart_subscriber.test
+[36m--[0m Adding coverage target utils_ros-coverage
+[36m--[0m Adding nosetests in folder test
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/kal5-1/cargogo/build_debug/utils_ros

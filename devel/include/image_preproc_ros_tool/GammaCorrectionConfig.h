@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel/.private/image_preproc_ros_tool/include/image_preproc_ros_tool/GammaCorrectionConfig.h

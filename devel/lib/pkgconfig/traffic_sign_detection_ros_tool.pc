@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel/.private/traffic_sign_detection_ros_tool/lib/pkgconfig/traffic_sign_detection_ros_tool.pc

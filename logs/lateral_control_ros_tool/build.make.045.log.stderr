@@ -1,0 +1,11 @@
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:[m[K In member function ‘[01m[Klateral_control_ros_tool::ReglerParams lateral_control_ros_tool::LateralController::movingAverage(std::deque<lateral_control_ros_tool::VehicleTf>)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:112:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kauto[m[K’ parameter not permitted in this context
+  } catch(const auto& e){
+[01;32m[K                      ^[m[K
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:[m[K In member function ‘[01m[Kvoid lateral_control_ros_tool::LateralController::controlLoopCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/lateral_control_ros_tool/src/lateral_controller/lateral_controller.cpp:225:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kauto[m[K’ parameter not permitted in this context
+ catch (const auto& e){
+[01;32m[K                    ^[m[K
+make[2]: *** [CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/src/lateral_controller/lateral_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/lateral_control_ros_tool-lateral_controller-nodelet.dir/all] Error 2
+make: *** [all] Error 2

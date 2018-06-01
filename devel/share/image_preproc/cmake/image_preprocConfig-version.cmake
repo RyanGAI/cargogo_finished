@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel/.private/image_preproc/share/image_preproc/cmake/image_preprocConfig-version.cmake

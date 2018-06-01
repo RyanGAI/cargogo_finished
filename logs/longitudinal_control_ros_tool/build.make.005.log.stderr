@@ -1,0 +1,19 @@
+make[2]: Warning: File 'CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/depend.make' has modification time 0,0093 s in the future
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:[m[K In constructor ‘[01m[Klongitudinal_control_ros_tool::LongitudinalController::LongitudinalController(ros::NodeHandle, ros::NodeHandle)[m[K’:
+[01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:14:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::TransformListener::TransformListener()[m[K’
+         : params_{nh_private}, reconfigureServer_{nh_private} {
+[01;32m[K                                                             ^[m[K
+In file included from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.hpp:6:0[m[K,
+                 from [01m[K/home/kal5-1/cargogo/src/longitudinal_control_ros_tool/src/longitudinal_controller/longitudinal_controller.cpp:1[m[K:
+[01m[K/opt/ros/kinetic/include/tf2_ros/transform_listener.h:54:3:[m[K [01;36m[Knote: [m[Kcandidate: tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, const ros::NodeHandle&, bool)
+   TransformListener(tf2::BufferCore& buffer, const ros::NodeHandle& nh, bool spin_thread = true);
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/tf2_ros/transform_listener.h:54:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/opt/ros/kinetic/include/tf2_ros/transform_listener.h:53:3:[m[K [01;36m[Knote: [m[Kcandidate: tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, bool)
+   TransformListener(tf2::BufferCore& buffer, bool spin_thread = true);
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/tf2_ros/transform_listener.h:53:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+make[2]: *** [CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/src/longitudinal_controller/longitudinal_controller.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/longitudinal_control_ros_tool-longitudinal_controller-nodelet.dir/all] Error 2
+make: *** [all] Error 2

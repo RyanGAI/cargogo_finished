@@ -1,0 +1,6 @@
+/home/kal5-1/cargogo/devel/.private/lateral_control_ros_tool/lib/liblateral_controller_nodelet.so: error: undefined reference to 'lateral_control_ros_tool::LateralController::movingAverage(std::queue<lateral_control_ros_tool::VehicleTf, std::deque<lateral_control_ros_tool::VehicleTf, std::allocator<lateral_control_ros_tool::VehicleTf> > >)'
+/home/kal5-1/cargogo/devel/.private/lateral_control_ros_tool/lib/liblateral_controller_nodelet.so: error: undefined reference to 'ros::Time const& tf2::getTimestamp<geometry_msgs::TransformStamped_<std::allocator<void> > >(geometry_msgs::TransformStamped_<std::allocator<void> > const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/kal5-1/cargogo/devel/.private/lateral_control_ros_tool/lib/lateral_control_ros_tool/lateral_controller] Error 1
+make[1]: *** [CMakeFiles/lateral_control_ros_tool-lateral_controller-exec.dir/all] Error 2
+make: *** [all] Error 2

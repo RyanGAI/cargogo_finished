@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel/.private/prosilica_driver/lib/python2.7/dist-packages/prosilica_driver/cfg/ProsilicaCameraConfig.py

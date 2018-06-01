@@ -1,0 +1,1 @@
+/home/kal5-1/cargogo/devel/.private/image_geometry/lib/python2.7/dist-packages/image_geometry/__init__.py

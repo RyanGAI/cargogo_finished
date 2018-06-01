@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/home/kal5-1/cargogo/devel/.private/cv_bridge/lib;/opt/ros/kinetic/lib")

@@ -1,0 +1,5 @@
+motor_interface
+/home/kal5-1/cargogo/devel/.private/motor_interface/share/motor_interface/cmake/motor_interfaceConfig.cmake /home/kal5-1/cargogo/devel/share/motor_interface/cmake/motor_interfaceConfig.cmake
+/home/kal5-1/cargogo/devel/.private/motor_interface/share/motor_interface/cmake/motor_interfaceConfig-version.cmake /home/kal5-1/cargogo/devel/share/motor_interface/cmake/motor_interfaceConfig-version.cmake
+/home/kal5-1/cargogo/devel/.private/motor_interface/lib/libmotor_interface.so /home/kal5-1/cargogo/devel/lib/libmotor_interface.so
+/home/kal5-1/cargogo/devel/.private/motor_interface/lib/pkgconfig/motor_interface.pc /home/kal5-1/cargogo/devel/lib/pkgconfig/motor_interface.pc

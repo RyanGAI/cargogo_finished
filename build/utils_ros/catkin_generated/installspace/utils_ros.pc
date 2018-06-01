@@ -1,0 +1,8 @@
+prefix=/home/kal5-1/cargogo/install
+
+Name: utils_ros
+Description: Description of utils_ros
+Version: 1.0.0
+Cflags: -I/home/kal5-1/cargogo/install/include -I/usr/include
+Libs: -L/home/kal5-1/cargogo/install/lib /usr/lib/x86_64-linux-gnu/libboost_math_c99l.so /usr/lib/x86_64-linux-gnu/libboost_wserialization.so /usr/lib/x86_64-linux-gnu/libboost_math_tr1l.so /usr/lib/x86_64-linux-gnu/libboost_thread.so /usr/lib/x86_64-linux-gnu/libboost_random.so /usr/lib/x86_64-linux-gnu/libboost_serialization.so /usr/lib/x86_64-linux-gnu/libboost_log_setup.so /usr/lib/x86_64-linux-gnu/libboost_prg_exec_monitor.so /usr/lib/x86_64-linux-gnu/libboost_wave.so /usr/lib/x86_64-linux-gnu/libboost_system.so /usr/lib/x86_64-linux-gnu/libboost_signals.so /usr/lib/x86_64-linux-gnu/libboost_chrono.so /usr/lib/x86_64-linux-gnu/libboost_math_c99.so /usr/lib/x86_64-linux-gnu/libboost_filesystem.so /usr/lib/x86_64-linux-gnu/libboost_context.so /usr/lib/x86_64-linux-gnu/libboost_locale.so /usr/lib/x86_64-linux-gnu/libboost_timer.so /usr/lib/x86_64-linux-gnu/libboost_math_tr1.so /usr/lib/x86_64-linux-gnu/libboost_date_time.so /usr/lib/x86_64-linux-gnu/libboost_regex.so /usr/lib/x86_64-linux-gnu/libboost_graph.so /usr/lib/x86_64-linux-gnu/libboost_program_options.so /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so /usr/lib/x86_64-linux-gnu/libboost_math_tr1f.so /usr/lib/x86_64-linux-gnu/libboost_math_c99f.so /usr/lib/x86_64-linux-gnu/libboost_log.so /usr/lib/x86_64-linux-gnu/libboost_atomic.so /usr/lib/x86_64-linux-gnu/libpthread.so
+Requires: roslib geometry_msgs roscpp message_filters

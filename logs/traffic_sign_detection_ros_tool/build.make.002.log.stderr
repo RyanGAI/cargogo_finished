@@ -1,0 +1,5 @@
+catkin_generated/env_cached.sh: 16: exec: /home/kal5-1/cargogo/src/traffic_sign_detection_ros_tool/cfg/TrafficSignDetector.rosif: Permission denied
+make[2]: *** [/home/kal5-1/cargogo/devel/.private/traffic_sign_detection_ros_tool/include/traffic_sign_detection_ros_tool/TrafficSignDetectorInterface.h] Error 126
+make[1]: *** [CMakeFiles/traffic_sign_detection_ros_tool_geninterface.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

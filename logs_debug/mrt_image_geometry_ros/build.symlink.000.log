@@ -1,0 +1,4 @@
+Symlinking /home/kal5-1/cargogo/devel_debug/share/mrt_image_geometry_ros/cmake/mrt_image_geometry_rosConfig.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/share/mrt_image_geometry_ros/cmake/mrt_image_geometry_rosConfig-version.cmake
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/libmrt_image_geometry_ros.so
+Symlinking /home/kal5-1/cargogo/devel_debug/lib/pkgconfig/mrt_image_geometry_ros.pc
